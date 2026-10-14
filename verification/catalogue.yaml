@@ -29,7 +29,9 @@ name: Catalogue F1 F2 and stable F3
 - assertVisible: "(?s)Trail pack 01.*"
 - tapOn: "Open p001"
 - assertVisible: "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark."
-- tapOn: "Favorite p001"
+- tapOn:
+    text: "Favorite p001"
+    below: "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark."
 - assertVisible: "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark."
 - tapOn: "Back"
 - assertVisible: "No products found"
