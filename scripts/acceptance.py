@@ -61,6 +61,7 @@ geo = json.loads((r / "results/geometry.json").read_text())
 assert len(geo["records"]) == 30 and all(v["withinTolerance"] for v in geo["records"])
 scroll = json.loads((r / "results/scroll.json").read_text())
 assert len(scroll["records"]) == 12
+assert all(row["contentPixelsRetained"] for row in scroll["records"])
 builds = json.loads((r / "results/builds.json").read_text())
 assert len(builds["records"]) == 12
 for b in builds["records"]:
