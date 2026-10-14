@@ -1,36 +1,97 @@
 # Mobile Stack Benchmark
 
-The same hiking catalogue, built with Flutter, React Native, Jetpack Compose and
-SwiftUI. Each implementation has an instant version (**S**) and an animated
-version (**A**), so you can inspect what the transition adds to the code and build.
+What changes when the same mobile experience is built with Flutter, React Native
+or native UI? This lab makes that question inspectable through working apps,
+a shared visual contract and reports backed by reproducible builds and raw evidence.
+It explores the trade-offs in shared code, application size and interface behavior
+for a concrete use case.
 
-The apps search 200 fictional products, save favorites locally and open a product
-from a scrolling list. A moves its image into the detail screen over a programmed
-400 ms, then returns to the same card. Twenty original illustrations are shared
-by all apps. Everything works offline.
+The first use case is an offline hiking catalogue: search 200 fictional products,
+save favorites locally, open a product and return to the same place in the list.
+Twenty original illustrations are shared by all apps. Flutter and React Native
+cover Android and iOS; the native implementations use Jetpack Compose on Android
+and SwiftUI on iOS.
 
-This milestone covers **four implementations and six virtual-device targets**.
-The [results](results/REPORT.md) include within-platform S/A build sizes,
-formatted-source counts, functional checks, five-stage image geometry checks,
-demonstrations and explicitly limited runtime diagnostics.
-Use tag **`v0.1.0-virtual-devices`** to retrieve this evidence and its source.
+Each implementation has an instant version (**S**) and an animated version (**A**).
+A moves the product image into the detail screen over a programmed 400 ms, then
+returns to the same card. Comparing S and A shows what this transition adds to
+the maintained code and the packaged application.
 
-In this catalogue, A adds 54 maintained application lines in Flutter, 48 in
-React Native and 105 across Compose and SwiftUI together. The measured A−S
-package change ranges from 0 to 15,560 bytes. The [tables and method](results/REPORT.md)
-show what those counts include; they do not measure development time or runtime speed.
+**Status: the virtual-device milestone is complete.** Four implementations cover
+six targets on an Android emulator and an iOS simulator. The report verifies
+functionality and image geometry, measures Release build sizes and source counts,
+and preserves exploratory Android memory diagnostics. Physical-device fluidity,
+startup and memory comparisons have not been performed.
 
-![Five stages of the Android transition](results/figures/android-timeline.png)
+## Reports and use cases
+
+Browse the **[reports and use cases index](docs/reports/README.md)** to find each
+published experiment, the scenarios it covers, its evidence and its limitations.
+The index currently contains one report:
+
+- **[Offline catalogue and image transition — virtual-device report](https://github.com/FredDevAxes/mobile-stack-benchmark/blob/v0.1.0-virtual-devices/results/REPORT.md)**:
+  build sizes, maintained source, functional and visual checks, demonstrations and
+  limited runtime diagnostics, preserved at **`v0.1.0-virtual-devices`**.
+
+Use that tag to retrieve the verified evidence and source. The
+[local report](results/REPORT.md) is also available when browsing a clone offline.
+
+## Examples from the report
+
+These examples come from `v0.1.0-virtual-devices`. Compare stacks within each
+platform; the Android and iOS columns measure different package formats.
+
+### How large is the animated application?
+
+| Implementation | Android Release APK (MiB) | iOS device Release application (MiB) |
+| --- | ---: | ---: |
+| Flutter | 16.274 | 15.092 |
+| React Native | 14.520 | 19.179 |
+| Native: Compose / SwiftUI | 1.006 | 0.486 |
+
+MiB means 1,048,576 bytes. Android measures the complete arm64-v8a APK; iOS
+measures an unsigned arm64 device `.app` bundle. These are neither store download
+sizes nor installed footprints. Native apps rely on system frameworks, while
+Flutter and React Native include runtime libraries in their packages. See the
+[full S/A tables and build settings](results/REPORT.md#build-sizes).
+
+### How much source does the transition add?
+
+| Coverage of Android and iOS | S application lines | A application lines | Added lines |
+| --- | ---: | ---: | ---: |
+| Flutter | 486 | 540 | 54 |
+| React Native | 423 | 471 | 48 |
+| Native: Compose + SwiftUI | 473 | 578 | 105 |
+
+Shared Flutter/React Native source is counted once; native coverage sums Kotlin
+and Swift. These are formatted nonblank, noncomment application lines, excluding
+tests and generated dependencies. The shared implementations avoid writing the
+transition twice. Line counts do not establish development time, quality or
+maintenance cost. The [source manifest and method](results/REPORT.md#formatted-maintained-source)
+define what is included.
+
+### Does the interface follow the same contract?
+
+The milestone passed 54 functional/visual flows and 30 deterministic transition
+stages. The maximum image geometry, corner and landmark error was 0.943 logical
+units against a 2-unit tolerance. These checks validate the specified image
+transition; they do not measure its actual speed or certify the entire interface.
+
+![Five fixed stages of the Android image transition across Flutter, React Native and Compose](results/figures/android-timeline.png)
+
+*The report compares the same image at five fixed progress values. The programmed
+400 ms duration is not a measured performance result.*
 
 [Android three-app video](results/visuals/android/comparison.mp4) ·
 [iOS three-app video](results/visuals/ios/comparison.mp4) ·
-[All results and limitations](results/REPORT.md)
+[Functional and visual evidence](results/REPORT.md#functional-and-visual-verification)
 
 Videos illustrate behavior; panels start at recording time and gestures are not
 synchronized. They do not establish a performance ranking. Flutter's tested iOS
 simulator supports Debug only, so its runtime diagnostics are not ranked against
-React Native or SwiftUI Release. iOS size comparisons use separately compiled
-unsigned **device** Release bundles. No physical phone or store download is measured.
+React Native or SwiftUI Release. The iOS package sizes above use separately compiled
+unsigned device Release bundles. The [runtime diagnostics and unavailable metrics](results/REPORT.md#runtime-diagnostics)
+explain why this milestone does not identify the fastest or smoothest stack.
 
 ## Start here
 
