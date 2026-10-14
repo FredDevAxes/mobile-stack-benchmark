@@ -49,6 +49,10 @@ def main(platform, device):
                 ],
                 check=True,
             )
+            # The iOS accessibility process caches this preference.
+            subprocess.run(["xcrun", "simctl", "shutdown", device], check=True)
+            subprocess.run(["xcrun", "simctl", "boot", device], check=True)
+            subprocess.run(["xcrun", "simctl", "bootstatus", device, "-b"], check=True)
         settings.append(
             {
                 "atUTC": datetime.datetime.now(datetime.timezone.utc).isoformat(),

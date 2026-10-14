@@ -20,7 +20,7 @@ class Catalogue extends StatefulWidget {
 }
 
 class _CatalogueState extends State<Catalogue>
-    with SingleTickerProviderStateMixin {
+    with SingleTickerProviderStateMixin, WidgetsBindingObserver {
   // CAPTURE_BEGIN
   double captureTime = -1;
   // CAPTURE_END
@@ -44,6 +44,7 @@ class _CatalogueState extends State<Catalogue>
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     progress = Progress(vsync: this)
       ..addListener(() {
         if (mounted) {
@@ -94,6 +95,18 @@ class _CatalogueState extends State<Catalogue>
     });
   }
 
+  bool get reducedMotion {
+    final features = View.of(context).platformDispatcher.accessibilityFeatures;
+    return features.disableAnimations || features.reduceMotion;
+  }
+
+  @override
+  void didChangeAccessibilityFeatures() {
+    if (mounted) {
+      setState(() {});
+    }
+  }
+
   Future<void> open(Product p) async {
     if (busy || selected != null) {
       return;
@@ -109,7 +122,7 @@ class _CatalogueState extends State<Catalogue>
       selected = p;
       busy = true;
     });
-    await progress.move(1, MediaQuery.disableAnimationsOf(context));
+    await progress.move(1, reducedMotion);
     if (!mounted) {
       return;
     }
@@ -133,7 +146,7 @@ class _CatalogueState extends State<Catalogue>
       busy = true;
       closing = true;
     });
-    await progress.move(0, MediaQuery.disableAnimationsOf(context));
+    await progress.move(0, reducedMotion);
     if (mounted) {
       setState(() {
         selected = null;
@@ -145,6 +158,7 @@ class _CatalogueState extends State<Catalogue>
 
   @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
     progress.dispose();
     draft.dispose();
     scroll.dispose();
@@ -474,7 +488,7 @@ class _CatalogueState extends State<Catalogue>
                     bottom: 44,
                     left: 16,
                     child: Text(
-                      'Motion: ${MediaQuery.disableAnimationsOf(context) ? 'reduced' : 'animated'}',
+                      'Motion: ${reducedMotion ? 'reduced' : 'animated'}',
                     ),
                   ),
                   Positioned(

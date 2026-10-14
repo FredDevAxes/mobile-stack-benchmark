@@ -111,7 +111,10 @@ def projected(text, stack, variant, capture=False):
         text = text.replace("Math.max(0, (time - 0.35) / 0.65)", "1")
         assert "measureInWindow" not in text and "sourceExists" not in text
     elif stack == "flutter":
-        text = text.replace("\n    with SingleTickerProviderStateMixin", "")
+        text = text.replace(
+            "with SingleTickerProviderStateMixin, WidgetsBindingObserver",
+            "with WidgetsBindingObserver",
+        )
         for line in [
             "  final rootKey = GlobalKey();\n",
             "  final imageKeys = <String, GlobalKey>{};\n",

@@ -51,3 +51,52 @@ transformation and rejects missing source markers. Flutter S also excludes its
 ticker mixin. Swift uses a separate prepared file; other native tools read a
 serialized temporary projection, which is restored even when a build fails.
 Always use root commands when reproducing the comparison.
+
+## Artifact and verification corrections
+
+Inspecting the entire Flutter APK showed that `--target-platform android-arm64`
+limited the engine but retained foreign-ABI libraries from a persistence plugin.
+The pinned Flutter plugin also overwrites default ABI filters. The root build
+therefore produces/selects the complete arm64 split APK, and the collector rejects
+any APK containing a foreign native ABI. Earlier multi-ABI smoke artifacts are
+not size-comparison results.
+
+The inspection-only motion label reads the actual framework flag, rather than a
+forced app toggle. The UI verification runner changes only dedicated virtual-device
+settings, verifies the instant branch, then restores normal animation. It does
+not supply a common input timestamp or physical-device timing evidence.
+
+SwiftUI measures the tapped card's rectangle directly. A clipped automation tap
+can still hit the fixed catalogue header; the scroll flow taps the lower photo
+region. Earlier scroll failures and an unexplained Flutter capture/scroll attempt
+are retained in trial summaries; a retry passing is not proof of its original cause.
+
+
+The scrolled-card flow now waits for animation settling and uses the detail's
+unique description. A product title also exists in the list, so it was not a
+sufficient assertion of navigation. The driver's stabilization and conditional
+tap retry follow [Maestro's documented wait strategy](https://docs.maestro.dev/maestro-flows/flow-control-and-logic/wait-commands).
+Only the current execution's screenshots are exported. Earlier unsuccessful
+attempts remain in the trial record.
+
+React Native's modal accessibility flag correctly hides background siblings in
+production, but it also hid inspection controls placed beside the detail. The
+inspection projection removes that flag; the catalogue stays hidden and normal
+S/A keep the original modal behavior. This projection is excluded from size and
+memory artifacts.
+
+A generated `.xcode.env.local` referenced Node 25.6 while the protocol declared
+24.13. The reference shell was also using 25.6. Those initial size records are
+retained as [exploratory history](../results/history/node25-exploratory-builds.json).
+Before the verified milestone, every artifact was rebuilt with Node 24.13 selected.
+The root RN build validates the executable version and writes its path to the
+ignored local Xcode environment; build records store the actual Node/Python
+versions. All eight formatted production application projections remained
+identical through these tooling corrections.
+
+The final reduced-motion probe exposed a Flutter 3.47 distinction: iOS Reduce
+Motion sets `AccessibilityFeatures.reduceMotion`, while Android Remove animations
+sets `disableAnimations`. The app checks both engine flags and observes live
+accessibility changes. Writing the iOS simulator preference alone did not notify
+the running process; the verification runner restarts the dedicated simulator
+after changing its setting. The probe validates the actual flag after launch.
