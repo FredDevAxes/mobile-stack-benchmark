@@ -13,5 +13,13 @@
   "ruby": "3.3.6",
   "androidCompileSdk": 36,
   "androidTargetSdk": 36,
-  "androidMinSdk": 24
+  "androidMinSdk": 24,
+  "iosDeploymentTarget": "18.0",
+  "maestro": "2.11.0",
+  "ktlint": "1.7.1",
+  "python": "3.12.9",
+  "flutterLocalJdk": "25.0.3+-15898627-b508.16",
+  "macOS": "26.6.2",
+  "androidRuntimeApi": 35,
+  "iosSimulatorRuntime": "26.5"
 }

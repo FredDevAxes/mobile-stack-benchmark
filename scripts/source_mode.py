@@ -4,6 +4,7 @@ import fcntl
 import re
 from contextlib import contextmanager
 from pathlib import Path
+from build_record import source_state
 
 ROOT = Path(__file__).resolve().parents[1]
 FILES = [
@@ -156,9 +157,23 @@ def projected(text, stack, variant, capture=False):
         text = text.replace(".alpha(((time - 0.35f) / 0.65f).coerceIn(0f, 1f))", "")
         assert "boundsInRoot" not in text and "fun mix" not in text
     elif stack == "swift":
-        start = text.index("private struct ImagePositions")
-        end = balanced_end(text, text.index("{", start), "{", "}")
-        text = text[:start] + text[end:]
+        if "private struct ImagePositions" in text:
+            start = text.index("private struct ImagePositions")
+            end = balanced_end(text, text.index("{", start), "{", "}")
+            text = text[:start] + text[end:]
+        if "private func imageRect" in text:
+            start = text.index("    private func imageRect")
+            end = balanced_end(text, text.index("{", start), "{", "}")
+            text = text[:start] + text[end:]
+            start = text.index("GeometryReader { cell in")
+            opening = text.index("{", start)
+            end = balanced_end(text, opening, "{", "}")
+            body = text[start + len("GeometryReader { cell in") : end - 1]
+            text = text[:start] + body + text[end:]
+            text = re.sub(r"open\(p,\s*rect: imageRect\(cell,\s*width\)\)", "open(p)", text)
+            text = text.replace(
+                "private func open(_ p: Product, rect: CGRect)", "private func open(_ p: Product)"
+            )
         text = re.sub(
             r"^\s*@State private var (?:source|positions)\b[^\n]*\n", "", text, flags=re.M
         )
@@ -168,9 +183,9 @@ def projected(text, stack, variant, capture=False):
         )
         text = text.replace("        source = rect\n", "")
         text = cut(text, "    private var visualProgress:", "    var body: some View")
-        text = remove_call(
-            text, ".background(\n                                        GeometryReader { image"
-        )
+        marker = ".background(\n                                        GeometryReader { image"
+        if marker in text:
+            text = remove_call(text, marker)
         text = cut(
             text,
             "                    let exists =",
@@ -179,9 +194,10 @@ def projected(text, stack, variant, capture=False):
         )
         text = text.replace(".opacity(max(0, (visualTime - 0.35) / 0.65))", "")
         text = text.replace('.coordinateSpace(name: "catalogue")', "")
-        start = text.index(".onPreferenceChange(ImagePositions.self)")
-        end = balanced_end(text, text.index("{", start), "{", "}")
-        text = text[:start] + text[end:]
+        if ".onPreferenceChange(ImagePositions.self)" in text:
+            start = text.index(".onPreferenceChange(ImagePositions.self)")
+            end = balanced_end(text, text.index("{", start), "{", "}")
+            text = text[:start] + text[end:]
         assert "ImagePositions" not in text and "source.minX" not in text
     else:
         raise ValueError(stack)
@@ -194,6 +210,7 @@ def sources(capture=False, variant="A"):
     lock = (ROOT / ".work/source.lock").open("w")
     fcntl.flock(lock, fcntl.LOCK_EX)
     originals = {ROOT / name: (ROOT / name).read_text() for name in FILES if (ROOT / name).exists()}
+    state = source_state()
     try:
         for path, text in originals.items():
             stack = (
@@ -204,7 +221,7 @@ def sources(capture=False, variant="A"):
                 else "compose"
             )
             path.write_text(projected(text, stack, variant, capture))
-        yield
+        yield state
     finally:
         for path, text in originals.items():
             path.write_text(text)

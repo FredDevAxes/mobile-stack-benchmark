@@ -3,12 +3,7 @@ import SwiftUI
 @main struct CatalogueApp: App {
     var body: some Scene { WindowGroup { Catalogue() }.defaultSize(width: 390, height: 844) }
 }
-private struct ImagePositions: PreferenceKey {
-    static let defaultValue: [String: CGRect] = [:]
-    static func reduce(value: inout [String: CGRect], nextValue: () -> [String: CGRect]) {
-        value.merge(nextValue(), uniquingKeysWith: { _, new in new })
-    }
-}
+
 struct Catalogue: View {
     #if CAPTURE
         @State private var captureTime = -1.0
@@ -21,7 +16,6 @@ struct Catalogue: View {
     @FocusState private var searchFocused: Bool
     @State private var selected: Product?
     @State private var source = CGRect.zero
-    @State private var positions: [String: CGRect] = [:]
     @State private var busy = false
     @State private var queued = false
     @State private var closing = false
@@ -42,8 +36,8 @@ struct Catalogue: View {
         if favorites.contains(p.id) { favorites.remove(p.id) } else { favorites.insert(p.id) }
         UserDefaults.standard.set(Array(favorites), forKey: "favorites")
     }
-    private func open(_ p: Product) {
-        guard !busy, selected == nil, let rect = positions[p.id] else { return }
+    private func open(_ p: Product, rect: CGRect) {
+        guard !busy, selected == nil else { return }
         source = rect
         selected = p
         busy = true
@@ -81,6 +75,43 @@ struct Catalogue: View {
         return Image(uiImage: image).resizable().scaledToFill().frame(
             width: width, height: height
         ).clipped().clipShape(RoundedRectangle(cornerRadius: radius)).accessibilityHidden(true)
+    }
+    private func imageRect(_ cell: GeometryProxy, _ width: CGFloat) -> CGRect {
+        let frame = cell.frame(in: .named("catalogue"))
+        return CGRect(x: frame.minX, y: frame.minY, width: width, height: 180)
+    }
+    private func card(_ p: Product, width: CGFloat) -> some View {
+        GeometryReader { cell in
+
+            VStack(spacing: 0) {
+                Button {
+                    open(p, rect: imageRect(cell, width))
+                } label: {
+                    photo(
+                        p, width: width, height: 180,
+                        radius: 16
+                    ).opacity(selected?.id == p.id ? 0 : 1)
+                }.accessibilityLabel("Open \(p.id)").accessibilityIdentifier(
+                    "Open \(p.id)"
+                )
+
+                HStack {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text(p.name).font(.system(size: 18)).onTapGesture {
+                            open(p, rect: imageRect(cell, width))
+                        }
+                        Text("\(p.category) · \(p.price)").font(
+                            .system(size: 14)
+                        ).foregroundStyle(.secondary)
+                    }
+                    Spacer()
+                    action(
+                        favorites.contains(p.id) ? "★" : "☆",
+                        id: "Favorite \(p.id)"
+                    ) { toggle(p) }.padding(12)
+                }.frame(height: 72)
+            }
+        }.frame(width: width, height: 252)
     }
     private var visualProgress: Double {
         #if CAPTURE
@@ -131,37 +162,7 @@ struct Catalogue: View {
                     ScrollView {
                         LazyVStack(spacing: 16) {
                             ForEach(visible) { p in
-                                VStack(spacing: 0) {
-                                    Button {
-                                        open(p)
-                                    } label: {
-                                        photo(
-                                            p, width: geometry.size.width - 32, height: 180,
-                                            radius: 16
-                                        ).opacity(selected?.id == p.id ? 0 : 1)
-                                    }.accessibilityLabel("Open \(p.id)").accessibilityIdentifier(
-                                        "Open \(p.id)"
-                                    )
-                                    .background(
-                                        GeometryReader { image in
-                                            Color.clear.preference(
-                                                key: ImagePositions.self,
-                                                value: [p.id: image.frame(in: .named("catalogue"))])
-                                        })
-                                    HStack {
-                                        VStack(alignment: .leading, spacing: 4) {
-                                            Text(p.name).font(.system(size: 18))
-                                            Text("\(p.category) · \(p.price)").font(
-                                                .system(size: 14)
-                                            ).foregroundStyle(.secondary)
-                                        }
-                                        Spacer()
-                                        action(
-                                            favorites.contains(p.id) ? "★" : "☆",
-                                            id: "Favorite \(p.id)"
-                                        ) { toggle(p) }.padding(12)
-                                    }.frame(height: 72)
-                                }
+                                card(p, width: geometry.size.width - 32)
                             }
                         }.padding(.horizontal, 16).padding(.bottom, 16)
                     }
@@ -196,9 +197,7 @@ struct Catalogue: View {
                         }.padding(16)
                     }.opacity(max(0, (visualTime - 0.35) / 0.65))
                 }
-            }.coordinateSpace(name: "catalogue").onPreferenceChange(ImagePositions.self) {
-                positions = $0
-            }.background(.white)
+            }.coordinateSpace(name: "catalogue").background(.white)
         }
         #if CAPTURE
             .overlay(alignment: .bottom) {

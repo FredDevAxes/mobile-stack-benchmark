@@ -2,6 +2,8 @@
     <!-- Tool versions, portrait phones and arm64 are fixed by the experiment. -->
     <issue id="AndroidGradlePluginVersion" severity="ignore" />
     <issue id="GradleDependency" severity="ignore" />
+    <!-- API 36 is the common pinned target; store distribution is outside scope. -->
+    <issue id="OldTargetApi" severity="ignore" />
     <issue id="ChromeOsAbiSupport" severity="ignore" />
     <issue id="LockedOrientationActivity" severity="ignore" />
     <issue id="DiscouragedApi" severity="ignore" />

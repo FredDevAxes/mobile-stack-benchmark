@@ -6,7 +6,7 @@ import hashlib
 import shutil
 import subprocess
 from source_mode import sources
-from build_record import source_state, save
+from build_record import save
 from prepare import main as prepare
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -207,8 +207,7 @@ if __name__ == "__main__":
         ["flutter", "react-native", "compose", "swift"] if args.stack == "all" else [args.stack]
     ):
         if args.command == "build":
-            state = source_state()
-            with sources(args.capture, args.variant):
+            with sources(args.capture, args.variant) as state:
                 prepare(args.variant)
                 build(stack, args.platform, args.variant, args.capture)
             save(args, state)

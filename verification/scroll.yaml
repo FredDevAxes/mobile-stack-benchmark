@@ -10,7 +10,9 @@ name: Scroll state survives a detail visit
     timeout: 60000
     centerElement: true
 - takeScreenshot: ${OUTPUT}/scroll-before
-- tapOn: "Open p010"
+- tapOn:
+    text: "Open p010"
+    point: "50%,90%"
 - assertVisible: "(?s)Trail compass 01.*"
 - tapOn: "Back"
 - assertVisible: "Open p010"

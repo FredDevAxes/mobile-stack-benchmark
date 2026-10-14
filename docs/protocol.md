@@ -59,3 +59,18 @@ cycles, 30 recorded cycles, 3 series per target/variant; 1 second rest in stable
 states, rotate stack order, no recording during measurement. Do not publish
 programmed duration as measured speed. D1 scrolling and D2 process launch remain
 secondary and require an explicitly validated protocol before measurement.
+
+## Guest-process memory series
+
+The optional Android diagnostic uses the same V1 cycle counts: first transition
+separately, 5 warm-up cycles, then 30 cycles, three series per S/A target. A pilot
+wait of 1.4 seconds for A and 1.0 second for S after each input leaves the
+programmed 400 ms movement in A plus one second in the stable state. Stack order rotates between series and S/A order
+alternates. The driver identifies the visible first image through accessibility,
+checks the catalogue after the first and last cycle, and preserves failures.
+It collects `dumpsys meminfo` TOTAL PSS before/after each series in KiB. This is
+Android guest-process memory; host emulator/GPU allocations are outside coverage.
+No video or build runs concurrently. Raw `gfxinfo` is retained to assess render
+coverage, without treating Flutter SurfaceView and native HWUI counters as the
+same frame metric. iOS host RSS is not an iPhone memory measurement and is not
+ranked alongside these guest-process samples.
