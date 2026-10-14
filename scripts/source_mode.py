@@ -81,7 +81,7 @@ def projected(text, stack, variant, capture=False):
     if capture:
         if variant != "A":
             raise ValueError("Only A has an inspection timeline")
-        return text
+        return text.replace(" accessibilityViewIsModal", "") if stack == "react-native" else text
     text = swift_capture_stripped(text) if stack == "swift" else stripped(text)
     if variant != "S":
         return text

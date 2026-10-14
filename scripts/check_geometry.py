@@ -25,6 +25,17 @@ def main(partial=False):
         np.asarray(Image.open(ROOT / "shared/images/gear-01.png").convert("RGB")).reshape(-1, 3),
         axis=0,
     )
+    reference = np.asarray(Image.open(ROOT / "shared/images/gear-01.png").convert("RGB"))
+    landmark_color = next(
+        color for color in palette if color[0] > 200 and color[1] > 140 and color[2] < 130
+    )
+    ry, rx = np.where(np.all(reference == landmark_color, axis=2))
+    landmark_source = [
+        int(rx.min()),
+        int(ry.min()),
+        int(rx.max() - rx.min() + 1),
+        int(ry.max() - ry.min() + 1),
+    ]
     records = []
     for platform, stacks, scale, cap in [
         ("android", ["flutter", "react-native", "compose"], 420 / 160, 400),
@@ -50,12 +61,21 @@ def main(partial=False):
                     float((x.max() - x.min() + 1) / scale),
                     float((y.max() - y.min() + 1) / scale),
                 ]
-                frames.append((time, rect, mask, path, image.shape[1] / scale))
+                ly, lx = np.where(np.all(region == landmark_color, axis=2))
+                if not len(lx):
+                    raise ValueError(f"Source landmark missing in {path}")
+                landmark = [
+                    float(lx.min() / scale),
+                    float(ly.min() / scale),
+                    float((lx.max() - lx.min() + 1) / scale),
+                    float((ly.max() - ly.min() + 1) / scale),
+                ]
+                frames.append((time, rect, mask, path, image.shape[1] / scale, landmark))
             if len(frames) != 5:
                 continue
             origin = frames[-1][1][1] - 52
             width = frames[-1][4]
-            for time, rect, mask, path, _ in frames:
+            for time, rect, mask, path, _, landmark in frames:
                 p = curve(time / 100)
                 expected = [16 * (1 - p), origin + 136 - 84 * p, width - 32 + 32 * p, 180 + 100 * p]
                 delta = [a - b for a, b in zip(rect, expected)]
@@ -70,7 +90,15 @@ def main(partial=False):
                             expected[0] + radius - (radius * radius - (radius - dy) ** 2) ** 0.5
                         )
                         corner.append(float(left.min() / scale - wanted))
-                error = max(abs(v) for v in [*delta, *corner])
+                zoom = max(expected[2] / 640, expected[3] / 400)
+                expected_landmark = [
+                    expected[0] + (expected[2] - 640 * zoom) / 2 + landmark_source[0] * zoom,
+                    expected[1] + (expected[3] - 400 * zoom) / 2 + landmark_source[1] * zoom,
+                    landmark_source[2] * zoom,
+                    landmark_source[3] * zoom,
+                ]
+                landmark_delta = [a - b for a, b in zip(landmark, expected_landmark)]
+                error = max(abs(v) for v in [*delta, *corner, *landmark_delta])
                 records.append(
                     {
                         "stack": stack,
@@ -81,6 +109,9 @@ def main(partial=False):
                         "expectedBoundsLogical": expected,
                         "boundsErrorLogical": delta,
                         "cornerErrorLogical": corner,
+                        "measuredLandmarkLogical": landmark,
+                        "expectedCenteredCoverLandmarkLogical": expected_landmark,
+                        "landmarkErrorLogical": landmark_delta,
                         "maxAbsoluteErrorLogical": error,
                         "withinTolerance": error <= 2,
                         "capture": str(path.relative_to(ROOT)),
@@ -89,7 +120,7 @@ def main(partial=False):
                     }
                 )
     result = {
-        "method": "Exact source-palette color segmentation of opaque foreground image, restricted above second card. Safe-area origin inferred from stable detail image. Independent Bézier solver; corner samples at 25/50% of expected radius. Does not test text antialiasing or real-time speed.",
+        "method": "Exact source-palette color segmentation of opaque foreground image, restricted above second card. Safe-area origin inferred from stable detail image. Independent Bézier solver; corner samples at 25/50% of expected radius; an original amber rectangle checks centered cover crop and uniform scaling. Does not test text antialiasing or real-time speed.",
         "toleranceLogicalUnits": 2,
         "records": records,
     }

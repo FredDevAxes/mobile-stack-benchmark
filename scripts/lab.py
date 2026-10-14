@@ -3,6 +3,8 @@
 from pathlib import Path
 import argparse
 import hashlib
+import json
+import shlex
 import shutil
 import subprocess
 from source_mode import sources
@@ -146,6 +148,20 @@ def build(stack, platform, variant, capture=False):
                 dirs_exist_ok=True,
             )
     elif stack == "react-native":
+        expected = json.loads((ROOT / "toolchain.json").read_text())["node"]
+        actual = subprocess.check_output(["node", "--version"], text=True).strip()
+        if actual != "v" + expected:
+            raise ValueError(
+                f"React Native requires Node {expected}; found {actual}. Select the declared version in PATH."
+            )
+        if platform != "android":
+            local_environment = ROOT / "apps/react-native/ios/.xcode.env.local"
+            existing = local_environment.read_text() if local_environment.exists() else ""
+            retained = [
+                line for line in existing.splitlines() if not line.startswith("export NODE_BINARY=")
+            ]
+            retained.append("export NODE_BINARY=" + shlex.quote(shutil.which("node")))
+            local_environment.write_text("\n".join(retained) + "\n")
         if platform == "android":
             run(
                 [

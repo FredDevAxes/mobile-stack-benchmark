@@ -4,6 +4,7 @@ from pathlib import Path
 import datetime
 import hashlib
 import json
+import platform
 import subprocess
 from verify import fingerprint
 
@@ -69,6 +70,10 @@ def save(args, state):
         "platform": args.platform,
         "inspectionBuild": args.capture,
         "source": state,
+        "orchestratorPython": platform.python_version(),
+        "nodeUsed": subprocess.check_output(["node", "--version"], text=True).strip()
+        if args.stack == "react-native"
+        else None,
         "artifactSHA256": fingerprint(artifact),
         "reproductionCommand": [
             "python3",
