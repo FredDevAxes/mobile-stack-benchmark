@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "p001",
+    "name": "Trail pack 01",
+    "category": "Carry",
+    "priceCents": 1500,
+    "description": "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-01"
+  },
+  {
+    "id": "p002",
+    "name": "Dome tent 01",
+    "category": "Shelter",
+    "priceCents": 2225,
+    "description": "A fictional dome tent for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-02"
+  },
+  {
+    "id": "p003",
+    "name": "Walking boot 01",
+    "category": "Clothing",
+    "priceCents": 2950,
+    "description": "A fictional walking boot for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-03"
+  },
+  {
+    "id": "p004",
+    "name": "Rain jacket 01",
+    "category": "Hydration",
+    "priceCents": 3675,
+    "description": "A fictional rain jacket for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-04"
+  },
+  {
+    "id": "p005",
+    "name": "Water bottle 01",
+    "category": "Equipment",
+    "priceCents": 4400,
+    "description": "A fictional water bottle for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-05"
+  },
+  {
+    "id": "p006",
+    "name": "Headlamp 01",
+    "category": "Carry",
+    "priceCents": 5125,
+    "description": "A fictional headlamp for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-06"
+  },
+  {
+    "id": "p007",
+    "name": "Trekking pole 01",
+    "category": "Shelter",
+    "priceCents": 5850,
+    "description": "A fictional trekking pole for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-07"
+  },
+  {
+    "id": "p008",
+    "name": "Sleeping bag 01",
+    "category": "Clothing",
+    "priceCents": 6575,
+    "description": "A fictional sleeping bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-08"
+  },
+  {
+    "id": "p009",
+    "name": "Camp stove 01",
+    "category": "Hydration",
+    "priceCents": 7300,
+    "description": "A fictional camp stove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-09"
+  },
+  {
+    "id": "p010",
+    "name": "Trail compass 01",
+    "category": "Equipment",
+    "priceCents": 8025,
+    "description": "A fictional trail compass for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-10"
+  },
+  {
+    "id": "p011",
+    "name": "Dry bag 01",
+    "category": "Carry",
+    "priceCents": 8750,
+    "description": "A fictional dry bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-11"
+  },
+  {
+    "id": "p012",
+    "name": "Trail hat 01",
+    "category": "Shelter",
+    "priceCents": 9475,
+    "description": "A fictional trail hat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-12"
+  },
+  {
+    "id": "p013",
+    "name": "Fleece layer 01",
+    "category": "Clothing",
+    "priceCents": 10200,
+    "description": "A fictional fleece layer for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-13"
+  },
+  {
+    "id": "p014",
+    "name": "Camp mug 01",
+    "category": "Hydration",
+    "priceCents": 10925,
+    "description": "A fictional camp mug for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-14"
+  },
+  {
+    "id": "p015",
+    "name": "Hiking sock 01",
+    "category": "Equipment",
+    "priceCents": 11650,
+    "description": "A fictional hiking sock for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-15"
+  },
+  {
+    "id": "p016",
+    "name": "Ground mat 01",
+    "category": "Carry",
+    "priceCents": 12375,
+    "description": "A fictional ground mat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-16"
+  },
+  {
+    "id": "p017",
+    "name": "First aid kit 01",
+    "category": "Shelter",
+    "priceCents": 13100,
+    "description": "A fictional first aid kit for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-17"
+  },
+  {
+    "id": "p018",
+    "name": "Trail glove 01",
+    "category": "Clothing",
+    "priceCents": 13825,
+    "description": "A fictional trail glove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-18"
+  },
+  {
+    "id": "p019",
+    "name": "Camp towel 01",
+    "category": "Hydration",
+    "priceCents": 14550,
+    "description": "A fictional camp towel for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-19"
+  },
+  {
+    "id": "p020",
+    "name": "Snow gaiter 01",
+    "category": "Equipment",
+    "priceCents": 15275,
+    "description": "A fictional snow gaiter for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-20"
+  },
+  {
+    "id": "p021",
+    "name": "Trail pack 02",
+    "category": "Carry",
+    "priceCents": 1600,
+    "description": "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-01"
+  },
+  {
+    "id": "p022",
+    "name": "Dome tent 02",
+    "category": "Shelter",
+    "priceCents": 2325,
+    "description": "A fictional dome tent for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-02"
+  },
+  {
+    "id": "p023",
+    "name": "Walking boot 02",
+    "category": "Clothing",
+    "priceCents": 3050,
+    "description": "A fictional walking boot for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-03"
+  },
+  {
+    "id": "p024",
+    "name": "Rain jacket 02",
+    "category": "Hydration",
+    "priceCents": 3775,
+    "description": "A fictional rain jacket for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-04"
+  },
+  {
+    "id": "p025",
+    "name": "Water bottle 02",
+    "category": "Equipment",
+    "priceCents": 4500,
+    "description": "A fictional water bottle for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-05"
+  },
+  {
+    "id": "p026",
+    "name": "Headlamp 02",
+    "category": "Carry",
+    "priceCents": 5225,
+    "description": "A fictional headlamp for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-06"
+  },
+  {
+    "id": "p027",
+    "name": "Trekking pole 02",
+    "category": "Shelter",
+    "priceCents": 5950,
+    "description": "A fictional trekking pole for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-07"
+  },
+  {
+    "id": "p028",
+    "name": "Sleeping bag 02",
+    "category": "Clothing",
+    "priceCents": 6675,
+    "description": "A fictional sleeping bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-08"
+  },
+  {
+    "id": "p029",
+    "name": "Camp stove 02",
+    "category": "Hydration",
+    "priceCents": 7400,
+    "description": "A fictional camp stove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-09"
+  },
+  {
+    "id": "p030",
+    "name": "Trail compass 02",
+    "category": "Equipment",
+    "priceCents": 8125,
+    "description": "A fictional trail compass for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-10"
+  },
+  {
+    "id": "p031",
+    "name": "Dry bag 02",
+    "category": "Carry",
+    "priceCents": 8850,
+    "description": "A fictional dry bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-11"
+  },
+  {
+    "id": "p032",
+    "name": "Trail hat 02",
+    "category": "Shelter",
+    "priceCents": 9575,
+    "description": "A fictional trail hat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-12"
+  },
+  {
+    "id": "p033",
+    "name": "Fleece layer 02",
+    "category": "Clothing",
+    "priceCents": 10300,
+    "description": "A fictional fleece layer for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-13"
+  },
+  {
+    "id": "p034",
+    "name": "Camp mug 02",
+    "category": "Hydration",
+    "priceCents": 11025,
+    "description": "A fictional camp mug for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-14"
+  },
+  {
+    "id": "p035",
+    "name": "Hiking sock 02",
+    "category": "Equipment",
+    "priceCents": 11750,
+    "description": "A fictional hiking sock for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-15"
+  },
+  {
+    "id": "p036",
+    "name": "Ground mat 02",
+    "category": "Carry",
+    "priceCents": 12475,
+    "description": "A fictional ground mat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-16"
+  },
+  {
+    "id": "p037",
+    "name": "First aid kit 02",
+    "category": "Shelter",
+    "priceCents": 13200,
+    "description": "A fictional first aid kit for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-17"
+  },
+  {
+    "id": "p038",
+    "name": "Trail glove 02",
+    "category": "Clothing",
+    "priceCents": 13925,
+    "description": "A fictional trail glove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-18"
+  },
+  {
+    "id": "p039",
+    "name": "Camp towel 02",
+    "category": "Hydration",
+    "priceCents": 14650,
+    "description": "A fictional camp towel for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-19"
+  },
+  {
+    "id": "p040",
+    "name": "Snow gaiter 02",
+    "category": "Equipment",
+    "priceCents": 15375,
+    "description": "A fictional snow gaiter for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-20"
+  },
+  {
+    "id": "p041",
+    "name": "Trail pack 03",
+    "category": "Carry",
+    "priceCents": 1700,
+    "description": "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-01"
+  },
+  {
+    "id": "p042",
+    "name": "Dome tent 03",
+    "category": "Shelter",
+    "priceCents": 2425,
+    "description": "A fictional dome tent for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-02"
+  },
+  {
+    "id": "p043",
+    "name": "Walking boot 03",
+    "category": "Clothing",
+    "priceCents": 3150,
+    "description": "A fictional walking boot for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-03"
+  },
+  {
+    "id": "p044",
+    "name": "Rain jacket 03",
+    "category": "Hydration",
+    "priceCents": 3875,
+    "description": "A fictional rain jacket for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-04"
+  },
+  {
+    "id": "p045",
+    "name": "Water bottle 03",
+    "category": "Equipment",
+    "priceCents": 4600,
+    "description": "A fictional water bottle for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-05"
+  },
+  {
+    "id": "p046",
+    "name": "Headlamp 03",
+    "category": "Carry",
+    "priceCents": 5325,
+    "description": "A fictional headlamp for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-06"
+  },
+  {
+    "id": "p047",
+    "name": "Trekking pole 03",
+    "category": "Shelter",
+    "priceCents": 6050,
+    "description": "A fictional trekking pole for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-07"
+  },
+  {
+    "id": "p048",
+    "name": "Sleeping bag 03",
+    "category": "Clothing",
+    "priceCents": 6775,
+    "description": "A fictional sleeping bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-08"
+  },
+  {
+    "id": "p049",
+    "name": "Camp stove 03",
+    "category": "Hydration",
+    "priceCents": 7500,
+    "description": "A fictional camp stove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-09"
+  },
+  {
+    "id": "p050",
+    "name": "Trail compass 03",
+    "category": "Equipment",
+    "priceCents": 8225,
+    "description": "A fictional trail compass for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-10"
+  },
+  {
+    "id": "p051",
+    "name": "Dry bag 03",
+    "category": "Carry",
+    "priceCents": 8950,
+    "description": "A fictional dry bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-11"
+  },
+  {
+    "id": "p052",
+    "name": "Trail hat 03",
+    "category": "Shelter",
+    "priceCents": 9675,
+    "description": "A fictional trail hat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-12"
+  },
+  {
+    "id": "p053",
+    "name": "Fleece layer 03",
+    "category": "Clothing",
+    "priceCents": 10400,
+    "description": "A fictional fleece layer for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-13"
+  },
+  {
+    "id": "p054",
+    "name": "Camp mug 03",
+    "category": "Hydration",
+    "priceCents": 11125,
+    "description": "A fictional camp mug for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-14"
+  },
+  {
+    "id": "p055",
+    "name": "Hiking sock 03",
+    "category": "Equipment",
+    "priceCents": 11850,
+    "description": "A fictional hiking sock for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-15"
+  },
+  {
+    "id": "p056",
+    "name": "Ground mat 03",
+    "category": "Carry",
+    "priceCents": 12575,
+    "description": "A fictional ground mat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-16"
+  },
+  {
+    "id": "p057",
+    "name": "First aid kit 03",
+    "category": "Shelter",
+    "priceCents": 13300,
+    "description": "A fictional first aid kit for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-17"
+  },
+  {
+    "id": "p058",
+    "name": "Trail glove 03",
+    "category": "Clothing",
+    "priceCents": 14025,
+    "description": "A fictional trail glove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-18"
+  },
+  {
+    "id": "p059",
+    "name": "Camp towel 03",
+    "category": "Hydration",
+    "priceCents": 14750,
+    "description": "A fictional camp towel for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-19"
+  },
+  {
+    "id": "p060",
+    "name": "Snow gaiter 03",
+    "category": "Equipment",
+    "priceCents": 15475,
+    "description": "A fictional snow gaiter for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-20"
+  },
+  {
+    "id": "p061",
+    "name": "Trail pack 04",
+    "category": "Carry",
+    "priceCents": 1800,
+    "description": "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-01"
+  },
+  {
+    "id": "p062",
+    "name": "Dome tent 04",
+    "category": "Shelter",
+    "priceCents": 2525,
+    "description": "A fictional dome tent for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-02"
+  },
+  {
+    "id": "p063",
+    "name": "Walking boot 04",
+    "category": "Clothing",
+    "priceCents": 3250,
+    "description": "A fictional walking boot for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-03"
+  },
+  {
+    "id": "p064",
+    "name": "Rain jacket 04",
+    "category": "Hydration",
+    "priceCents": 3975,
+    "description": "A fictional rain jacket for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-04"
+  },
+  {
+    "id": "p065",
+    "name": "Water bottle 04",
+    "category": "Equipment",
+    "priceCents": 4700,
+    "description": "A fictional water bottle for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-05"
+  },
+  {
+    "id": "p066",
+    "name": "Headlamp 04",
+    "category": "Carry",
+    "priceCents": 5425,
+    "description": "A fictional headlamp for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-06"
+  },
+  {
+    "id": "p067",
+    "name": "Trekking pole 04",
+    "category": "Shelter",
+    "priceCents": 6150,
+    "description": "A fictional trekking pole for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-07"
+  },
+  {
+    "id": "p068",
+    "name": "Sleeping bag 04",
+    "category": "Clothing",
+    "priceCents": 6875,
+    "description": "A fictional sleeping bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-08"
+  },
+  {
+    "id": "p069",
+    "name": "Camp stove 04",
+    "category": "Hydration",
+    "priceCents": 7600,
+    "description": "A fictional camp stove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-09"
+  },
+  {
+    "id": "p070",
+    "name": "Trail compass 04",
+    "category": "Equipment",
+    "priceCents": 8325,
+    "description": "A fictional trail compass for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-10"
+  },
+  {
+    "id": "p071",
+    "name": "Dry bag 04",
+    "category": "Carry",
+    "priceCents": 9050,
+    "description": "A fictional dry bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-11"
+  },
+  {
+    "id": "p072",
+    "name": "Trail hat 04",
+    "category": "Shelter",
+    "priceCents": 9775,
+    "description": "A fictional trail hat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-12"
+  },
+  {
+    "id": "p073",
+    "name": "Fleece layer 04",
+    "category": "Clothing",
+    "priceCents": 10500,
+    "description": "A fictional fleece layer for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-13"
+  },
+  {
+    "id": "p074",
+    "name": "Camp mug 04",
+    "category": "Hydration",
+    "priceCents": 11225,
+    "description": "A fictional camp mug for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-14"
+  },
+  {
+    "id": "p075",
+    "name": "Hiking sock 04",
+    "category": "Equipment",
+    "priceCents": 11950,
+    "description": "A fictional hiking sock for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-15"
+  },
+  {
+    "id": "p076",
+    "name": "Ground mat 04",
+    "category": "Carry",
+    "priceCents": 12675,
+    "description": "A fictional ground mat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-16"
+  },
+  {
+    "id": "p077",
+    "name": "First aid kit 04",
+    "category": "Shelter",
+    "priceCents": 13400,
+    "description": "A fictional first aid kit for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-17"
+  },
+  {
+    "id": "p078",
+    "name": "Trail glove 04",
+    "category": "Clothing",
+    "priceCents": 14125,
+    "description": "A fictional trail glove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-18"
+  },
+  {
+    "id": "p079",
+    "name": "Camp towel 04",
+    "category": "Hydration",
+    "priceCents": 14850,
+    "description": "A fictional camp towel for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-19"
+  },
+  {
+    "id": "p080",
+    "name": "Snow gaiter 04",
+    "category": "Equipment",
+    "priceCents": 15575,
+    "description": "A fictional snow gaiter for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-20"
+  },
+  {
+    "id": "p081",
+    "name": "Trail pack 05",
+    "category": "Carry",
+    "priceCents": 1900,
+    "description": "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-01"
+  },
+  {
+    "id": "p082",
+    "name": "Dome tent 05",
+    "category": "Shelter",
+    "priceCents": 2625,
+    "description": "A fictional dome tent for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-02"
+  },
+  {
+    "id": "p083",
+    "name": "Walking boot 05",
+    "category": "Clothing",
+    "priceCents": 3350,
+    "description": "A fictional walking boot for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-03"
+  },
+  {
+    "id": "p084",
+    "name": "Rain jacket 05",
+    "category": "Hydration",
+    "priceCents": 4075,
+    "description": "A fictional rain jacket for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-04"
+  },
+  {
+    "id": "p085",
+    "name": "Water bottle 05",
+    "category": "Equipment",
+    "priceCents": 4800,
+    "description": "A fictional water bottle for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-05"
+  },
+  {
+    "id": "p086",
+    "name": "Headlamp 05",
+    "category": "Carry",
+    "priceCents": 5525,
+    "description": "A fictional headlamp for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-06"
+  },
+  {
+    "id": "p087",
+    "name": "Trekking pole 05",
+    "category": "Shelter",
+    "priceCents": 6250,
+    "description": "A fictional trekking pole for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-07"
+  },
+  {
+    "id": "p088",
+    "name": "Sleeping bag 05",
+    "category": "Clothing",
+    "priceCents": 6975,
+    "description": "A fictional sleeping bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-08"
+  },
+  {
+    "id": "p089",
+    "name": "Camp stove 05",
+    "category": "Hydration",
+    "priceCents": 7700,
+    "description": "A fictional camp stove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-09"
+  },
+  {
+    "id": "p090",
+    "name": "Trail compass 05",
+    "category": "Equipment",
+    "priceCents": 8425,
+    "description": "A fictional trail compass for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-10"
+  },
+  {
+    "id": "p091",
+    "name": "Dry bag 05",
+    "category": "Carry",
+    "priceCents": 9150,
+    "description": "A fictional dry bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-11"
+  },
+  {
+    "id": "p092",
+    "name": "Trail hat 05",
+    "category": "Shelter",
+    "priceCents": 9875,
+    "description": "A fictional trail hat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-12"
+  },
+  {
+    "id": "p093",
+    "name": "Fleece layer 05",
+    "category": "Clothing",
+    "priceCents": 10600,
+    "description": "A fictional fleece layer for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-13"
+  },
+  {
+    "id": "p094",
+    "name": "Camp mug 05",
+    "category": "Hydration",
+    "priceCents": 11325,
+    "description": "A fictional camp mug for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-14"
+  },
+  {
+    "id": "p095",
+    "name": "Hiking sock 05",
+    "category": "Equipment",
+    "priceCents": 12050,
+    "description": "A fictional hiking sock for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-15"
+  },
+  {
+    "id": "p096",
+    "name": "Ground mat 05",
+    "category": "Carry",
+    "priceCents": 12775,
+    "description": "A fictional ground mat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-16"
+  },
+  {
+    "id": "p097",
+    "name": "First aid kit 05",
+    "category": "Shelter",
+    "priceCents": 13500,
+    "description": "A fictional first aid kit for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-17"
+  },
+  {
+    "id": "p098",
+    "name": "Trail glove 05",
+    "category": "Clothing",
+    "priceCents": 14225,
+    "description": "A fictional trail glove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-18"
+  },
+  {
+    "id": "p099",
+    "name": "Camp towel 05",
+    "category": "Hydration",
+    "priceCents": 14950,
+    "description": "A fictional camp towel for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-19"
+  },
+  {
+    "id": "p100",
+    "name": "Snow gaiter 05",
+    "category": "Equipment",
+    "priceCents": 15675,
+    "description": "A fictional snow gaiter for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-20"
+  },
+  {
+    "id": "p101",
+    "name": "Trail pack 06",
+    "category": "Carry",
+    "priceCents": 2000,
+    "description": "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-01"
+  },
+  {
+    "id": "p102",
+    "name": "Dome tent 06",
+    "category": "Shelter",
+    "priceCents": 2725,
+    "description": "A fictional dome tent for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-02"
+  },
+  {
+    "id": "p103",
+    "name": "Walking boot 06",
+    "category": "Clothing",
+    "priceCents": 3450,
+    "description": "A fictional walking boot for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-03"
+  },
+  {
+    "id": "p104",
+    "name": "Rain jacket 06",
+    "category": "Hydration",
+    "priceCents": 4175,
+    "description": "A fictional rain jacket for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-04"
+  },
+  {
+    "id": "p105",
+    "name": "Water bottle 06",
+    "category": "Equipment",
+    "priceCents": 4900,
+    "description": "A fictional water bottle for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-05"
+  },
+  {
+    "id": "p106",
+    "name": "Headlamp 06",
+    "category": "Carry",
+    "priceCents": 5625,
+    "description": "A fictional headlamp for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-06"
+  },
+  {
+    "id": "p107",
+    "name": "Trekking pole 06",
+    "category": "Shelter",
+    "priceCents": 6350,
+    "description": "A fictional trekking pole for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-07"
+  },
+  {
+    "id": "p108",
+    "name": "Sleeping bag 06",
+    "category": "Clothing",
+    "priceCents": 7075,
+    "description": "A fictional sleeping bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-08"
+  },
+  {
+    "id": "p109",
+    "name": "Camp stove 06",
+    "category": "Hydration",
+    "priceCents": 7800,
+    "description": "A fictional camp stove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-09"
+  },
+  {
+    "id": "p110",
+    "name": "Trail compass 06",
+    "category": "Equipment",
+    "priceCents": 8525,
+    "description": "A fictional trail compass for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-10"
+  },
+  {
+    "id": "p111",
+    "name": "Dry bag 06",
+    "category": "Carry",
+    "priceCents": 9250,
+    "description": "A fictional dry bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-11"
+  },
+  {
+    "id": "p112",
+    "name": "Trail hat 06",
+    "category": "Shelter",
+    "priceCents": 9975,
+    "description": "A fictional trail hat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-12"
+  },
+  {
+    "id": "p113",
+    "name": "Fleece layer 06",
+    "category": "Clothing",
+    "priceCents": 10700,
+    "description": "A fictional fleece layer for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-13"
+  },
+  {
+    "id": "p114",
+    "name": "Camp mug 06",
+    "category": "Hydration",
+    "priceCents": 11425,
+    "description": "A fictional camp mug for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-14"
+  },
+  {
+    "id": "p115",
+    "name": "Hiking sock 06",
+    "category": "Equipment",
+    "priceCents": 12150,
+    "description": "A fictional hiking sock for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-15"
+  },
+  {
+    "id": "p116",
+    "name": "Ground mat 06",
+    "category": "Carry",
+    "priceCents": 12875,
+    "description": "A fictional ground mat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-16"
+  },
+  {
+    "id": "p117",
+    "name": "First aid kit 06",
+    "category": "Shelter",
+    "priceCents": 13600,
+    "description": "A fictional first aid kit for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-17"
+  },
+  {
+    "id": "p118",
+    "name": "Trail glove 06",
+    "category": "Clothing",
+    "priceCents": 14325,
+    "description": "A fictional trail glove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-18"
+  },
+  {
+    "id": "p119",
+    "name": "Camp towel 06",
+    "category": "Hydration",
+    "priceCents": 15050,
+    "description": "A fictional camp towel for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-19"
+  },
+  {
+    "id": "p120",
+    "name": "Snow gaiter 06",
+    "category": "Equipment",
+    "priceCents": 15775,
+    "description": "A fictional snow gaiter for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-20"
+  },
+  {
+    "id": "p121",
+    "name": "Trail pack 07",
+    "category": "Carry",
+    "priceCents": 2100,
+    "description": "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-01"
+  },
+  {
+    "id": "p122",
+    "name": "Dome tent 07",
+    "category": "Shelter",
+    "priceCents": 2825,
+    "description": "A fictional dome tent for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-02"
+  },
+  {
+    "id": "p123",
+    "name": "Walking boot 07",
+    "category": "Clothing",
+    "priceCents": 3550,
+    "description": "A fictional walking boot for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-03"
+  },
+  {
+    "id": "p124",
+    "name": "Rain jacket 07",
+    "category": "Hydration",
+    "priceCents": 4275,
+    "description": "A fictional rain jacket for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-04"
+  },
+  {
+    "id": "p125",
+    "name": "Water bottle 07",
+    "category": "Equipment",
+    "priceCents": 5000,
+    "description": "A fictional water bottle for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-05"
+  },
+  {
+    "id": "p126",
+    "name": "Headlamp 07",
+    "category": "Carry",
+    "priceCents": 5725,
+    "description": "A fictional headlamp for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-06"
+  },
+  {
+    "id": "p127",
+    "name": "Trekking pole 07",
+    "category": "Shelter",
+    "priceCents": 6450,
+    "description": "A fictional trekking pole for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-07"
+  },
+  {
+    "id": "p128",
+    "name": "Sleeping bag 07",
+    "category": "Clothing",
+    "priceCents": 7175,
+    "description": "A fictional sleeping bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-08"
+  },
+  {
+    "id": "p129",
+    "name": "Camp stove 07",
+    "category": "Hydration",
+    "priceCents": 7900,
+    "description": "A fictional camp stove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-09"
+  },
+  {
+    "id": "p130",
+    "name": "Trail compass 07",
+    "category": "Equipment",
+    "priceCents": 8625,
+    "description": "A fictional trail compass for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-10"
+  },
+  {
+    "id": "p131",
+    "name": "Dry bag 07",
+    "category": "Carry",
+    "priceCents": 9350,
+    "description": "A fictional dry bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-11"
+  },
+  {
+    "id": "p132",
+    "name": "Trail hat 07",
+    "category": "Shelter",
+    "priceCents": 10075,
+    "description": "A fictional trail hat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-12"
+  },
+  {
+    "id": "p133",
+    "name": "Fleece layer 07",
+    "category": "Clothing",
+    "priceCents": 10800,
+    "description": "A fictional fleece layer for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-13"
+  },
+  {
+    "id": "p134",
+    "name": "Camp mug 07",
+    "category": "Hydration",
+    "priceCents": 11525,
+    "description": "A fictional camp mug for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-14"
+  },
+  {
+    "id": "p135",
+    "name": "Hiking sock 07",
+    "category": "Equipment",
+    "priceCents": 12250,
+    "description": "A fictional hiking sock for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-15"
+  },
+  {
+    "id": "p136",
+    "name": "Ground mat 07",
+    "category": "Carry",
+    "priceCents": 12975,
+    "description": "A fictional ground mat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-16"
+  },
+  {
+    "id": "p137",
+    "name": "First aid kit 07",
+    "category": "Shelter",
+    "priceCents": 13700,
+    "description": "A fictional first aid kit for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-17"
+  },
+  {
+    "id": "p138",
+    "name": "Trail glove 07",
+    "category": "Clothing",
+    "priceCents": 14425,
+    "description": "A fictional trail glove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-18"
+  },
+  {
+    "id": "p139",
+    "name": "Camp towel 07",
+    "category": "Hydration",
+    "priceCents": 15150,
+    "description": "A fictional camp towel for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-19"
+  },
+  {
+    "id": "p140",
+    "name": "Snow gaiter 07",
+    "category": "Equipment",
+    "priceCents": 15875,
+    "description": "A fictional snow gaiter for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-20"
+  },
+  {
+    "id": "p141",
+    "name": "Trail pack 08",
+    "category": "Carry",
+    "priceCents": 2200,
+    "description": "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-01"
+  },
+  {
+    "id": "p142",
+    "name": "Dome tent 08",
+    "category": "Shelter",
+    "priceCents": 2925,
+    "description": "A fictional dome tent for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-02"
+  },
+  {
+    "id": "p143",
+    "name": "Walking boot 08",
+    "category": "Clothing",
+    "priceCents": 3650,
+    "description": "A fictional walking boot for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-03"
+  },
+  {
+    "id": "p144",
+    "name": "Rain jacket 08",
+    "category": "Hydration",
+    "priceCents": 4375,
+    "description": "A fictional rain jacket for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-04"
+  },
+  {
+    "id": "p145",
+    "name": "Water bottle 08",
+    "category": "Equipment",
+    "priceCents": 5100,
+    "description": "A fictional water bottle for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-05"
+  },
+  {
+    "id": "p146",
+    "name": "Headlamp 08",
+    "category": "Carry",
+    "priceCents": 5825,
+    "description": "A fictional headlamp for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-06"
+  },
+  {
+    "id": "p147",
+    "name": "Trekking pole 08",
+    "category": "Shelter",
+    "priceCents": 6550,
+    "description": "A fictional trekking pole for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-07"
+  },
+  {
+    "id": "p148",
+    "name": "Sleeping bag 08",
+    "category": "Clothing",
+    "priceCents": 7275,
+    "description": "A fictional sleeping bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-08"
+  },
+  {
+    "id": "p149",
+    "name": "Camp stove 08",
+    "category": "Hydration",
+    "priceCents": 8000,
+    "description": "A fictional camp stove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-09"
+  },
+  {
+    "id": "p150",
+    "name": "Trail compass 08",
+    "category": "Equipment",
+    "priceCents": 8725,
+    "description": "A fictional trail compass for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-10"
+  },
+  {
+    "id": "p151",
+    "name": "Dry bag 08",
+    "category": "Carry",
+    "priceCents": 9450,
+    "description": "A fictional dry bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-11"
+  },
+  {
+    "id": "p152",
+    "name": "Trail hat 08",
+    "category": "Shelter",
+    "priceCents": 10175,
+    "description": "A fictional trail hat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-12"
+  },
+  {
+    "id": "p153",
+    "name": "Fleece layer 08",
+    "category": "Clothing",
+    "priceCents": 10900,
+    "description": "A fictional fleece layer for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-13"
+  },
+  {
+    "id": "p154",
+    "name": "Camp mug 08",
+    "category": "Hydration",
+    "priceCents": 11625,
+    "description": "A fictional camp mug for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-14"
+  },
+  {
+    "id": "p155",
+    "name": "Hiking sock 08",
+    "category": "Equipment",
+    "priceCents": 12350,
+    "description": "A fictional hiking sock for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-15"
+  },
+  {
+    "id": "p156",
+    "name": "Ground mat 08",
+    "category": "Carry",
+    "priceCents": 13075,
+    "description": "A fictional ground mat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-16"
+  },
+  {
+    "id": "p157",
+    "name": "First aid kit 08",
+    "category": "Shelter",
+    "priceCents": 13800,
+    "description": "A fictional first aid kit for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-17"
+  },
+  {
+    "id": "p158",
+    "name": "Trail glove 08",
+    "category": "Clothing",
+    "priceCents": 14525,
+    "description": "A fictional trail glove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-18"
+  },
+  {
+    "id": "p159",
+    "name": "Camp towel 08",
+    "category": "Hydration",
+    "priceCents": 15250,
+    "description": "A fictional camp towel for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-19"
+  },
+  {
+    "id": "p160",
+    "name": "Snow gaiter 08",
+    "category": "Equipment",
+    "priceCents": 15975,
+    "description": "A fictional snow gaiter for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-20"
+  },
+  {
+    "id": "p161",
+    "name": "Trail pack 09",
+    "category": "Carry",
+    "priceCents": 2300,
+    "description": "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-01"
+  },
+  {
+    "id": "p162",
+    "name": "Dome tent 09",
+    "category": "Shelter",
+    "priceCents": 3025,
+    "description": "A fictional dome tent for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-02"
+  },
+  {
+    "id": "p163",
+    "name": "Walking boot 09",
+    "category": "Clothing",
+    "priceCents": 3750,
+    "description": "A fictional walking boot for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-03"
+  },
+  {
+    "id": "p164",
+    "name": "Rain jacket 09",
+    "category": "Hydration",
+    "priceCents": 4475,
+    "description": "A fictional rain jacket for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-04"
+  },
+  {
+    "id": "p165",
+    "name": "Water bottle 09",
+    "category": "Equipment",
+    "priceCents": 5200,
+    "description": "A fictional water bottle for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-05"
+  },
+  {
+    "id": "p166",
+    "name": "Headlamp 09",
+    "category": "Carry",
+    "priceCents": 5925,
+    "description": "A fictional headlamp for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-06"
+  },
+  {
+    "id": "p167",
+    "name": "Trekking pole 09",
+    "category": "Shelter",
+    "priceCents": 6650,
+    "description": "A fictional trekking pole for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-07"
+  },
+  {
+    "id": "p168",
+    "name": "Sleeping bag 09",
+    "category": "Clothing",
+    "priceCents": 7375,
+    "description": "A fictional sleeping bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-08"
+  },
+  {
+    "id": "p169",
+    "name": "Camp stove 09",
+    "category": "Hydration",
+    "priceCents": 8100,
+    "description": "A fictional camp stove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-09"
+  },
+  {
+    "id": "p170",
+    "name": "Trail compass 09",
+    "category": "Equipment",
+    "priceCents": 8825,
+    "description": "A fictional trail compass for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-10"
+  },
+  {
+    "id": "p171",
+    "name": "Dry bag 09",
+    "category": "Carry",
+    "priceCents": 9550,
+    "description": "A fictional dry bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-11"
+  },
+  {
+    "id": "p172",
+    "name": "Trail hat 09",
+    "category": "Shelter",
+    "priceCents": 10275,
+    "description": "A fictional trail hat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-12"
+  },
+  {
+    "id": "p173",
+    "name": "Fleece layer 09",
+    "category": "Clothing",
+    "priceCents": 11000,
+    "description": "A fictional fleece layer for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-13"
+  },
+  {
+    "id": "p174",
+    "name": "Camp mug 09",
+    "category": "Hydration",
+    "priceCents": 11725,
+    "description": "A fictional camp mug for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-14"
+  },
+  {
+    "id": "p175",
+    "name": "Hiking sock 09",
+    "category": "Equipment",
+    "priceCents": 12450,
+    "description": "A fictional hiking sock for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-15"
+  },
+  {
+    "id": "p176",
+    "name": "Ground mat 09",
+    "category": "Carry",
+    "priceCents": 13175,
+    "description": "A fictional ground mat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-16"
+  },
+  {
+    "id": "p177",
+    "name": "First aid kit 09",
+    "category": "Shelter",
+    "priceCents": 13900,
+    "description": "A fictional first aid kit for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-17"
+  },
+  {
+    "id": "p178",
+    "name": "Trail glove 09",
+    "category": "Clothing",
+    "priceCents": 14625,
+    "description": "A fictional trail glove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-18"
+  },
+  {
+    "id": "p179",
+    "name": "Camp towel 09",
+    "category": "Hydration",
+    "priceCents": 15350,
+    "description": "A fictional camp towel for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-19"
+  },
+  {
+    "id": "p180",
+    "name": "Snow gaiter 09",
+    "category": "Equipment",
+    "priceCents": 16075,
+    "description": "A fictional snow gaiter for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-20"
+  },
+  {
+    "id": "p181",
+    "name": "Trail pack 10",
+    "category": "Carry",
+    "priceCents": 2400,
+    "description": "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-01"
+  },
+  {
+    "id": "p182",
+    "name": "Dome tent 10",
+    "category": "Shelter",
+    "priceCents": 3125,
+    "description": "A fictional dome tent for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-02"
+  },
+  {
+    "id": "p183",
+    "name": "Walking boot 10",
+    "category": "Clothing",
+    "priceCents": 3850,
+    "description": "A fictional walking boot for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-03"
+  },
+  {
+    "id": "p184",
+    "name": "Rain jacket 10",
+    "category": "Hydration",
+    "priceCents": 4575,
+    "description": "A fictional rain jacket for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-04"
+  },
+  {
+    "id": "p185",
+    "name": "Water bottle 10",
+    "category": "Equipment",
+    "priceCents": 5300,
+    "description": "A fictional water bottle for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-05"
+  },
+  {
+    "id": "p186",
+    "name": "Headlamp 10",
+    "category": "Carry",
+    "priceCents": 6025,
+    "description": "A fictional headlamp for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-06"
+  },
+  {
+    "id": "p187",
+    "name": "Trekking pole 10",
+    "category": "Shelter",
+    "priceCents": 6750,
+    "description": "A fictional trekking pole for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-07"
+  },
+  {
+    "id": "p188",
+    "name": "Sleeping bag 10",
+    "category": "Clothing",
+    "priceCents": 7475,
+    "description": "A fictional sleeping bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-08"
+  },
+  {
+    "id": "p189",
+    "name": "Camp stove 10",
+    "category": "Hydration",
+    "priceCents": 8200,
+    "description": "A fictional camp stove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-09"
+  },
+  {
+    "id": "p190",
+    "name": "Trail compass 10",
+    "category": "Equipment",
+    "priceCents": 8925,
+    "description": "A fictional trail compass for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-10"
+  },
+  {
+    "id": "p191",
+    "name": "Dry bag 10",
+    "category": "Carry",
+    "priceCents": 9650,
+    "description": "A fictional dry bag for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-11"
+  },
+  {
+    "id": "p192",
+    "name": "Trail hat 10",
+    "category": "Shelter",
+    "priceCents": 10375,
+    "description": "A fictional trail hat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-12"
+  },
+  {
+    "id": "p193",
+    "name": "Fleece layer 10",
+    "category": "Clothing",
+    "priceCents": 11100,
+    "description": "A fictional fleece layer for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-13"
+  },
+  {
+    "id": "p194",
+    "name": "Camp mug 10",
+    "category": "Hydration",
+    "priceCents": 11825,
+    "description": "A fictional camp mug for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-14"
+  },
+  {
+    "id": "p195",
+    "name": "Hiking sock 10",
+    "category": "Equipment",
+    "priceCents": 12550,
+    "description": "A fictional hiking sock for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-15"
+  },
+  {
+    "id": "p196",
+    "name": "Ground mat 10",
+    "category": "Carry",
+    "priceCents": 13275,
+    "description": "A fictional ground mat for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-16"
+  },
+  {
+    "id": "p197",
+    "name": "First aid kit 10",
+    "category": "Shelter",
+    "priceCents": 14000,
+    "description": "A fictional first aid kit for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-17"
+  },
+  {
+    "id": "p198",
+    "name": "Trail glove 10",
+    "category": "Clothing",
+    "priceCents": 14725,
+    "description": "A fictional trail glove for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-18"
+  },
+  {
+    "id": "p199",
+    "name": "Camp towel 10",
+    "category": "Hydration",
+    "priceCents": 15450,
+    "description": "A fictional camp towel for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-19"
+  },
+  {
+    "id": "p200",
+    "name": "Snow gaiter 10",
+    "category": "Equipment",
+    "priceCents": 16175,
+    "description": "A fictional snow gaiter for a day outdoors. Sample product for the mobile stack benchmark.",
+    "imageKey": "gear-20"
+  }
+]
