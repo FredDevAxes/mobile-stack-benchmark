@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites>
+  <testsuite name="Test Suite" tests="1" failures="0" time="12.012" timestamp="2026-10-14T23:15:26">
+    <testcase id="Repeated card input and button back" name="Repeated card input and button back" classname="Repeated card input and button back" file="verification/navigation-guard.yaml" time="12.001" timestamp="2026-10-14T23:15:26" status="SUCCESS" />
+  </testsuite>
+</testsuites>

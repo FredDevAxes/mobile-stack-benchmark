@@ -130,7 +130,7 @@ def main():
         "",
         "See [per-target verification records](verification/), [all retained driver attempts, including failures](trials.json), [geometry checks](geometry.json), [environment](environment.json) and [protocol](../docs/protocol.md). Driver execution time is not application latency. The repeated-input driver cannot prove the exact timestamp of an input within a 400 ms transition; the input guards and queued-back implementation remain available for review.",
         "",
-        "Historical failed attempts include incorrect inaccessible title selectors, clipped tap targets and an unexplained Flutter scroll/capture failure that passed on retry. They are retained rather than treated as zero or silently discarded. Latest milestone pass reports are separate from earlier dirty-source exploratory attempts.",
+        "Historical failed attempts include incorrect inaccessible title selectors, clipped tap targets, an unexplained Flutter scroll/capture failure that passed on retry, an unchanged SwiftUI first tap, a hidden RN Android favorite node selected by the driver, an interrupted simulator handoff and a UI-driver startup timeout. The detail favorite is now anchored below its unique description. The stale Android pilot signing mismatch is retained in the installation recovery record. They are retained rather than treated as zero or silently discarded. Latest milestone pass reports are separate from earlier dirty-source exploratory attempts.",
         "",
     ]
     accepted = load("acceptance.json")
@@ -151,7 +151,7 @@ def main():
         "",
         f"[Acceptance gate](acceptance.json): {accepted['functionalAndVisualFlowsPassed']} successful flows and 30 deterministic stages. Maximum geometry/corner/landmark error: {accepted['geometryMaximumErrorLogical']:.3f} logical units against the 2-unit tolerance. An original amber landmark verifies centered uniform cover crop. Text antialiasing and actual animation speed are outside this pixel check.",
         "",
-        "List before/after screenshot pairs and cropped pixel differences are retained in [scroll.json](scroll.json). These are same-device comparisons, not cross-platform text matching.",
+        "All 12 pairs retain identical catalogue content pixels after excluding the outer 16 logical units reserved for the scrollbar. Raw differences and their bounds are retained in [scroll.json](scroll.json); the small differences lie on that scrollbar margin. These are same-device comparisons, not cross-platform text matching.",
         "",
         "[Fresh public-clone reproduction](reproduction.json) executed locked dependency installation, all project linters/tests and a SwiftUI S build. The complete 18-output build matrix was executed on the reference working tree; hosted [CI](ci.json) independently compiles all supported targets. Those scopes are kept separate.",
         "",
@@ -198,7 +198,7 @@ def main():
             ]
         text += [
             "",
-            "[Samples and raw meminfo/gfxinfo traces](diagnostics/android/). Three snapshots per variant do not establish significance or a memory leak. Android gfxinfo has different render coverage across stacks, so no common frame-time/jank ranking is published.",
+            "[Samples and raw meminfo/gfxinfo traces](diagnostics/android/). The cycle count is the scripted input count; the driver checks catalogue text after the first and last cycle, without independently validating every intermediate foreground state. Three snapshots per variant do not establish significance or a memory leak. Android gfxinfo has different render coverage across stacks, so no common frame-time/jank ranking is published.",
             "",
         ]
     text += [
@@ -219,7 +219,7 @@ def main():
         "",
         "The retained [RN npm audit](dependency-audit.json) reports 53 inherited tooling advisories (5 moderate, 48 high), from the locked dependency tree, principally braces/sprintf-js chains. Compatible updates were applied; the suggested framework downgrade was not accepted. This lab is not a production security certification. Preserve upstream licenses and review advisories before reuse. No credentials or private signing material are tracked.",
         "",
-        "[Exploratory Node 25.6 size records](history/node25-exploratory-builds.json) are retained separately. A generated Xcode path overrode the declared Node version; the final cohort was rebuilt with Node 24.13 selected and recorded. The final Flutter cohort additionally fixes the distinct iOS Reduce Motion flag discovered by the OS probe. The other six app projections are unchanged. The final table uses only clean sources and the declared Node runtime.",
+        "[Exploratory Node 25.6 size records](history/node25-exploratory-builds.json) are retained separately. A generated Xcode path overrode the declared Node version; the final cohort was rebuilt with Node 24.13 selected and recorded. The final Flutter cohort additionally fixes the distinct iOS Reduce Motion flag discovered by the OS probe. The final SwiftUI cohort blocks hit testing without disabled-button dimming, so the background catalogue retains its colors before the backdrop fade. RN and Compose projections are unchanged. The final table uses only clean sources and the declared Node runtime.",
         "",
         "The narrower conclusion is that this catalogue can be inspected across four implementations with source-isolated animation variants. Use the actual within-platform size deltas and maintained-source counts; do not turn them into a global score or a claim about every project.",
         "",

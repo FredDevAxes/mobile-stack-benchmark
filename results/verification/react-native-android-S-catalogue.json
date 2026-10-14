@@ -1,0 +1,20 @@
+{
+  "executedAtUTC": "2026-10-14T22:06:36.739209+00:00",
+  "stack": "react-native",
+  "platform": "android",
+  "variant": "S",
+  "flow": "catalogue",
+  "inspectionBuild": false,
+  "exitCode": 0,
+  "sourceRevision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+  "sourceDirty": false,
+  "flowRevision": "66b2c97e8d49414bca6ac94344ad448350e9ea0b",
+  "flowSourceSHA256": "6add15b6907e41fac10b44150f76368dee50721d7b584b0543a9f33995dbb8ff",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "ddfcdf654e4b84d349f1a99b3ede1214e74bb29e5a66e05842a67ec7759c16d7",
+  "logSHA256": "07c69c618f917c279cd6800a58af5e6e500d1cadf8ea7bddb15fe024cf7f1acf",
+  "appId": "com.pilotrn",
+  "maestro": "2.11.0",
+  "report": "results/verification/react-native-android-S-catalogue.xml"
+}

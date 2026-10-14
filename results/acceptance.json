@@ -1,0 +1,452 @@
+{
+  "applicationSourceRevisions": {
+    "flutter": "2c008acb0ecef9667ce81732d0fceac620157e39",
+    "react-native": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+    "compose": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+    "swift": "3012da84b550f5e7e45308c57873925e84c6d781"
+  },
+  "functionalAndVisualFlowsPassed": 54,
+  "deterministicStagesWithinTolerance": 30,
+  "geometryMaximumErrorLogical": 0.9428571428571395,
+  "listRetentionScreenshotPairs": 12,
+  "comparableReleaseArtifacts": 12,
+  "flowRecords": [
+    {
+      "stack": "flutter",
+      "platform": "android",
+      "variant": "S",
+      "flow": "catalogue",
+      "record": "results/verification/flutter-android-S-catalogue.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "android",
+      "variant": "S",
+      "flow": "scroll",
+      "record": "results/verification/flutter-android-S-scroll.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "android",
+      "variant": "S",
+      "flow": "android-back",
+      "record": "results/verification/flutter-android-S-android-back.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "android",
+      "variant": "A",
+      "flow": "catalogue",
+      "record": "results/verification/flutter-android-A-catalogue.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "android",
+      "variant": "A",
+      "flow": "scroll",
+      "record": "results/verification/flutter-android-A-scroll.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "android",
+      "variant": "A",
+      "flow": "android-back",
+      "record": "results/verification/flutter-android-A-android-back.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "android",
+      "variant": "A",
+      "flow": "demo",
+      "record": "results/verification/flutter-android-A-demo.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "android",
+      "variant": "A",
+      "flow": "progress",
+      "record": "results/verification/flutter-android-A-progress.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "android",
+      "variant": "A",
+      "flow": "reduced-motion",
+      "record": "results/verification/flutter-android-A-reduced-motion.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "android",
+      "variant": "S",
+      "flow": "catalogue",
+      "record": "results/verification/react-native-android-S-catalogue.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "android",
+      "variant": "S",
+      "flow": "scroll",
+      "record": "results/verification/react-native-android-S-scroll.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "android",
+      "variant": "S",
+      "flow": "android-back",
+      "record": "results/verification/react-native-android-S-android-back.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "android",
+      "variant": "A",
+      "flow": "catalogue",
+      "record": "results/verification/react-native-android-A-catalogue.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "android",
+      "variant": "A",
+      "flow": "scroll",
+      "record": "results/verification/react-native-android-A-scroll.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "android",
+      "variant": "A",
+      "flow": "android-back",
+      "record": "results/verification/react-native-android-A-android-back.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "android",
+      "variant": "A",
+      "flow": "demo",
+      "record": "results/verification/react-native-android-A-demo.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "android",
+      "variant": "A",
+      "flow": "progress",
+      "record": "results/verification/react-native-android-A-progress.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "android",
+      "variant": "A",
+      "flow": "reduced-motion",
+      "record": "results/verification/react-native-android-A-reduced-motion.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "compose",
+      "platform": "android",
+      "variant": "S",
+      "flow": "catalogue",
+      "record": "results/verification/compose-android-S-catalogue.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "compose",
+      "platform": "android",
+      "variant": "S",
+      "flow": "scroll",
+      "record": "results/verification/compose-android-S-scroll.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "compose",
+      "platform": "android",
+      "variant": "S",
+      "flow": "android-back",
+      "record": "results/verification/compose-android-S-android-back.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "compose",
+      "platform": "android",
+      "variant": "A",
+      "flow": "catalogue",
+      "record": "results/verification/compose-android-A-catalogue.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "compose",
+      "platform": "android",
+      "variant": "A",
+      "flow": "scroll",
+      "record": "results/verification/compose-android-A-scroll.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "compose",
+      "platform": "android",
+      "variant": "A",
+      "flow": "android-back",
+      "record": "results/verification/compose-android-A-android-back.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "compose",
+      "platform": "android",
+      "variant": "A",
+      "flow": "demo",
+      "record": "results/verification/compose-android-A-demo.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "compose",
+      "platform": "android",
+      "variant": "A",
+      "flow": "progress",
+      "record": "results/verification/compose-android-A-progress.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "compose",
+      "platform": "android",
+      "variant": "A",
+      "flow": "reduced-motion",
+      "record": "results/verification/compose-android-A-reduced-motion.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "ios",
+      "variant": "S",
+      "flow": "catalogue",
+      "record": "results/verification/flutter-ios-S-catalogue.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "ios",
+      "variant": "S",
+      "flow": "scroll",
+      "record": "results/verification/flutter-ios-S-scroll.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "ios",
+      "variant": "S",
+      "flow": "navigation-guard",
+      "record": "results/verification/flutter-ios-S-navigation-guard.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "catalogue",
+      "record": "results/verification/flutter-ios-A-catalogue.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "scroll",
+      "record": "results/verification/flutter-ios-A-scroll.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "navigation-guard",
+      "record": "results/verification/flutter-ios-A-navigation-guard.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "demo",
+      "record": "results/verification/flutter-ios-A-demo.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "progress",
+      "record": "results/verification/flutter-ios-A-progress.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "flutter",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "reduced-motion",
+      "record": "results/verification/flutter-ios-A-reduced-motion.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "ios",
+      "variant": "S",
+      "flow": "catalogue",
+      "record": "results/verification/react-native-ios-S-catalogue.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "ios",
+      "variant": "S",
+      "flow": "scroll",
+      "record": "results/verification/react-native-ios-S-scroll.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "ios",
+      "variant": "S",
+      "flow": "navigation-guard",
+      "record": "results/verification/react-native-ios-S-navigation-guard.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "catalogue",
+      "record": "results/verification/react-native-ios-A-catalogue.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "scroll",
+      "record": "results/verification/react-native-ios-A-scroll.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "navigation-guard",
+      "record": "results/verification/react-native-ios-A-navigation-guard.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "demo",
+      "record": "results/verification/react-native-ios-A-demo.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "progress",
+      "record": "results/verification/react-native-ios-A-progress.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "react-native",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "reduced-motion",
+      "record": "results/verification/react-native-ios-A-reduced-motion.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "swift",
+      "platform": "ios",
+      "variant": "S",
+      "flow": "catalogue",
+      "record": "results/verification/swift-ios-S-catalogue.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "swift",
+      "platform": "ios",
+      "variant": "S",
+      "flow": "scroll",
+      "record": "results/verification/swift-ios-S-scroll.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "swift",
+      "platform": "ios",
+      "variant": "S",
+      "flow": "navigation-guard",
+      "record": "results/verification/swift-ios-S-navigation-guard.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "swift",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "catalogue",
+      "record": "results/verification/swift-ios-A-catalogue.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "swift",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "scroll",
+      "record": "results/verification/swift-ios-A-scroll.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "swift",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "navigation-guard",
+      "record": "results/verification/swift-ios-A-navigation-guard.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "swift",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "demo",
+      "record": "results/verification/swift-ios-A-demo.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "swift",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "progress",
+      "record": "results/verification/swift-ios-A-progress.json",
+      "status": "PASS"
+    },
+    {
+      "stack": "swift",
+      "platform": "ios",
+      "variant": "A",
+      "flow": "reduced-motion",
+      "record": "results/verification/swift-ios-A-reduced-motion.json",
+      "status": "PASS"
+    }
+  ],
+  "limits": [
+    "No physical-device or store-distribution verification",
+    "Driver cannot guarantee exact within-transition input timestamp",
+    "Pixel geometry checks do not certify text metrics or accessibility"
+  ]
+}

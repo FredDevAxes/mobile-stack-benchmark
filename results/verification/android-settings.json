@@ -1,0 +1,17 @@
+{
+  "scope": "One dedicated reference AVD; initial Flutter S/A normal checks retained, remaining apps and all three real reduced-motion probes completed separately; normal scales restored.",
+  "changes": [
+    {
+      "atUTC": "2026-10-14T22:05:24.657615+00:00",
+      "reducedMotion": false
+    },
+    {
+      "atUTC": "2026-10-14T22:14:35.865825+00:00",
+      "reducedMotion": true
+    },
+    {
+      "atUTC": "2026-10-14T22:15:28.646351+00:00",
+      "reducedMotion": false
+    }
+  ]
+}

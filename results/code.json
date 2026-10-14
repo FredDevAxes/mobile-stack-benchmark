@@ -1,30 +1,30 @@
 {
   "tool": "cloc 2.10",
-  "sourceRevision": "01341d9a4d6d649b69b9b07ee5603bbb843ce86e",
+  "sourceRevision": "3012da84b550f5e7e45308c57873925e84c6d781",
   "entries": [
     {
       "stack": "flutter",
       "variant": "S",
       "categories": {
-        "ui": 384,
-        "logic": 63,
+        "ui": 386,
+        "logic": 73,
         "platform": 17,
-        "tests": 22,
+        "tests": 42,
         "navigation": 10
       },
-      "applicationTotal": 474,
+      "applicationTotal": 486,
       "files": [
         {
           "path": "apps/flutter/lib/main.dart",
           "category": "ui",
           "language": "Dart",
-          "code": 423,
+          "code": 435,
           "comment": 0,
-          "blank": 11,
-          "formattedProjectionSHA256": "573717ddf66a58c592bd32c1e51b46a0a4ec77de81db1b02441c13ca76183058",
+          "blank": 13,
+          "formattedProjectionSHA256": "a0c34baf3a7c309460be00dd211ab5f8470b8a7e67db6874a1cf7264c7bacc2b",
           "split": {
-            "uiAndNavigation": 384,
-            "loadingPersistenceAndLifecycle": 39,
+            "uiAndNavigation": 386,
+            "loadingPersistenceAndLifecycle": 49,
             "ranges": [
               [
                 "  Future<void> load()",
@@ -64,10 +64,10 @@
           "path": "apps/flutter/test/catalogue_test.dart",
           "category": "tests",
           "language": "Dart",
-          "code": 22,
+          "code": 42,
           "comment": 0,
           "blank": 2,
-          "formattedProjectionSHA256": "557c49fa9437cc4ee5908b3e26609414afd75263b1f6a0a3d54b7470f3b338c8"
+          "formattedProjectionSHA256": "9a1f31f84f3b3ce0322d244badd715745f1d32d0052978e2488a7f8971047800"
         },
         {
           "path": "apps/flutter/variants/instant.dart",
@@ -258,7 +258,7 @@
           "code": 167,
           "comment": 0,
           "blank": 5,
-          "formattedProjectionSHA256": "9d440737d94d28f1349542bf681bdaca6b7dbc17871490a69ae5ca6a23a279fb",
+          "formattedProjectionSHA256": "ffbd4e3773f474d4dc42123772b742a8317ffa0dfa786ab5c6acc4e91e96ded4",
           "split": {
             "uiAndNavigation": 152,
             "loadingPersistenceAndLifecycle": 15,
@@ -303,25 +303,25 @@
       "stack": "flutter",
       "variant": "A",
       "categories": {
-        "ui": 420,
-        "logic": 63,
+        "ui": 422,
+        "logic": 73,
         "platform": 17,
-        "tests": 22,
+        "tests": 42,
         "navigation": 28
       },
-      "applicationTotal": 528,
+      "applicationTotal": 540,
       "files": [
         {
           "path": "apps/flutter/lib/main.dart",
           "category": "ui",
           "language": "Dart",
-          "code": 459,
+          "code": 471,
           "comment": 0,
-          "blank": 12,
-          "formattedProjectionSHA256": "7e1e9a7af557fbbe4a49152dee52fe83f45ec374c9eba1e16895948b1cee0df0",
+          "blank": 14,
+          "formattedProjectionSHA256": "97ea9977241af17e24d12d052a4146f9b1ad58010b31693e70d30eeafd098360",
           "split": {
-            "uiAndNavigation": 420,
-            "loadingPersistenceAndLifecycle": 39,
+            "uiAndNavigation": 422,
+            "loadingPersistenceAndLifecycle": 49,
             "ranges": [
               [
                 "  Future<void> load()",
@@ -361,10 +361,10 @@
           "path": "apps/flutter/test/catalogue_test.dart",
           "category": "tests",
           "language": "Dart",
-          "code": 22,
+          "code": 42,
           "comment": 0,
           "blank": 2,
-          "formattedProjectionSHA256": "557c49fa9437cc4ee5908b3e26609414afd75263b1f6a0a3d54b7470f3b338c8"
+          "formattedProjectionSHA256": "9a1f31f84f3b3ce0322d244badd715745f1d32d0052978e2488a7f8971047800"
         },
         {
           "path": "apps/flutter/variants/animated.dart",
@@ -555,7 +555,7 @@
           "code": 191,
           "comment": 0,
           "blank": 4,
-          "formattedProjectionSHA256": "43ad785f0e30a990d80a75b85443415362494ae4f756802cf4145723a2c5fde8",
+          "formattedProjectionSHA256": "554d9992d7ce3cdf89529f41f23a36ec66b55b28f485075cf79ebba5b2d87466",
           "split": {
             "uiAndNavigation": 176,
             "loadingPersistenceAndLifecycle": 15,
@@ -1016,9 +1016,10 @@
     {
       "stack": "shared",
       "category": "orchestration/measurement/verification",
-      "code": 2315,
+      "code": 2668,
       "files": [
         ".github/workflows/checks.yml",
+        "scripts/acceptance.py",
         "scripts/assets.py",
         "scripts/build_matrix.py",
         "scripts/build_record.py",
@@ -1028,6 +1029,7 @@
         "scripts/collect_builds.py",
         "scripts/collect_code.py",
         "scripts/collect_environment.py",
+        "scripts/collect_scroll.py",
         "scripts/collect_trials.py",
         "scripts/compose_videos.py",
         "scripts/diagnose_android.py",
@@ -1043,6 +1045,7 @@
         "verification/android-back.yaml",
         "verification/catalogue.yaml",
         "verification/demo.yaml",
+        "verification/navigation-guard.yaml",
         "verification/progress.yaml",
         "verification/reduced-motion.yaml",
         "verification/scroll.yaml"

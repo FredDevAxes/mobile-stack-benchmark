@@ -1,0 +1,31 @@
+{
+  "checkedAtUTC": "2026-10-14T23:05:35.255975+00:00",
+  "repositoryRevisionAtCheck": "3012da84b550f5e7e45308c57873925e84c6d781",
+  "scope": "Canonical maintained app files, shared data/artwork and toolchain declarations match each retained build source manifest. S/A projections and binary identities are retained separately. Different stack revisions are not relabeled as one build.",
+  "records": [
+    {
+      "stack": "flutter",
+      "verifiedBuildSourceRevision": "2c008acb0ecef9667ce81732d0fceac620157e39",
+      "currentCanonicalAppSharedAndToolchainFilesMatch": true,
+      "verifiedFileCount": 92
+    },
+    {
+      "stack": "react-native",
+      "verifiedBuildSourceRevision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+      "currentCanonicalAppSharedAndToolchainFilesMatch": true,
+      "verifiedFileCount": 82
+    },
+    {
+      "stack": "compose",
+      "verifiedBuildSourceRevision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+      "currentCanonicalAppSharedAndToolchainFilesMatch": true,
+      "verifiedFileCount": 43
+    },
+    {
+      "stack": "swift",
+      "verifiedBuildSourceRevision": "3012da84b550f5e7e45308c57873925e84c6d781",
+      "currentCanonicalAppSharedAndToolchainFilesMatch": true,
+      "verifiedFileCount": 32
+    }
+  ]
+}

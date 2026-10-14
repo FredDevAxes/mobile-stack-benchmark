@@ -1,0 +1,42 @@
+{
+  "executedAtUTC": "2026-10-14T22:10:30.977231+00:00",
+  "stack": "react-native",
+  "platform": "android",
+  "variant": "A",
+  "flow": "progress",
+  "inspectionBuild": true,
+  "exitCode": 0,
+  "sourceRevision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+  "sourceDirty": false,
+  "flowRevision": "66b2c97e8d49414bca6ac94344ad448350e9ea0b",
+  "flowSourceSHA256": "b98378824abac0c9670ec5dda81fcdadb6785204a8b1b36932b8a20a11e5b9d0",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "4bf036a33dd8fc067da861e53ee01bf613e02fc532ba75fc002af33e411a5cca",
+  "logSHA256": "d09d4b9d90677134410ed50c9ac02f343d93692f0ee069551ee28e1106945da7",
+  "appId": "com.pilotrn",
+  "maestro": "2.11.0",
+  "report": "results/verification/react-native-android-A-progress.xml",
+  "visuals": [
+    {
+      "path": "results/visuals/android/react-native/time-025.png",
+      "sha256": "b8806555e1fe29c37cad6772b5293ead88a77e51a56cd1f3dd0bcbd286a7daf1"
+    },
+    {
+      "path": "results/visuals/android/react-native/time-050.png",
+      "sha256": "5be6efc0371e07e032d93759079bbe37d8c4234f617dcf4d5b47808fcafa6ce3"
+    },
+    {
+      "path": "results/visuals/android/react-native/time-075.png",
+      "sha256": "10ede83918b608f1066436ee3bf436b8cba8559816c5fbc797612cdf4c816f29"
+    },
+    {
+      "path": "results/visuals/android/react-native/time-100.png",
+      "sha256": "75a54a73bab19f85c4a573a5748b19c55ae01919fd7e4e3d8ba82bdf8b3e365f"
+    },
+    {
+      "path": "results/visuals/android/react-native/time-000.png",
+      "sha256": "8b0415f9a4d908a3e237045f1d207a03dc2070f8d6f6768f52f129ad0bc399f6"
+    }
+  ]
+}

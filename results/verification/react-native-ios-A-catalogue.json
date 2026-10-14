@@ -1,0 +1,20 @@
+{
+  "executedAtUTC": "2026-10-14T21:14:39.077654+00:00",
+  "stack": "react-native",
+  "platform": "ios",
+  "variant": "A",
+  "flow": "catalogue",
+  "inspectionBuild": false,
+  "exitCode": 0,
+  "sourceRevision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+  "sourceDirty": false,
+  "flowRevision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+  "flowSourceSHA256": "c5151b2c84a29fb2e0cd69577eaca06b65110fa40e75f816f46ca35668250a88",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "d9f87d83e902489b60cc3c16d0f6ba7a040a330e071d416f7979490ca3eb1791",
+  "logSHA256": "64fd1f75d46ab844e86c137dd9f4de9dbf4fa7b5f4cb3e4a7c45bb80c106bed8",
+  "appId": "org.reactjs.native.example.PilotRN",
+  "maestro": "2.11.0",
+  "report": "results/verification/react-native-ios-A-catalogue.xml"
+}

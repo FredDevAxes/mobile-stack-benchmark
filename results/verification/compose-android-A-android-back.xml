@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites>
+  <testsuite name="Test Suite" tests="1" failures="0" time="7.633" timestamp="2026-10-15T00:13:44">
+    <testcase id="android-back" name="android-back" classname="android-back" file="verification/android-back.yaml" time="7.624" timestamp="2026-10-15T00:13:44" status="SUCCESS" />
+  </testsuite>
+</testsuites>

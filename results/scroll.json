@@ -1,0 +1,248 @@
+{
+  "method": "Pixel difference of same-device screenshots cropped to 25\u201395% of screen height, excludes clock/header/home indicator. Also record the differing pixel bounds and content difference excluding the outer 16 logical units reserved by the card margin; this isolates the system scrollbar without masking card content. Differences are observations, not automatically app failures. Functional unique-detail and return selectors are checked separately.",
+  "records": [
+    {
+      "platform": "android",
+      "stack": "flutter",
+      "variant": "S",
+      "listCropVerticalFraction": [
+        0.25,
+        0.95
+      ],
+      "differingPixelFraction": 0.0,
+      "exactPixelsRetained": true,
+      "differingPixelBoundsPx": null,
+      "rightMarginExcludedLogicalUnits": 16,
+      "contentDifferingPixelFraction": 0.0,
+      "contentPixelsRetained": true,
+      "files": [
+        "results/visuals/android/flutter/S/scroll-before.png",
+        "results/visuals/android/flutter/S/scroll-after.png"
+      ]
+    },
+    {
+      "platform": "android",
+      "stack": "flutter",
+      "variant": "A",
+      "listCropVerticalFraction": [
+        0.25,
+        0.95
+      ],
+      "differingPixelFraction": 0.0,
+      "exactPixelsRetained": true,
+      "differingPixelBoundsPx": null,
+      "rightMarginExcludedLogicalUnits": 16,
+      "contentDifferingPixelFraction": 0.0,
+      "contentPixelsRetained": true,
+      "files": [
+        "results/visuals/android/flutter/A/scroll-before.png",
+        "results/visuals/android/flutter/A/scroll-after.png"
+      ]
+    },
+    {
+      "platform": "android",
+      "stack": "react-native",
+      "variant": "S",
+      "listCropVerticalFraction": [
+        0.25,
+        0.95
+      ],
+      "differingPixelFraction": 0.0007760141093474427,
+      "exactPixelsRetained": false,
+      "differingPixelBoundsPx": [
+        1069,
+        881,
+        1079,
+        1008
+      ],
+      "rightMarginExcludedLogicalUnits": 16,
+      "contentDifferingPixelFraction": 0.0,
+      "contentPixelsRetained": true,
+      "files": [
+        "results/visuals/android/react-native/S/scroll-before.png",
+        "results/visuals/android/react-native/S/scroll-after.png"
+      ]
+    },
+    {
+      "platform": "android",
+      "stack": "react-native",
+      "variant": "A",
+      "listCropVerticalFraction": [
+        0.25,
+        0.95
+      ],
+      "differingPixelFraction": 0.0008002645502645503,
+      "exactPixelsRetained": false,
+      "differingPixelBoundsPx": [
+        1069,
+        884,
+        1079,
+        1015
+      ],
+      "rightMarginExcludedLogicalUnits": 16,
+      "contentDifferingPixelFraction": 0.0,
+      "contentPixelsRetained": true,
+      "files": [
+        "results/visuals/android/react-native/A/scroll-before.png",
+        "results/visuals/android/react-native/A/scroll-after.png"
+      ]
+    },
+    {
+      "platform": "android",
+      "stack": "compose",
+      "variant": "S",
+      "listCropVerticalFraction": [
+        0.25,
+        0.95
+      ],
+      "differingPixelFraction": 0.0,
+      "exactPixelsRetained": true,
+      "differingPixelBoundsPx": null,
+      "rightMarginExcludedLogicalUnits": 16,
+      "contentDifferingPixelFraction": 0.0,
+      "contentPixelsRetained": true,
+      "files": [
+        "results/visuals/android/compose/S/scroll-before.png",
+        "results/visuals/android/compose/S/scroll-after.png"
+      ]
+    },
+    {
+      "platform": "android",
+      "stack": "compose",
+      "variant": "A",
+      "listCropVerticalFraction": [
+        0.25,
+        0.95
+      ],
+      "differingPixelFraction": 0.0,
+      "exactPixelsRetained": true,
+      "differingPixelBoundsPx": null,
+      "rightMarginExcludedLogicalUnits": 16,
+      "contentDifferingPixelFraction": 0.0,
+      "contentPixelsRetained": true,
+      "files": [
+        "results/visuals/android/compose/A/scroll-before.png",
+        "results/visuals/android/compose/A/scroll-after.png"
+      ]
+    },
+    {
+      "platform": "ios",
+      "stack": "flutter",
+      "variant": "S",
+      "listCropVerticalFraction": [
+        0.25,
+        0.95
+      ],
+      "differingPixelFraction": 0.0,
+      "exactPixelsRetained": true,
+      "differingPixelBoundsPx": null,
+      "rightMarginExcludedLogicalUnits": 16,
+      "contentDifferingPixelFraction": 0.0,
+      "contentPixelsRetained": true,
+      "files": [
+        "results/visuals/ios/flutter/S/scroll-before.png",
+        "results/visuals/ios/flutter/S/scroll-after.png"
+      ]
+    },
+    {
+      "platform": "ios",
+      "stack": "flutter",
+      "variant": "A",
+      "listCropVerticalFraction": [
+        0.25,
+        0.95
+      ],
+      "differingPixelFraction": 0.0,
+      "exactPixelsRetained": true,
+      "differingPixelBoundsPx": null,
+      "rightMarginExcludedLogicalUnits": 16,
+      "contentDifferingPixelFraction": 0.0,
+      "contentPixelsRetained": true,
+      "files": [
+        "results/visuals/ios/flutter/A/scroll-before.png",
+        "results/visuals/ios/flutter/A/scroll-after.png"
+      ]
+    },
+    {
+      "platform": "ios",
+      "stack": "react-native",
+      "variant": "S",
+      "listCropVerticalFraction": [
+        0.25,
+        0.95
+      ],
+      "differingPixelFraction": 0.0,
+      "exactPixelsRetained": true,
+      "differingPixelBoundsPx": null,
+      "rightMarginExcludedLogicalUnits": 16,
+      "contentDifferingPixelFraction": 0.0,
+      "contentPixelsRetained": true,
+      "files": [
+        "results/visuals/ios/react-native/S/scroll-before.png",
+        "results/visuals/ios/react-native/S/scroll-after.png"
+      ]
+    },
+    {
+      "platform": "ios",
+      "stack": "react-native",
+      "variant": "A",
+      "listCropVerticalFraction": [
+        0.25,
+        0.95
+      ],
+      "differingPixelFraction": 0.0004902824659626481,
+      "exactPixelsRetained": false,
+      "differingPixelBoundsPx": [
+        1188,
+        1087,
+        1196,
+        1207
+      ],
+      "rightMarginExcludedLogicalUnits": 16,
+      "contentDifferingPixelFraction": 0.0,
+      "contentPixelsRetained": true,
+      "files": [
+        "results/visuals/ios/react-native/A/scroll-before.png",
+        "results/visuals/ios/react-native/A/scroll-after.png"
+      ]
+    },
+    {
+      "platform": "ios",
+      "stack": "swift",
+      "variant": "S",
+      "listCropVerticalFraction": [
+        0.25,
+        0.95
+      ],
+      "differingPixelFraction": 0.0,
+      "exactPixelsRetained": true,
+      "differingPixelBoundsPx": null,
+      "rightMarginExcludedLogicalUnits": 16,
+      "contentDifferingPixelFraction": 0.0,
+      "contentPixelsRetained": true,
+      "files": [
+        "results/visuals/ios/swift/S/scroll-before.png",
+        "results/visuals/ios/swift/S/scroll-after.png"
+      ]
+    },
+    {
+      "platform": "ios",
+      "stack": "swift",
+      "variant": "A",
+      "listCropVerticalFraction": [
+        0.25,
+        0.95
+      ],
+      "differingPixelFraction": 0.0,
+      "exactPixelsRetained": true,
+      "differingPixelBoundsPx": null,
+      "rightMarginExcludedLogicalUnits": 16,
+      "contentDifferingPixelFraction": 0.0,
+      "contentPixelsRetained": true,
+      "files": [
+        "results/visuals/ios/swift/A/scroll-before.png",
+        "results/visuals/ios/swift/A/scroll-after.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "executedAtUTC": "2026-10-14T21:42:37.140105+00:00",
+  "stack": "flutter",
+  "platform": "ios",
+  "variant": "A",
+  "flow": "progress",
+  "inspectionBuild": true,
+  "exitCode": 0,
+  "sourceRevision": "2c008acb0ecef9667ce81732d0fceac620157e39",
+  "sourceDirty": false,
+  "flowRevision": "2c008acb0ecef9667ce81732d0fceac620157e39",
+  "flowSourceSHA256": "b98378824abac0c9670ec5dda81fcdadb6785204a8b1b36932b8a20a11e5b9d0",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "54a077976c48a45c13860e3e76ff74b1d0ffb16e0340057d1bf43cb61889ee26",
+  "logSHA256": "6d327bada6ca14a12f0102bc4b2051e8a8f5c917e3e0e5b381acdbfc13eff82a",
+  "appId": "dev.devaxes.flutterPilot",
+  "maestro": "2.11.0",
+  "report": "results/verification/flutter-ios-A-progress.xml",
+  "visuals": [
+    {
+      "path": "results/visuals/ios/flutter/time-025.png",
+      "sha256": "7a18883c8bd9430e2806ac0cf63346987b64514cd10b762132f68eb754ec3d56"
+    },
+    {
+      "path": "results/visuals/ios/flutter/time-050.png",
+      "sha256": "27917e4b0476d3a1d0d4627273c603fd38f88b9c568d69245d1708a2aebd3a7e"
+    },
+    {
+      "path": "results/visuals/ios/flutter/time-075.png",
+      "sha256": "622dd422f6ab6b15a1cc87a5865d1ba08e63957d5e01d28b22f3ffdf352d17cc"
+    },
+    {
+      "path": "results/visuals/ios/flutter/time-100.png",
+      "sha256": "128507baa5eda930210d26945bb8dfe52d8f27485aead0f3cc8143bf7a17cc8f"
+    },
+    {
+      "path": "results/visuals/ios/flutter/time-000.png",
+      "sha256": "5457b15e8b53a50526fafc5b3ecb14c7184dbfda44fac21b4b688a26facc06df"
+    }
+  ]
+}

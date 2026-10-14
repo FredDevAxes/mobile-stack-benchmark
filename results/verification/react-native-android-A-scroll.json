@@ -1,0 +1,30 @@
+{
+  "executedAtUTC": "2026-10-14T22:09:12.574931+00:00",
+  "stack": "react-native",
+  "platform": "android",
+  "variant": "A",
+  "flow": "scroll",
+  "inspectionBuild": false,
+  "exitCode": 0,
+  "sourceRevision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+  "sourceDirty": false,
+  "flowRevision": "66b2c97e8d49414bca6ac94344ad448350e9ea0b",
+  "flowSourceSHA256": "070ee9f3293ba0388e9fd19a20b1ac81ddb7c281243a016cb7c773d3f5ac1d5d",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "36421247f8a02df1c632f2a690b8b19d4889be6bdaf8c9e448544943ad0ce562",
+  "logSHA256": "77ae959e448552df76827231d1055fe982155a18885f78cf370dc249d687e567",
+  "appId": "com.pilotrn",
+  "maestro": "2.11.0",
+  "report": "results/verification/react-native-android-A-scroll.xml",
+  "visuals": [
+    {
+      "path": "results/visuals/android/react-native/A/scroll-after.png",
+      "sha256": "cacbd6ced23637b7def47c7e1efb1e26c0f2a3e4b3bc79d9f12c8f593dd5db76"
+    },
+    {
+      "path": "results/visuals/android/react-native/A/scroll-before.png",
+      "sha256": "c4eca744d78f03e6fbc14156608669b279485d22c6a9ea3d3137aec472fa689c"
+    }
+  ]
+}

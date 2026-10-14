@@ -1,0 +1,105 @@
+Applications Graphics Acceleration Info:
+Uptime: 1558997 Realtime: 1558997
+
+** Graphics info for pid 12855 [dev.devaxes.flutter_pilot] **
+
+Stats since: 1548565081320ns
+Total frames rendered: 5
+Janky frames: 5 (100.00%)
+Janky frames (legacy): 2 (40.00%)
+50th percentile: 17ms
+90th percentile: 750ms
+95th percentile: 750ms
+99th percentile: 750ms
+Number Missed Vsync: 1
+Number High input latency: 0
+Number Slow UI thread: 2
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 5
+Number Frame deadline missed: 5
+Number Frame deadline missed (legacy): 2
+HISTOGRAM: 5ms=0 6ms=0 7ms=0 8ms=0 9ms=0 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=1 17ms=2 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=1 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=0 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=1 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+50th gpu percentile: 16ms
+90th gpu percentile: 16ms
+95th gpu percentile: 16ms
+99th gpu percentile: 16ms
+GPU HISTOGRAM: 1ms=0 2ms=0 3ms=0 4ms=0 5ms=0 6ms=0 7ms=0 8ms=0 9ms=1 10ms=0 11ms=0 12ms=0 13ms=0 14ms=1 15ms=0 16ms=3 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 4950ms=0
+
+Pipeline=Skia (OpenGL)
+Memory policy:
+  Max surface area: 2592000
+  Max resource usage: 124.42MB (x48)
+  Background retention: 50% (altUiHidden = true)
+  GPU Context timeout: 10
+Contexts: 1 (stopped = 0)
+CPU Caches:
+  Glyph Cache: 0.00 bytes (1 entry)
+  Glyph Count: 0 
+Total CPU memory usage:
+  0 bytes, 0.00 bytes (0.00 bytes is purgeable)
+GPU Caches:
+  Other:
+    Other: 0.00 bytes (1 entry)
+  Scratch:
+    Buffer Object: 32.00 KB (1 entry)
+Total GPU memory usage:
+  32768 bytes, 32.00 KB (32.00 KB is purgeable)
+
+GraphicBufferAllocator buffers:
+        Handle |        Size |     W (Stride) x H | Layers |   Format |      Usage | Requestor
+0xb4000076d1c41680 |     unknown | 1080 (   0) x 2400 |      1 |        1 | 0x     b00 | SurfaceView[dev.devaxes.flutter_pilot/dev.devaxes.flutter_pilot.MainActivity]#1(BLAST Consumer)1
+0xb4000076d1c42250 |     unknown | 1080 (   0) x 2400 |      1 |        1 | 0x     b00 | VRI[MainActivity]#0(BLAST Consumer)0
+0xb4000076d1c4f660 |     unknown | 1080 (   0) x 2400 |      1 |        1 | 0x     b00 | SurfaceView[dev.devaxes.flutter_pilot/dev.devaxes.flutter_pilot.MainActivity]#1(BLAST Consumer)1
+0xb4000076d1c4f930 |     unknown | 1080 (   0) x 2400 |      1 |        1 | 0x     b00 | VRI[MainActivity]#0(BLAST Consumer)0
+0xb4000076d1c52f30 |     unknown | 1080 (   0) x 2400 |      1 |        1 | 0x     b00 | SurfaceView[dev.devaxes.flutter_pilot/dev.devaxes.flutter_pilot.MainActivity]#1(BLAST Consumer)1
+0xb4000076d1c53e60 |     unknown | 1080 (   0) x 2400 |      1 |        1 | 0x     b00 | VRI[MainActivity]#0(BLAST Consumer)0
+Total allocated by GraphicBufferAllocator (estimate): 0.00 KB
+GoldfishAllocator::dumpDebugInfo is not implemented
+Profile data in ms:
+
+	dev.devaxes.flutter_pilot/dev.devaxes.flutter_pilot.MainActivity/android.view.ViewRootImpl@2d13151 (visibility=0)
+Window: dev.devaxes.flutter_pilot/dev.devaxes.flutter_pilot.MainActivity
+Stats since: 1548795020195ns
+Total frames rendered: 5
+Janky frames: 5 (100.00%)
+Janky frames (legacy): 2 (40.00%)
+50th percentile: 17ms
+90th percentile: 750ms
+95th percentile: 750ms
+99th percentile: 750ms
+Number Missed Vsync: 1
+Number High input latency: 0
+Number Slow UI thread: 2
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 5
+Number Frame deadline missed: 5
+Number Frame deadline missed (legacy): 2
+HISTOGRAM: 5ms=0 6ms=0 7ms=0 8ms=0 9ms=0 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=1 17ms=2 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=1 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=0 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=1 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+50th gpu percentile: 16ms
+90th gpu percentile: 16ms
+95th gpu percentile: 16ms
+99th gpu percentile: 16ms
+GPU HISTOGRAM: 1ms=0 2ms=0 3ms=0 4ms=0 5ms=0 6ms=0 7ms=0 8ms=0 9ms=1 10ms=0 11ms=0 12ms=0 13ms=0 14ms=1 15ms=0 16ms=3 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 4950ms=0
+
+
+
+---PROFILEDATA---
+Flags,FrameTimelineVsyncId,IntendedVsync,Vsync,InputEventId,HandleInputStart,AnimationStart,PerformTraversalsStart,DrawStart,FrameDeadline,FrameInterval,FrameStartTime,SyncQueued,SyncStart,IssueDrawCommandsStart,SwapBuffers,FrameCompleted,DequeueBufferDuration,QueueBufferDuration,GpuCompleted,SwapBuffersCompleted,DisplayPresentTime,CommandSubmissionCompleted,
+1,363399,1548835327769,1549568661073,0,1549587039528,1549587041903,1549587042195,1549610121487,1548851994435,1549584162862,16666666,1549611895612,1549612687278,1549614019862,1549622193112,1549631947487,1241208,666500,1549630601737,1549631947487,0,1549622193112,
+0,365175,1552035327641,1552035327641,0,1552036506988,1552036507780,1552036507946,1552040978155,1552051994307,1552036503280,16666666,1552046579655,1552046753530,1552047060863,1552052455780,1552100070571,33862166,987834,1552066030530,1552100070571,500091396759,1552052455780,
+0,365662,1553118660931,1553118660931,0,1553120084322,1553120084530,1553120084697,1553120168197,1553135327597,1553120082697,16666666,1553120228030,1553120343113,1553120695322,1553121155613,1553136458572,5625,93500,1553136458572,1553124670197,500091396888,1553121155613,
+0,367746,1557018660775,1557018660775,-759749645,1557019742324,1557019742532,1557019742657,1557019822657,1557035327441,1557019740990,16666666,1557019865407,1557019957990,1557019978615,1557020692532,1557035751157,2042,293250,1557035751157,1557023403532,500091397027,1557020692532,
+0,368232,1558051994067,1558051994067,0,1558052976741,1558052977366,1558052977532,1558053137491,1558068660733,1558052973199,16666666,1558053182782,1558053306699,1558053462032,1558053899491,1558069355324,3125,279042,1558069355324,1558056507199,500091397160,1558053899491,
+---PROFILEDATA---
+
+
+View hierarchy:
+
+  dev.devaxes.flutter_pilot/dev.devaxes.flutter_pilot.MainActivity/android.view.ViewRootImpl@2d13151
+  6 views, 10.88 kB of render nodes
+
+
+Total ViewRootImpl   : 1
+Total attached Views : 6
+Total RenderNode     : 10.88 kB (used) / 34.84 kB (capacity)
+

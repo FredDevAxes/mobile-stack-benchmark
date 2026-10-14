@@ -1,0 +1,20 @@
+{
+  "executedAtUTC": "2026-10-14T22:12:12.576122+00:00",
+  "stack": "compose",
+  "platform": "android",
+  "variant": "S",
+  "flow": "android-back",
+  "inspectionBuild": false,
+  "exitCode": 0,
+  "sourceRevision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+  "sourceDirty": false,
+  "flowRevision": "66b2c97e8d49414bca6ac94344ad448350e9ea0b",
+  "flowSourceSHA256": "7791cf599dcc7a10d27a6bd153a4dcbdf70977b2247460b29d712c028169383a",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "2333182de91cd61cd6cc3d65be537bd9dab6211e5f3f34164b8e9891845c305b",
+  "logSHA256": "6ae52943cd2fdbe19adfd755eac41e7c4dacb3889b8ee64711900ca6058cf192",
+  "appId": "dev.devaxes.catalogue",
+  "maestro": "2.11.0",
+  "report": "results/verification/compose-android-S-android-back.xml"
+}

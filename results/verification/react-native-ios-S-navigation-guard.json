@@ -1,0 +1,20 @@
+{
+  "executedAtUTC": "2026-10-14T21:13:49.584217+00:00",
+  "stack": "react-native",
+  "platform": "ios",
+  "variant": "S",
+  "flow": "navigation-guard",
+  "inspectionBuild": false,
+  "exitCode": 0,
+  "sourceRevision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+  "sourceDirty": false,
+  "flowRevision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+  "flowSourceSHA256": "1f040ef9bb6fc55202a0d992316a24f0006c9cdd3d0ce66db3fd78e9b7483869",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "383cc3547c6bde227bb499cf33742a0d7f3539579c6c5432b383fec99d8fc1f9",
+  "logSHA256": "c12246e80bff6b936e091d66a1d29a1b0b32639db472020627a5560039cc1cd9",
+  "appId": "org.reactjs.native.example.PilotRN",
+  "maestro": "2.11.0",
+  "report": "results/verification/react-native-ios-S-navigation-guard.xml"
+}

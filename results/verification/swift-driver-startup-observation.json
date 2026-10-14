@@ -1,0 +1,7 @@
+{
+  "scope": "Tool startup failure before an app flow began, separate from app behavior",
+  "applicationSourceRevision": "3012da84b550f5e7e45308c57873925e84c6d781",
+  "observedFailure": "iOS driver not ready in time; simulator boot was also reported already Booted during cleanup",
+  "recovery": "Reused the ready simulator with the previously verified JDK 17 UI-driver runtime; all nine SwiftUI flows subsequently passed",
+  "cause": "Not independently established"
+}

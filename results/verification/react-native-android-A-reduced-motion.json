@@ -1,0 +1,20 @@
+{
+  "executedAtUTC": "2026-10-14T22:15:11.708113+00:00",
+  "stack": "react-native",
+  "platform": "android",
+  "variant": "A",
+  "flow": "reduced-motion",
+  "inspectionBuild": true,
+  "exitCode": 0,
+  "sourceRevision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+  "sourceDirty": false,
+  "flowRevision": "66b2c97e8d49414bca6ac94344ad448350e9ea0b",
+  "flowSourceSHA256": "eda74088faa5b23c372398fae3f577bbf506070ab9265655b2dc11d99fd0a0e0",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "4bf036a33dd8fc067da861e53ee01bf613e02fc532ba75fc002af33e411a5cca",
+  "logSHA256": "127b00e2ddb2c1785787d429f73bf83b19a5dbb867ac18574d119e1dbe32f924",
+  "appId": "com.pilotrn",
+  "maestro": "2.11.0",
+  "report": "results/verification/react-native-android-A-reduced-motion.xml"
+}

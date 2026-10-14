@@ -1,0 +1,30 @@
+{
+  "executedAtUTC": "2026-10-14T21:51:01.730708+00:00",
+  "stack": "flutter",
+  "platform": "android",
+  "variant": "S",
+  "flow": "scroll",
+  "inspectionBuild": false,
+  "exitCode": 0,
+  "sourceRevision": "2c008acb0ecef9667ce81732d0fceac620157e39",
+  "sourceDirty": false,
+  "flowRevision": "856eb9ba794cacc6b17c0eec79666047452f34ce",
+  "flowSourceSHA256": "070ee9f3293ba0388e9fd19a20b1ac81ddb7c281243a016cb7c773d3f5ac1d5d",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "ec7606e2ea0cfe44116f80602c6ed2ab6efed52ad8a2aededc066475f2700ac1",
+  "logSHA256": "1e86a7dcfe401e25303ddd1868f3a6b02c5de1eed2d35d8f0d9953308d421136",
+  "appId": "dev.devaxes.flutter_pilot",
+  "maestro": "2.11.0",
+  "report": "results/verification/flutter-android-S-scroll.xml",
+  "visuals": [
+    {
+      "path": "results/visuals/android/flutter/S/scroll-after.png",
+      "sha256": "0454e5e245c38d4478b4593fb5a696c6e719b1a42344774df132637da14ec0b6"
+    },
+    {
+      "path": "results/visuals/android/flutter/S/scroll-before.png",
+      "sha256": "0454e5e245c38d4478b4593fb5a696c6e719b1a42344774df132637da14ec0b6"
+    }
+  ]
+}

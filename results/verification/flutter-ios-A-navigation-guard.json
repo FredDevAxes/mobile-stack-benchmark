@@ -1,0 +1,20 @@
+{
+  "executedAtUTC": "2026-10-14T21:41:48.680040+00:00",
+  "stack": "flutter",
+  "platform": "ios",
+  "variant": "A",
+  "flow": "navigation-guard",
+  "inspectionBuild": false,
+  "exitCode": 0,
+  "sourceRevision": "2c008acb0ecef9667ce81732d0fceac620157e39",
+  "sourceDirty": false,
+  "flowRevision": "2c008acb0ecef9667ce81732d0fceac620157e39",
+  "flowSourceSHA256": "1f040ef9bb6fc55202a0d992316a24f0006c9cdd3d0ce66db3fd78e9b7483869",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "5d6ba61229693086f38f98f4863990866a0d56e4b9833ecc51d35f42f70ba61c",
+  "logSHA256": "4af780d0ccf82ef9a4a549bff6ff9324d0a6aa682dc1c792d1367b2927c15e05",
+  "appId": "dev.devaxes.flutterPilot",
+  "maestro": "2.11.0",
+  "report": "results/verification/flutter-ios-A-navigation-guard.xml"
+}

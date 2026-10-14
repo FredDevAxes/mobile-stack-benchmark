@@ -1,0 +1,20 @@
+{
+  "executedAtUTC": "2026-10-14T21:50:17.958100+00:00",
+  "stack": "flutter",
+  "platform": "android",
+  "variant": "S",
+  "flow": "catalogue",
+  "inspectionBuild": false,
+  "exitCode": 0,
+  "sourceRevision": "2c008acb0ecef9667ce81732d0fceac620157e39",
+  "sourceDirty": false,
+  "flowRevision": "856eb9ba794cacc6b17c0eec79666047452f34ce",
+  "flowSourceSHA256": "c5151b2c84a29fb2e0cd69577eaca06b65110fa40e75f816f46ca35668250a88",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "ec7606e2ea0cfe44116f80602c6ed2ab6efed52ad8a2aededc066475f2700ac1",
+  "logSHA256": "942fa943ee7173dea1abf23acbb3592667523bd123554e31630c2d8c83b565b0",
+  "appId": "dev.devaxes.flutter_pilot",
+  "maestro": "2.11.0",
+  "report": "results/verification/flutter-android-S-catalogue.xml"
+}

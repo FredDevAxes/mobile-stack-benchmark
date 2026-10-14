@@ -1,0 +1,26 @@
+[
+  {
+    "platform": "android",
+    "output": "results/visuals/android/comparison.mp4",
+    "durationSeconds": 5.827711,
+    "method": "Aligned at recording start, shorter panels hold last frame, normalized to 30 fps, no speed change, no timing ranking",
+    "sources": [
+      "results/visuals/android/flutter/demo.mp4",
+      "results/visuals/android/react-native/demo.mp4",
+      "results/visuals/android/compose/demo.mp4"
+    ],
+    "labels": "Pillow-rendered title bars outside app pixels; does not require optional FFmpeg drawtext"
+  },
+  {
+    "platform": "ios",
+    "output": "results/visuals/ios/comparison.mp4",
+    "durationSeconds": 3.621667,
+    "method": "Aligned at recording start, shorter panels hold last frame, normalized to 30 fps, no speed change, no timing ranking",
+    "sources": [
+      "results/visuals/ios/flutter/demo.mp4",
+      "results/visuals/ios/react-native/demo.mp4",
+      "results/visuals/ios/swift/demo.mp4"
+    ],
+    "labels": "Pillow-rendered title bars outside app pixels; does not require optional FFmpeg drawtext"
+  }
+]

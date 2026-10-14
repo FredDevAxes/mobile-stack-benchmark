@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites>
+  <testsuite name="Test Suite" tests="1" failures="0" time="14.753" timestamp="2026-10-14T23:42:21">
+    <testcase id="Deterministic visual timeline (inspection build only)" name="Deterministic visual timeline (inspection build only)" classname="Deterministic visual timeline (inspection build only)" file="verification/progress.yaml" time="14.686" timestamp="2026-10-14T23:42:21" status="SUCCESS" />
+  </testsuite>
+</testsuites>

@@ -97,6 +97,26 @@ identical through these tooling corrections.
 The final reduced-motion probe exposed a Flutter 3.47 distinction: iOS Reduce
 Motion sets `AccessibilityFeatures.reduceMotion`, while Android Remove animations
 sets `disableAnimations`. The app checks both engine flags and observes live
-accessibility changes. Writing the iOS simulator preference alone did not notify
-the running process; the verification runner restarts the dedicated simulator
-after changing its setting. The probe validates the actual flag after launch.
+accessibility changes. The distinction is documented by [Flutter](https://api.flutter.dev/flutter/widgets/MediaQueryData/disableAnimations.html).
+The verification runner restarts the dedicated simulator after changing its
+setting, then the probe validates the actual engine flag after launch.
+
+A SwiftUI reduced-motion attempt exposed an unchanged first card tap after
+launch: the engine flag was reduced, but the catalogue remained visible. The
+common probe now waits for a stable frame and retries only if the tap changes
+nothing, following the same documented driver strategy as the scroll flow.
+The failed attempt is retained; this does not establish its underlying cause.
+
+On RN Android, UIAutomator returned the disabled catalogue's favorite node even
+while the detail was visible (`important-for-accessibility=false`). A plain
+label selector tapped its background coordinates, leaving the detail favorite
+unchanged. The common F2 flow now anchors the favorite button below the unique
+detail description, using [Maestro relational selectors](https://docs.maestro.dev/reference/selectors/relational-selectors).
+This verifies the intended detail action without changing application code or
+relabeling earlier successful flows. The unsuccessful attempt is retained.
+
+The final timeline review exposed SwiftUI's implicit disabled-button dimming in
+the background catalogue, before the programmed backdrop fade. The catalogue
+now blocks hit testing while detail is active, retaining accessibility hiding
+without changing image colors. This visual correction is rebuilt and verified
+only for SwiftUI; Android diagnostics and the other app sources are unchanged.

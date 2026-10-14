@@ -1,0 +1,20 @@
+{
+  "executedAtUTC": "2026-10-14T23:09:10.551090+00:00",
+  "stack": "swift",
+  "platform": "ios",
+  "variant": "A",
+  "flow": "reduced-motion",
+  "inspectionBuild": true,
+  "exitCode": 0,
+  "sourceRevision": "3012da84b550f5e7e45308c57873925e84c6d781",
+  "sourceDirty": false,
+  "flowRevision": "3012da84b550f5e7e45308c57873925e84c6d781",
+  "flowSourceSHA256": "eda74088faa5b23c372398fae3f577bbf506070ab9265655b2dc11d99fd0a0e0",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "235a9a1f6ae875a81784bfa34632857e8b53ed9509a5beb7bbe8a9a9876d9d02",
+  "logSHA256": "012c4a8468413d40e411f799589214cbcbb65686e8bb2035d888c2b7e08caf54",
+  "appId": "dev.devaxes.catalogue.swift",
+  "maestro": "2.11.0",
+  "report": "results/verification/swift-ios-A-reduced-motion.xml"
+}

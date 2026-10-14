@@ -1,0 +1,109 @@
+{
+  "recordedAtUTC": "2026-10-14T22:19:22.949357+00:00",
+  "host": {
+    "model": "MacBookPro18,3",
+    "chip": "Apple M1 Pro",
+    "ramBytes": 17179869184,
+    "macOS": "26.6.2",
+    "macOSBuild": "25G83",
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=33226851)\t100%; charged; 0:00 remaining present: true",
+    "vmStat": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                                     5824.\nPages active:                                 197908.\nPages inactive:                               173552.\nPages speculative:                             22992.\nPages throttled:                                   0.\nPages wired down:                             222389.\nPages purgeable:                                 408.\n\"Translation faults\":                    45482039511.\nPages copy-on-write:                       441554989.\nPages zero filled:                        7572875110.\nPages reactivated:                       15279770463.\nPages purged:                              262661333.\nFile-backed pages:                            137406.\nAnonymous pages:                              257046.\nPages stored in compressor:                  2334089.\nPages occupied by compressor:                 373479.\nDecompressions:                          24048741615.\nCompressions:                            24787366206.\nPageins:                                   375351245.\nPageouts:                                    6771291.\nSwapins:                                   188404427.\nSwapouts:                                  204866396."
+  },
+  "toolchain": {
+    "flutter": "3.47.7",
+    "flutterRevision": "abaf9c523780a608bd46686fd5e53740a07077f8",
+    "dart": "3.13.5",
+    "reactNative": "0.86.3",
+    "node": "24.13.0",
+    "jdk": "17.0.11",
+    "xcode": "27.0",
+    "swift": "6.4",
+    "cloc": "2.10",
+    "gitleaks": "8.30.1",
+    "cocoapods": "1.16.2",
+    "ruby": "3.3.6",
+    "androidCompileSdk": 36,
+    "androidTargetSdk": 36,
+    "androidMinSdk": 24,
+    "iosDeploymentTarget": "18.0",
+    "maestro": "2.11.0",
+    "ktlint": "1.7.1",
+    "python": "3.12.9",
+    "flutterLocalJdk": "25.0.3+-15898627-b508.16",
+    "macOS": "26.6.2",
+    "androidRuntimeApi": 35,
+    "iosSimulatorRuntime": "26.5"
+  },
+  "android": {
+    "kind": "AVD, not a physical Pixel",
+    "name": "LabPilot_API35",
+    "api": 35,
+    "architecture": "arm64-v8a",
+    "profile": "Pixel 6",
+    "resolutionPx": [
+      1080,
+      2400
+    ],
+    "densityDpi": 420,
+    "gpu": "host",
+    "snapshots": false,
+    "observed": {
+      "osRelease": "15",
+      "api": 35,
+      "abi": "arm64-v8a",
+      "imageBuildFingerprint": "google/sdk_gphone64_arm64/emu64a:15/AE3A.240806.036/12592187:user/release-keys",
+      "resolution": "Physical size: 1080x2400",
+      "density": "Physical density: 420",
+      "fontScale": "1.0",
+      "animationScales": {
+        "animator_duration_scale": "1",
+        "transition_animation_scale": "1",
+        "window_animation_scale": "1"
+      },
+      "guestMemTotal": "MemTotal:        2022068 kB",
+      "cpuCount": 4,
+      "surfaceFlingerGL": [
+        "GLES: Google (Apple), Android Emulator OpenGL ES Translator (Apple M1 Pro), OpenGL ES 3.0 (4.1 Metal - 90.5)"
+      ],
+      "emulatorVersion": "Android emulator version 35.6.11.0 (build_id 13610412) (CL:N/A)",
+      "launchFlags": [
+        "-memory",
+        "2048",
+        "-cores",
+        "4",
+        "-no-window",
+        "-no-audio",
+        "-no-snapshot",
+        "-gpu",
+        "host"
+      ],
+      "playStoreEnabled": false,
+      "recordedAtUTC": "2026-10-14T22:19:24.125863+00:00"
+    }
+  },
+  "ios": {
+    "kind": "Simulator, not a physical iPhone",
+    "profile": "iPhone 17 Pro",
+    "runtime": "26.5",
+    "resolutionPx": [
+      1206,
+      2622
+    ],
+    "logicalSize": [
+      402,
+      874
+    ],
+    "scale": 3
+  },
+  "execution": {
+    "android": "Release; no debugger/Metro",
+    "swiftAndRNios": "optimized Release simulator; no debugger/Metro",
+    "flutterIos": "Debug simulator; no debugger attached",
+    "deviceIos": "unsigned Release arm64, compiled only"
+  },
+  "limits": [
+    "Shared development host; background activity not fully controlled",
+    "Runner OS images and SDK distributions can drift; record actual versions",
+    "All diagnostics refer to virtual environments"
+  ]
+}

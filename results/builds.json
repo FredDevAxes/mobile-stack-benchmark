@@ -1,5 +1,5 @@
 {
-  "collectedAtUTC": "2026-10-14T20:29:00.154288+00:00",
+  "collectedAtUTC": "2026-10-14T23:04:34.977441+00:00",
   "definitions": {
     "android": "Complete APK file bytes; arm64-v8a only; local development signing",
     "ios": "Sum of logical regular-file bytes, excluding duplicate symlink targets; unsigned device arm64; external symbols excluded"
@@ -11,13 +11,13 @@
       "platform": "android",
       "artifactKind": "arm64 Release APK",
       "build": {
-        "builtAtUTC": "2026-10-14T20:19:41.845161+00:00",
+        "builtAtUTC": "2026-10-14T21:33:19.256906+00:00",
         "stack": "flutter",
         "variant": "S",
         "platform": "android",
         "inspectionBuild": false,
         "source": {
-          "revision": "01341d9a4d6d649b69b9b07ee5603bbb843ce86e",
+          "revision": "2c008acb0ecef9667ce81732d0fceac620157e39",
           "dirty": false,
           "files": {
             "apps/compose/README.md": "371d50f2cc2d9554101e4f8fce6823d24647b962a200257897593ec31d26e720",
@@ -103,10 +103,10 @@
             "apps/flutter/ios/Runner/SceneDelegate.swift": "add68b905971dedfcc0d0b5b7118030de5925ba8c081ad9815463699e3a444ad",
             "apps/flutter/ios/RunnerTests/RunnerTests.swift": "5e8f4908dacea6f29b2a790e4d38bf5fded69096063f9a27a2f21584d62b30c0",
             "apps/flutter/lib/catalogue.dart": "f80f30f69478ff9225482d0989c1f31001dcacc4cc201d9d7a2cf934900b8671",
-            "apps/flutter/lib/main.dart": "effe36b1bc69210d8f9c08609bdfcca5f41c06f28e2dc5140c824775d3711814",
+            "apps/flutter/lib/main.dart": "df0711fac8d6af8a7314a0099568fdcc38fc174ce2022bd5da72f0473f10314d",
             "apps/flutter/pubspec.lock": "db5884a9bd0a885c33583a7a147b879cd0ad620da93ccf1ac2d93ddb7dcfeef9",
             "apps/flutter/pubspec.yaml": "59f84836117759470d2f43a9dae40d965a651b6886f42cee89cd4c48fbc6e2c4",
-            "apps/flutter/test/catalogue_test.dart": "557c49fa9437cc4ee5908b3e26609414afd75263b1f6a0a3d54b7470f3b338c8",
+            "apps/flutter/test/catalogue_test.dart": "9a1f31f84f3b3ce0322d244badd715745f1d32d0052978e2488a7f8971047800",
             "apps/flutter/variants/animated.dart": "fa467cba6ff6df39c39bb2a2301a9a076775f320536e223d0801f0546d1344f6",
             "apps/flutter/variants/instant.dart": "1797d96dde55b8a2f0661239312bbf85a842653e4031bc321292beead5597be2",
             "apps/react-native/.eslintrc.js": "fed8548846eb442e1d15eca1cc1b399717dd23af0331a0db528f3373526c8ae7",
@@ -179,9 +179,9 @@
             "apps/swift/variants/instant.swift": "9631c4bff4cb289d77f30659ebb8a25adbc67fb1200ded7eb2f67c12c17faaf4",
             "scripts/assets.py": "24dc72692c16e4d77dc599b9a5f708b037a1a7954b70c276debea22809f749c6",
             "scripts/build_swift.py": "8164023d017546c3cc313fc2f660c4fea7ea64c4a2827cb61a2943c6ddcc6a19",
-            "scripts/lab.py": "bd2b9fbb6f6e2d93c6da08ca0f9fabd9cec2799f9ccfb60c61c0d612c95d2faa",
+            "scripts/lab.py": "3c159db552095a4f7c68b72ec029aff1bbcfe2b0b0889870ad79f0da5ce4c6b2",
             "scripts/prepare.py": "27ce5c89e6c99b94b4778ad6755e83981aaab344ecb70ef41535fcca68a51a6d",
-            "scripts/source_mode.py": "461ca4ec148afead98bce4b05100859fda6d3854a1a5bc3cf0cf6b243462ac1c",
+            "scripts/source_mode.py": "7717e26308f7a08c040627e16f2ebda6871bda3fea6f355dd0864efa65a933f0",
             "shared/images/gear-01.png": "76e1965d123dd5ffeff4a00ccb729d25fee1be120b31f11ca5e4ec53d76c33e2",
             "shared/images/gear-02.png": "bfdf45352201a3ba1cf22c30decd2be97fc4cf0e30df76ddabe01e67ae25b8a1",
             "shared/images/gear-03.png": "1ba839df7037e316de46b2e6d7fc94310c05122dd7ef7174c9343a7a270ec73c",
@@ -207,7 +207,9 @@
             "toolchain.json": "b8969240f26ecbf68a7c18651b85ef200170db6fb7071bffac2fcadc2777d071"
           }
         },
-        "artifactSHA256": "fce0f4035246a67f7578ac6e5b6c580db7d8f6b615ca0d5c0a4d1afd52c8d8f0",
+        "orchestratorPython": "3.12.9",
+        "nodeUsed": null,
+        "artifactSHA256": "ec7606e2ea0cfe44116f80602c6ed2ab6efed52ad8a2aededc066475f2700ac1",
         "reproductionCommand": [
           "python3",
           "scripts/lab.py",
@@ -233,13 +235,13 @@
       "platform": "ios",
       "artifactKind": "unsigned arm64 Release app bundle",
       "build": {
-        "builtAtUTC": "2026-10-14T20:20:32.896176+00:00",
+        "builtAtUTC": "2026-10-14T21:34:22.490928+00:00",
         "stack": "flutter",
         "variant": "S",
         "platform": "device",
         "inspectionBuild": false,
         "source": {
-          "revision": "01341d9a4d6d649b69b9b07ee5603bbb843ce86e",
+          "revision": "2c008acb0ecef9667ce81732d0fceac620157e39",
           "dirty": false,
           "files": {
             "apps/compose/README.md": "371d50f2cc2d9554101e4f8fce6823d24647b962a200257897593ec31d26e720",
@@ -325,10 +327,10 @@
             "apps/flutter/ios/Runner/SceneDelegate.swift": "add68b905971dedfcc0d0b5b7118030de5925ba8c081ad9815463699e3a444ad",
             "apps/flutter/ios/RunnerTests/RunnerTests.swift": "5e8f4908dacea6f29b2a790e4d38bf5fded69096063f9a27a2f21584d62b30c0",
             "apps/flutter/lib/catalogue.dart": "f80f30f69478ff9225482d0989c1f31001dcacc4cc201d9d7a2cf934900b8671",
-            "apps/flutter/lib/main.dart": "effe36b1bc69210d8f9c08609bdfcca5f41c06f28e2dc5140c824775d3711814",
+            "apps/flutter/lib/main.dart": "df0711fac8d6af8a7314a0099568fdcc38fc174ce2022bd5da72f0473f10314d",
             "apps/flutter/pubspec.lock": "db5884a9bd0a885c33583a7a147b879cd0ad620da93ccf1ac2d93ddb7dcfeef9",
             "apps/flutter/pubspec.yaml": "59f84836117759470d2f43a9dae40d965a651b6886f42cee89cd4c48fbc6e2c4",
-            "apps/flutter/test/catalogue_test.dart": "557c49fa9437cc4ee5908b3e26609414afd75263b1f6a0a3d54b7470f3b338c8",
+            "apps/flutter/test/catalogue_test.dart": "9a1f31f84f3b3ce0322d244badd715745f1d32d0052978e2488a7f8971047800",
             "apps/flutter/variants/animated.dart": "fa467cba6ff6df39c39bb2a2301a9a076775f320536e223d0801f0546d1344f6",
             "apps/flutter/variants/instant.dart": "1797d96dde55b8a2f0661239312bbf85a842653e4031bc321292beead5597be2",
             "apps/react-native/.eslintrc.js": "fed8548846eb442e1d15eca1cc1b399717dd23af0331a0db528f3373526c8ae7",
@@ -401,9 +403,9 @@
             "apps/swift/variants/instant.swift": "9631c4bff4cb289d77f30659ebb8a25adbc67fb1200ded7eb2f67c12c17faaf4",
             "scripts/assets.py": "24dc72692c16e4d77dc599b9a5f708b037a1a7954b70c276debea22809f749c6",
             "scripts/build_swift.py": "8164023d017546c3cc313fc2f660c4fea7ea64c4a2827cb61a2943c6ddcc6a19",
-            "scripts/lab.py": "bd2b9fbb6f6e2d93c6da08ca0f9fabd9cec2799f9ccfb60c61c0d612c95d2faa",
+            "scripts/lab.py": "3c159db552095a4f7c68b72ec029aff1bbcfe2b0b0889870ad79f0da5ce4c6b2",
             "scripts/prepare.py": "27ce5c89e6c99b94b4778ad6755e83981aaab344ecb70ef41535fcca68a51a6d",
-            "scripts/source_mode.py": "461ca4ec148afead98bce4b05100859fda6d3854a1a5bc3cf0cf6b243462ac1c",
+            "scripts/source_mode.py": "7717e26308f7a08c040627e16f2ebda6871bda3fea6f355dd0864efa65a933f0",
             "shared/images/gear-01.png": "76e1965d123dd5ffeff4a00ccb729d25fee1be120b31f11ca5e4ec53d76c33e2",
             "shared/images/gear-02.png": "bfdf45352201a3ba1cf22c30decd2be97fc4cf0e30df76ddabe01e67ae25b8a1",
             "shared/images/gear-03.png": "1ba839df7037e316de46b2e6d7fc94310c05122dd7ef7174c9343a7a270ec73c",
@@ -429,7 +431,9 @@
             "toolchain.json": "b8969240f26ecbf68a7c18651b85ef200170db6fb7071bffac2fcadc2777d071"
           }
         },
-        "artifactSHA256": "775b9469da1a301fa560e40627233bf5bb64d4a2bf7424973010105dff19025d",
+        "orchestratorPython": "3.12.9",
+        "nodeUsed": null,
+        "artifactSHA256": "7ef4f17aee04b256f261e14f2172da555079c734f9648ed45a49b2171d6199b3",
         "reproductionCommand": [
           "python3",
           "scripts/lab.py",
@@ -464,13 +468,13 @@
       "platform": "android",
       "artifactKind": "arm64 Release APK",
       "build": {
-        "builtAtUTC": "2026-10-14T20:20:50.077713+00:00",
+        "builtAtUTC": "2026-10-14T21:34:43.919048+00:00",
         "stack": "flutter",
         "variant": "A",
         "platform": "android",
         "inspectionBuild": false,
         "source": {
-          "revision": "01341d9a4d6d649b69b9b07ee5603bbb843ce86e",
+          "revision": "2c008acb0ecef9667ce81732d0fceac620157e39",
           "dirty": false,
           "files": {
             "apps/compose/README.md": "371d50f2cc2d9554101e4f8fce6823d24647b962a200257897593ec31d26e720",
@@ -556,10 +560,10 @@
             "apps/flutter/ios/Runner/SceneDelegate.swift": "add68b905971dedfcc0d0b5b7118030de5925ba8c081ad9815463699e3a444ad",
             "apps/flutter/ios/RunnerTests/RunnerTests.swift": "5e8f4908dacea6f29b2a790e4d38bf5fded69096063f9a27a2f21584d62b30c0",
             "apps/flutter/lib/catalogue.dart": "f80f30f69478ff9225482d0989c1f31001dcacc4cc201d9d7a2cf934900b8671",
-            "apps/flutter/lib/main.dart": "effe36b1bc69210d8f9c08609bdfcca5f41c06f28e2dc5140c824775d3711814",
+            "apps/flutter/lib/main.dart": "df0711fac8d6af8a7314a0099568fdcc38fc174ce2022bd5da72f0473f10314d",
             "apps/flutter/pubspec.lock": "db5884a9bd0a885c33583a7a147b879cd0ad620da93ccf1ac2d93ddb7dcfeef9",
             "apps/flutter/pubspec.yaml": "59f84836117759470d2f43a9dae40d965a651b6886f42cee89cd4c48fbc6e2c4",
-            "apps/flutter/test/catalogue_test.dart": "557c49fa9437cc4ee5908b3e26609414afd75263b1f6a0a3d54b7470f3b338c8",
+            "apps/flutter/test/catalogue_test.dart": "9a1f31f84f3b3ce0322d244badd715745f1d32d0052978e2488a7f8971047800",
             "apps/flutter/variants/animated.dart": "fa467cba6ff6df39c39bb2a2301a9a076775f320536e223d0801f0546d1344f6",
             "apps/flutter/variants/instant.dart": "1797d96dde55b8a2f0661239312bbf85a842653e4031bc321292beead5597be2",
             "apps/react-native/.eslintrc.js": "fed8548846eb442e1d15eca1cc1b399717dd23af0331a0db528f3373526c8ae7",
@@ -632,9 +636,9 @@
             "apps/swift/variants/instant.swift": "9631c4bff4cb289d77f30659ebb8a25adbc67fb1200ded7eb2f67c12c17faaf4",
             "scripts/assets.py": "24dc72692c16e4d77dc599b9a5f708b037a1a7954b70c276debea22809f749c6",
             "scripts/build_swift.py": "8164023d017546c3cc313fc2f660c4fea7ea64c4a2827cb61a2943c6ddcc6a19",
-            "scripts/lab.py": "bd2b9fbb6f6e2d93c6da08ca0f9fabd9cec2799f9ccfb60c61c0d612c95d2faa",
+            "scripts/lab.py": "3c159db552095a4f7c68b72ec029aff1bbcfe2b0b0889870ad79f0da5ce4c6b2",
             "scripts/prepare.py": "27ce5c89e6c99b94b4778ad6755e83981aaab344ecb70ef41535fcca68a51a6d",
-            "scripts/source_mode.py": "461ca4ec148afead98bce4b05100859fda6d3854a1a5bc3cf0cf6b243462ac1c",
+            "scripts/source_mode.py": "7717e26308f7a08c040627e16f2ebda6871bda3fea6f355dd0864efa65a933f0",
             "shared/images/gear-01.png": "76e1965d123dd5ffeff4a00ccb729d25fee1be120b31f11ca5e4ec53d76c33e2",
             "shared/images/gear-02.png": "bfdf45352201a3ba1cf22c30decd2be97fc4cf0e30df76ddabe01e67ae25b8a1",
             "shared/images/gear-03.png": "1ba839df7037e316de46b2e6d7fc94310c05122dd7ef7174c9343a7a270ec73c",
@@ -660,7 +664,9 @@
             "toolchain.json": "b8969240f26ecbf68a7c18651b85ef200170db6fb7071bffac2fcadc2777d071"
           }
         },
-        "artifactSHA256": "fe1883a4fa6aab5aa29e8c54c6b1faf89a6e9bb723d788a0bb25efa83c239a1c",
+        "orchestratorPython": "3.12.9",
+        "nodeUsed": null,
+        "artifactSHA256": "77aaf9142ec7378e99c73a10f982b4686fd082cf304f50e927aea785d9cab5aa",
         "reproductionCommand": [
           "python3",
           "scripts/lab.py",
@@ -686,13 +692,13 @@
       "platform": "ios",
       "artifactKind": "unsigned arm64 Release app bundle",
       "build": {
-        "builtAtUTC": "2026-10-14T20:21:43.174466+00:00",
+        "builtAtUTC": "2026-10-14T21:35:46.824514+00:00",
         "stack": "flutter",
         "variant": "A",
         "platform": "device",
         "inspectionBuild": false,
         "source": {
-          "revision": "01341d9a4d6d649b69b9b07ee5603bbb843ce86e",
+          "revision": "2c008acb0ecef9667ce81732d0fceac620157e39",
           "dirty": false,
           "files": {
             "apps/compose/README.md": "371d50f2cc2d9554101e4f8fce6823d24647b962a200257897593ec31d26e720",
@@ -778,10 +784,10 @@
             "apps/flutter/ios/Runner/SceneDelegate.swift": "add68b905971dedfcc0d0b5b7118030de5925ba8c081ad9815463699e3a444ad",
             "apps/flutter/ios/RunnerTests/RunnerTests.swift": "5e8f4908dacea6f29b2a790e4d38bf5fded69096063f9a27a2f21584d62b30c0",
             "apps/flutter/lib/catalogue.dart": "f80f30f69478ff9225482d0989c1f31001dcacc4cc201d9d7a2cf934900b8671",
-            "apps/flutter/lib/main.dart": "effe36b1bc69210d8f9c08609bdfcca5f41c06f28e2dc5140c824775d3711814",
+            "apps/flutter/lib/main.dart": "df0711fac8d6af8a7314a0099568fdcc38fc174ce2022bd5da72f0473f10314d",
             "apps/flutter/pubspec.lock": "db5884a9bd0a885c33583a7a147b879cd0ad620da93ccf1ac2d93ddb7dcfeef9",
             "apps/flutter/pubspec.yaml": "59f84836117759470d2f43a9dae40d965a651b6886f42cee89cd4c48fbc6e2c4",
-            "apps/flutter/test/catalogue_test.dart": "557c49fa9437cc4ee5908b3e26609414afd75263b1f6a0a3d54b7470f3b338c8",
+            "apps/flutter/test/catalogue_test.dart": "9a1f31f84f3b3ce0322d244badd715745f1d32d0052978e2488a7f8971047800",
             "apps/flutter/variants/animated.dart": "fa467cba6ff6df39c39bb2a2301a9a076775f320536e223d0801f0546d1344f6",
             "apps/flutter/variants/instant.dart": "1797d96dde55b8a2f0661239312bbf85a842653e4031bc321292beead5597be2",
             "apps/react-native/.eslintrc.js": "fed8548846eb442e1d15eca1cc1b399717dd23af0331a0db528f3373526c8ae7",
@@ -854,9 +860,9 @@
             "apps/swift/variants/instant.swift": "9631c4bff4cb289d77f30659ebb8a25adbc67fb1200ded7eb2f67c12c17faaf4",
             "scripts/assets.py": "24dc72692c16e4d77dc599b9a5f708b037a1a7954b70c276debea22809f749c6",
             "scripts/build_swift.py": "8164023d017546c3cc313fc2f660c4fea7ea64c4a2827cb61a2943c6ddcc6a19",
-            "scripts/lab.py": "bd2b9fbb6f6e2d93c6da08ca0f9fabd9cec2799f9ccfb60c61c0d612c95d2faa",
+            "scripts/lab.py": "3c159db552095a4f7c68b72ec029aff1bbcfe2b0b0889870ad79f0da5ce4c6b2",
             "scripts/prepare.py": "27ce5c89e6c99b94b4778ad6755e83981aaab344ecb70ef41535fcca68a51a6d",
-            "scripts/source_mode.py": "461ca4ec148afead98bce4b05100859fda6d3854a1a5bc3cf0cf6b243462ac1c",
+            "scripts/source_mode.py": "7717e26308f7a08c040627e16f2ebda6871bda3fea6f355dd0864efa65a933f0",
             "shared/images/gear-01.png": "76e1965d123dd5ffeff4a00ccb729d25fee1be120b31f11ca5e4ec53d76c33e2",
             "shared/images/gear-02.png": "bfdf45352201a3ba1cf22c30decd2be97fc4cf0e30df76ddabe01e67ae25b8a1",
             "shared/images/gear-03.png": "1ba839df7037e316de46b2e6d7fc94310c05122dd7ef7174c9343a7a270ec73c",
@@ -882,7 +888,9 @@
             "toolchain.json": "b8969240f26ecbf68a7c18651b85ef200170db6fb7071bffac2fcadc2777d071"
           }
         },
-        "artifactSHA256": "511fa8b70afbe4c4d32911da4dec679dbde83a1f8d628fcbbd146d7939ca1046",
+        "orchestratorPython": "3.12.9",
+        "nodeUsed": null,
+        "artifactSHA256": "e89a4f402e0c717b05c3b51af7d18f435a0687bed9b111ecb863b8c934d94fd2",
         "reproductionCommand": [
           "python3",
           "scripts/lab.py",
@@ -917,13 +925,13 @@
       "platform": "android",
       "artifactKind": "arm64 Release APK",
       "build": {
-        "builtAtUTC": "2026-10-14T20:22:05.593307+00:00",
+        "builtAtUTC": "2026-10-14T21:02:36.532648+00:00",
         "stack": "react-native",
         "variant": "S",
         "platform": "android",
         "inspectionBuild": false,
         "source": {
-          "revision": "01341d9a4d6d649b69b9b07ee5603bbb843ce86e",
+          "revision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
           "dirty": false,
           "files": {
             "apps/compose/README.md": "371d50f2cc2d9554101e4f8fce6823d24647b962a200257897593ec31d26e720",
@@ -1085,9 +1093,9 @@
             "apps/swift/variants/instant.swift": "9631c4bff4cb289d77f30659ebb8a25adbc67fb1200ded7eb2f67c12c17faaf4",
             "scripts/assets.py": "24dc72692c16e4d77dc599b9a5f708b037a1a7954b70c276debea22809f749c6",
             "scripts/build_swift.py": "8164023d017546c3cc313fc2f660c4fea7ea64c4a2827cb61a2943c6ddcc6a19",
-            "scripts/lab.py": "bd2b9fbb6f6e2d93c6da08ca0f9fabd9cec2799f9ccfb60c61c0d612c95d2faa",
+            "scripts/lab.py": "3c159db552095a4f7c68b72ec029aff1bbcfe2b0b0889870ad79f0da5ce4c6b2",
             "scripts/prepare.py": "27ce5c89e6c99b94b4778ad6755e83981aaab344ecb70ef41535fcca68a51a6d",
-            "scripts/source_mode.py": "461ca4ec148afead98bce4b05100859fda6d3854a1a5bc3cf0cf6b243462ac1c",
+            "scripts/source_mode.py": "d53ac6a803f91f9be9c2f4465f4f793988d276aae756091a74e49a21b084e20d",
             "shared/images/gear-01.png": "76e1965d123dd5ffeff4a00ccb729d25fee1be120b31f11ca5e4ec53d76c33e2",
             "shared/images/gear-02.png": "bfdf45352201a3ba1cf22c30decd2be97fc4cf0e30df76ddabe01e67ae25b8a1",
             "shared/images/gear-03.png": "1ba839df7037e316de46b2e6d7fc94310c05122dd7ef7174c9343a7a270ec73c",
@@ -1113,6 +1121,8 @@
             "toolchain.json": "b8969240f26ecbf68a7c18651b85ef200170db6fb7071bffac2fcadc2777d071"
           }
         },
+        "orchestratorPython": "3.12.9",
+        "nodeUsed": "v24.13.0",
         "artifactSHA256": "ddfcdf654e4b84d349f1a99b3ede1214e74bb29e5a66e05842a67ec7759c16d7",
         "reproductionCommand": [
           "python3",
@@ -1139,13 +1149,13 @@
       "platform": "ios",
       "artifactKind": "unsigned arm64 Release app bundle",
       "build": {
-        "builtAtUTC": "2026-10-14T20:22:37.909083+00:00",
+        "builtAtUTC": "2026-10-14T21:03:02.079953+00:00",
         "stack": "react-native",
         "variant": "S",
         "platform": "device",
         "inspectionBuild": false,
         "source": {
-          "revision": "01341d9a4d6d649b69b9b07ee5603bbb843ce86e",
+          "revision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
           "dirty": false,
           "files": {
             "apps/compose/README.md": "371d50f2cc2d9554101e4f8fce6823d24647b962a200257897593ec31d26e720",
@@ -1307,9 +1317,9 @@
             "apps/swift/variants/instant.swift": "9631c4bff4cb289d77f30659ebb8a25adbc67fb1200ded7eb2f67c12c17faaf4",
             "scripts/assets.py": "24dc72692c16e4d77dc599b9a5f708b037a1a7954b70c276debea22809f749c6",
             "scripts/build_swift.py": "8164023d017546c3cc313fc2f660c4fea7ea64c4a2827cb61a2943c6ddcc6a19",
-            "scripts/lab.py": "bd2b9fbb6f6e2d93c6da08ca0f9fabd9cec2799f9ccfb60c61c0d612c95d2faa",
+            "scripts/lab.py": "3c159db552095a4f7c68b72ec029aff1bbcfe2b0b0889870ad79f0da5ce4c6b2",
             "scripts/prepare.py": "27ce5c89e6c99b94b4778ad6755e83981aaab344ecb70ef41535fcca68a51a6d",
-            "scripts/source_mode.py": "461ca4ec148afead98bce4b05100859fda6d3854a1a5bc3cf0cf6b243462ac1c",
+            "scripts/source_mode.py": "d53ac6a803f91f9be9c2f4465f4f793988d276aae756091a74e49a21b084e20d",
             "shared/images/gear-01.png": "76e1965d123dd5ffeff4a00ccb729d25fee1be120b31f11ca5e4ec53d76c33e2",
             "shared/images/gear-02.png": "bfdf45352201a3ba1cf22c30decd2be97fc4cf0e30df76ddabe01e67ae25b8a1",
             "shared/images/gear-03.png": "1ba839df7037e316de46b2e6d7fc94310c05122dd7ef7174c9343a7a270ec73c",
@@ -1335,6 +1345,8 @@
             "toolchain.json": "b8969240f26ecbf68a7c18651b85ef200170db6fb7071bffac2fcadc2777d071"
           }
         },
+        "orchestratorPython": "3.12.9",
+        "nodeUsed": "v24.13.0",
         "artifactSHA256": "c35c600f45b5ab3cd3efc3756eb618b8d7f47f5ac7e3b00e8c5583220a2987a1",
         "reproductionCommand": [
           "python3",
@@ -1373,13 +1385,13 @@
       "platform": "android",
       "artifactKind": "arm64 Release APK",
       "build": {
-        "builtAtUTC": "2026-10-14T20:23:00.394968+00:00",
+        "builtAtUTC": "2026-10-14T21:03:21.234465+00:00",
         "stack": "react-native",
         "variant": "A",
         "platform": "android",
         "inspectionBuild": false,
         "source": {
-          "revision": "01341d9a4d6d649b69b9b07ee5603bbb843ce86e",
+          "revision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
           "dirty": false,
           "files": {
             "apps/compose/README.md": "371d50f2cc2d9554101e4f8fce6823d24647b962a200257897593ec31d26e720",
@@ -1541,9 +1553,9 @@
             "apps/swift/variants/instant.swift": "9631c4bff4cb289d77f30659ebb8a25adbc67fb1200ded7eb2f67c12c17faaf4",
             "scripts/assets.py": "24dc72692c16e4d77dc599b9a5f708b037a1a7954b70c276debea22809f749c6",
             "scripts/build_swift.py": "8164023d017546c3cc313fc2f660c4fea7ea64c4a2827cb61a2943c6ddcc6a19",
-            "scripts/lab.py": "bd2b9fbb6f6e2d93c6da08ca0f9fabd9cec2799f9ccfb60c61c0d612c95d2faa",
+            "scripts/lab.py": "3c159db552095a4f7c68b72ec029aff1bbcfe2b0b0889870ad79f0da5ce4c6b2",
             "scripts/prepare.py": "27ce5c89e6c99b94b4778ad6755e83981aaab344ecb70ef41535fcca68a51a6d",
-            "scripts/source_mode.py": "461ca4ec148afead98bce4b05100859fda6d3854a1a5bc3cf0cf6b243462ac1c",
+            "scripts/source_mode.py": "d53ac6a803f91f9be9c2f4465f4f793988d276aae756091a74e49a21b084e20d",
             "shared/images/gear-01.png": "76e1965d123dd5ffeff4a00ccb729d25fee1be120b31f11ca5e4ec53d76c33e2",
             "shared/images/gear-02.png": "bfdf45352201a3ba1cf22c30decd2be97fc4cf0e30df76ddabe01e67ae25b8a1",
             "shared/images/gear-03.png": "1ba839df7037e316de46b2e6d7fc94310c05122dd7ef7174c9343a7a270ec73c",
@@ -1569,6 +1581,8 @@
             "toolchain.json": "b8969240f26ecbf68a7c18651b85ef200170db6fb7071bffac2fcadc2777d071"
           }
         },
+        "orchestratorPython": "3.12.9",
+        "nodeUsed": "v24.13.0",
         "artifactSHA256": "36421247f8a02df1c632f2a690b8b19d4889be6bdaf8c9e448544943ad0ce562",
         "reproductionCommand": [
           "python3",
@@ -1595,13 +1609,13 @@
       "platform": "ios",
       "artifactKind": "unsigned arm64 Release app bundle",
       "build": {
-        "builtAtUTC": "2026-10-14T20:23:29.360670+00:00",
+        "builtAtUTC": "2026-10-14T21:03:43.393321+00:00",
         "stack": "react-native",
         "variant": "A",
         "platform": "device",
         "inspectionBuild": false,
         "source": {
-          "revision": "01341d9a4d6d649b69b9b07ee5603bbb843ce86e",
+          "revision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
           "dirty": false,
           "files": {
             "apps/compose/README.md": "371d50f2cc2d9554101e4f8fce6823d24647b962a200257897593ec31d26e720",
@@ -1763,9 +1777,9 @@
             "apps/swift/variants/instant.swift": "9631c4bff4cb289d77f30659ebb8a25adbc67fb1200ded7eb2f67c12c17faaf4",
             "scripts/assets.py": "24dc72692c16e4d77dc599b9a5f708b037a1a7954b70c276debea22809f749c6",
             "scripts/build_swift.py": "8164023d017546c3cc313fc2f660c4fea7ea64c4a2827cb61a2943c6ddcc6a19",
-            "scripts/lab.py": "bd2b9fbb6f6e2d93c6da08ca0f9fabd9cec2799f9ccfb60c61c0d612c95d2faa",
+            "scripts/lab.py": "3c159db552095a4f7c68b72ec029aff1bbcfe2b0b0889870ad79f0da5ce4c6b2",
             "scripts/prepare.py": "27ce5c89e6c99b94b4778ad6755e83981aaab344ecb70ef41535fcca68a51a6d",
-            "scripts/source_mode.py": "461ca4ec148afead98bce4b05100859fda6d3854a1a5bc3cf0cf6b243462ac1c",
+            "scripts/source_mode.py": "d53ac6a803f91f9be9c2f4465f4f793988d276aae756091a74e49a21b084e20d",
             "shared/images/gear-01.png": "76e1965d123dd5ffeff4a00ccb729d25fee1be120b31f11ca5e4ec53d76c33e2",
             "shared/images/gear-02.png": "bfdf45352201a3ba1cf22c30decd2be97fc4cf0e30df76ddabe01e67ae25b8a1",
             "shared/images/gear-03.png": "1ba839df7037e316de46b2e6d7fc94310c05122dd7ef7174c9343a7a270ec73c",
@@ -1791,6 +1805,8 @@
             "toolchain.json": "b8969240f26ecbf68a7c18651b85ef200170db6fb7071bffac2fcadc2777d071"
           }
         },
+        "orchestratorPython": "3.12.9",
+        "nodeUsed": "v24.13.0",
         "artifactSHA256": "9bf1277951264fafc66aa7c56a3ad039af21bf3d4e634bd7834f2ba8d97e2bf0",
         "reproductionCommand": [
           "python3",
@@ -1829,13 +1845,13 @@
       "platform": "android",
       "artifactKind": "arm64 Release APK",
       "build": {
-        "builtAtUTC": "2026-10-14T20:24:18.945273+00:00",
+        "builtAtUTC": "2026-10-14T21:03:51.021673+00:00",
         "stack": "compose",
         "variant": "S",
         "platform": "android",
         "inspectionBuild": false,
         "source": {
-          "revision": "01341d9a4d6d649b69b9b07ee5603bbb843ce86e",
+          "revision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
           "dirty": false,
           "files": {
             "apps/compose/README.md": "371d50f2cc2d9554101e4f8fce6823d24647b962a200257897593ec31d26e720",
@@ -1997,9 +2013,9 @@
             "apps/swift/variants/instant.swift": "9631c4bff4cb289d77f30659ebb8a25adbc67fb1200ded7eb2f67c12c17faaf4",
             "scripts/assets.py": "24dc72692c16e4d77dc599b9a5f708b037a1a7954b70c276debea22809f749c6",
             "scripts/build_swift.py": "8164023d017546c3cc313fc2f660c4fea7ea64c4a2827cb61a2943c6ddcc6a19",
-            "scripts/lab.py": "bd2b9fbb6f6e2d93c6da08ca0f9fabd9cec2799f9ccfb60c61c0d612c95d2faa",
+            "scripts/lab.py": "3c159db552095a4f7c68b72ec029aff1bbcfe2b0b0889870ad79f0da5ce4c6b2",
             "scripts/prepare.py": "27ce5c89e6c99b94b4778ad6755e83981aaab344ecb70ef41535fcca68a51a6d",
-            "scripts/source_mode.py": "461ca4ec148afead98bce4b05100859fda6d3854a1a5bc3cf0cf6b243462ac1c",
+            "scripts/source_mode.py": "d53ac6a803f91f9be9c2f4465f4f793988d276aae756091a74e49a21b084e20d",
             "shared/images/gear-01.png": "76e1965d123dd5ffeff4a00ccb729d25fee1be120b31f11ca5e4ec53d76c33e2",
             "shared/images/gear-02.png": "bfdf45352201a3ba1cf22c30decd2be97fc4cf0e30df76ddabe01e67ae25b8a1",
             "shared/images/gear-03.png": "1ba839df7037e316de46b2e6d7fc94310c05122dd7ef7174c9343a7a270ec73c",
@@ -2025,6 +2041,8 @@
             "toolchain.json": "b8969240f26ecbf68a7c18651b85ef200170db6fb7071bffac2fcadc2777d071"
           }
         },
+        "orchestratorPython": "3.12.9",
+        "nodeUsed": null,
         "artifactSHA256": "2333182de91cd61cd6cc3d65be537bd9dab6211e5f3f34164b8e9891845c305b",
         "reproductionCommand": [
           "python3",
@@ -2051,13 +2069,13 @@
       "platform": "android",
       "artifactKind": "arm64 Release APK",
       "build": {
-        "builtAtUTC": "2026-10-14T20:24:38.217184+00:00",
+        "builtAtUTC": "2026-10-14T21:04:38.116105+00:00",
         "stack": "compose",
         "variant": "A",
         "platform": "android",
         "inspectionBuild": false,
         "source": {
-          "revision": "01341d9a4d6d649b69b9b07ee5603bbb843ce86e",
+          "revision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
           "dirty": false,
           "files": {
             "apps/compose/README.md": "371d50f2cc2d9554101e4f8fce6823d24647b962a200257897593ec31d26e720",
@@ -2219,9 +2237,9 @@
             "apps/swift/variants/instant.swift": "9631c4bff4cb289d77f30659ebb8a25adbc67fb1200ded7eb2f67c12c17faaf4",
             "scripts/assets.py": "24dc72692c16e4d77dc599b9a5f708b037a1a7954b70c276debea22809f749c6",
             "scripts/build_swift.py": "8164023d017546c3cc313fc2f660c4fea7ea64c4a2827cb61a2943c6ddcc6a19",
-            "scripts/lab.py": "bd2b9fbb6f6e2d93c6da08ca0f9fabd9cec2799f9ccfb60c61c0d612c95d2faa",
+            "scripts/lab.py": "3c159db552095a4f7c68b72ec029aff1bbcfe2b0b0889870ad79f0da5ce4c6b2",
             "scripts/prepare.py": "27ce5c89e6c99b94b4778ad6755e83981aaab344ecb70ef41535fcca68a51a6d",
-            "scripts/source_mode.py": "461ca4ec148afead98bce4b05100859fda6d3854a1a5bc3cf0cf6b243462ac1c",
+            "scripts/source_mode.py": "d53ac6a803f91f9be9c2f4465f4f793988d276aae756091a74e49a21b084e20d",
             "shared/images/gear-01.png": "76e1965d123dd5ffeff4a00ccb729d25fee1be120b31f11ca5e4ec53d76c33e2",
             "shared/images/gear-02.png": "bfdf45352201a3ba1cf22c30decd2be97fc4cf0e30df76ddabe01e67ae25b8a1",
             "shared/images/gear-03.png": "1ba839df7037e316de46b2e6d7fc94310c05122dd7ef7174c9343a7a270ec73c",
@@ -2247,6 +2265,8 @@
             "toolchain.json": "b8969240f26ecbf68a7c18651b85ef200170db6fb7071bffac2fcadc2777d071"
           }
         },
+        "orchestratorPython": "3.12.9",
+        "nodeUsed": null,
         "artifactSHA256": "0542ab858780e0ded90cf7885342765e4fb1accb1019dca855b0d8bed3b47cde",
         "reproductionCommand": [
           "python3",
@@ -2273,13 +2293,13 @@
       "platform": "ios",
       "artifactKind": "unsigned arm64 Release app bundle",
       "build": {
-        "builtAtUTC": "2026-10-14T20:24:44.636278+00:00",
+        "builtAtUTC": "2026-10-14T22:57:09.871550+00:00",
         "stack": "swift",
         "variant": "S",
         "platform": "device",
         "inspectionBuild": false,
         "source": {
-          "revision": "01341d9a4d6d649b69b9b07ee5603bbb843ce86e",
+          "revision": "3012da84b550f5e7e45308c57873925e84c6d781",
           "dirty": false,
           "files": {
             "apps/compose/README.md": "371d50f2cc2d9554101e4f8fce6823d24647b962a200257897593ec31d26e720",
@@ -2365,10 +2385,10 @@
             "apps/flutter/ios/Runner/SceneDelegate.swift": "add68b905971dedfcc0d0b5b7118030de5925ba8c081ad9815463699e3a444ad",
             "apps/flutter/ios/RunnerTests/RunnerTests.swift": "5e8f4908dacea6f29b2a790e4d38bf5fded69096063f9a27a2f21584d62b30c0",
             "apps/flutter/lib/catalogue.dart": "f80f30f69478ff9225482d0989c1f31001dcacc4cc201d9d7a2cf934900b8671",
-            "apps/flutter/lib/main.dart": "effe36b1bc69210d8f9c08609bdfcca5f41c06f28e2dc5140c824775d3711814",
+            "apps/flutter/lib/main.dart": "df0711fac8d6af8a7314a0099568fdcc38fc174ce2022bd5da72f0473f10314d",
             "apps/flutter/pubspec.lock": "db5884a9bd0a885c33583a7a147b879cd0ad620da93ccf1ac2d93ddb7dcfeef9",
             "apps/flutter/pubspec.yaml": "59f84836117759470d2f43a9dae40d965a651b6886f42cee89cd4c48fbc6e2c4",
-            "apps/flutter/test/catalogue_test.dart": "557c49fa9437cc4ee5908b3e26609414afd75263b1f6a0a3d54b7470f3b338c8",
+            "apps/flutter/test/catalogue_test.dart": "9a1f31f84f3b3ce0322d244badd715745f1d32d0052978e2488a7f8971047800",
             "apps/flutter/variants/animated.dart": "fa467cba6ff6df39c39bb2a2301a9a076775f320536e223d0801f0546d1344f6",
             "apps/flutter/variants/instant.dart": "1797d96dde55b8a2f0661239312bbf85a842653e4031bc321292beead5597be2",
             "apps/react-native/.eslintrc.js": "fed8548846eb442e1d15eca1cc1b399717dd23af0331a0db528f3373526c8ae7",
@@ -2432,7 +2452,7 @@
             "apps/react-native/variants/instant.ts": "5674ee3790376efa6617c8dc6683968336c279078566a588efe92810a5e100b0",
             "apps/swift/.swift-format": "098b1bf2412948155ad7560dadadbbd3949ae9444943ad904074a117568e1fe3",
             "apps/swift/Capture.swift": "1c98f42a5141ca929cde7310d51ff4e5c6ef43acbc08cfdc2b8ac764d63a9cfb",
-            "apps/swift/CatalogueApp.swift": "de291ccf61aa20b53f647efa1f8dd87b7d472ab3cd492ca791a2d8826fa385a4",
+            "apps/swift/CatalogueApp.swift": "80155834cb6c0d5454dbd5f5f6c8d6e7dda5ca351c25ec9a808a1250de1e7389",
             "apps/swift/Package.swift": "16d777ddb7de4118f3416987c1602c552527e898c327fd3341de25c1227a3421",
             "apps/swift/README.md": "68efd63ed4fec52751c467c3385b38739f0572059daa94ffaf6c0a5d992ada83",
             "apps/swift/Sources/CatalogCore/Product.swift": "afec6473f940778d990259f6cc20d5ff2c190736a17da0cdb535f8dceae3903a",
@@ -2441,9 +2461,9 @@
             "apps/swift/variants/instant.swift": "9631c4bff4cb289d77f30659ebb8a25adbc67fb1200ded7eb2f67c12c17faaf4",
             "scripts/assets.py": "24dc72692c16e4d77dc599b9a5f708b037a1a7954b70c276debea22809f749c6",
             "scripts/build_swift.py": "8164023d017546c3cc313fc2f660c4fea7ea64c4a2827cb61a2943c6ddcc6a19",
-            "scripts/lab.py": "bd2b9fbb6f6e2d93c6da08ca0f9fabd9cec2799f9ccfb60c61c0d612c95d2faa",
+            "scripts/lab.py": "3c159db552095a4f7c68b72ec029aff1bbcfe2b0b0889870ad79f0da5ce4c6b2",
             "scripts/prepare.py": "27ce5c89e6c99b94b4778ad6755e83981aaab344ecb70ef41535fcca68a51a6d",
-            "scripts/source_mode.py": "461ca4ec148afead98bce4b05100859fda6d3854a1a5bc3cf0cf6b243462ac1c",
+            "scripts/source_mode.py": "7717e26308f7a08c040627e16f2ebda6871bda3fea6f355dd0864efa65a933f0",
             "shared/images/gear-01.png": "76e1965d123dd5ffeff4a00ccb729d25fee1be120b31f11ca5e4ec53d76c33e2",
             "shared/images/gear-02.png": "bfdf45352201a3ba1cf22c30decd2be97fc4cf0e30df76ddabe01e67ae25b8a1",
             "shared/images/gear-03.png": "1ba839df7037e316de46b2e6d7fc94310c05122dd7ef7174c9343a7a270ec73c",
@@ -2469,7 +2489,9 @@
             "toolchain.json": "b8969240f26ecbf68a7c18651b85ef200170db6fb7071bffac2fcadc2777d071"
           }
         },
-        "artifactSHA256": "e829fd2f02c025e66081bbd34a91f53c026d1c8d94b8f38743593eee209ce885",
+        "orchestratorPython": "3.12.9",
+        "nodeUsed": null,
+        "artifactSHA256": "d3d5816fa90b081b00288ac2682bd6eae18a5e21d2292eb7e7f15f97ed40306b",
         "reproductionCommand": [
           "python3",
           "scripts/lab.py",
@@ -2483,7 +2505,7 @@
         ]
       },
       "embeddedFrameworkArchitectures": {},
-      "bytes": 495371,
+      "bytes": 494403,
       "architectures": [
         "arm64"
       ],
@@ -2497,13 +2519,13 @@
       "platform": "ios",
       "artifactKind": "unsigned arm64 Release app bundle",
       "build": {
-        "builtAtUTC": "2026-10-14T20:24:49.504035+00:00",
+        "builtAtUTC": "2026-10-14T22:57:14.672483+00:00",
         "stack": "swift",
         "variant": "A",
         "platform": "device",
         "inspectionBuild": false,
         "source": {
-          "revision": "01341d9a4d6d649b69b9b07ee5603bbb843ce86e",
+          "revision": "3012da84b550f5e7e45308c57873925e84c6d781",
           "dirty": false,
           "files": {
             "apps/compose/README.md": "371d50f2cc2d9554101e4f8fce6823d24647b962a200257897593ec31d26e720",
@@ -2589,10 +2611,10 @@
             "apps/flutter/ios/Runner/SceneDelegate.swift": "add68b905971dedfcc0d0b5b7118030de5925ba8c081ad9815463699e3a444ad",
             "apps/flutter/ios/RunnerTests/RunnerTests.swift": "5e8f4908dacea6f29b2a790e4d38bf5fded69096063f9a27a2f21584d62b30c0",
             "apps/flutter/lib/catalogue.dart": "f80f30f69478ff9225482d0989c1f31001dcacc4cc201d9d7a2cf934900b8671",
-            "apps/flutter/lib/main.dart": "effe36b1bc69210d8f9c08609bdfcca5f41c06f28e2dc5140c824775d3711814",
+            "apps/flutter/lib/main.dart": "df0711fac8d6af8a7314a0099568fdcc38fc174ce2022bd5da72f0473f10314d",
             "apps/flutter/pubspec.lock": "db5884a9bd0a885c33583a7a147b879cd0ad620da93ccf1ac2d93ddb7dcfeef9",
             "apps/flutter/pubspec.yaml": "59f84836117759470d2f43a9dae40d965a651b6886f42cee89cd4c48fbc6e2c4",
-            "apps/flutter/test/catalogue_test.dart": "557c49fa9437cc4ee5908b3e26609414afd75263b1f6a0a3d54b7470f3b338c8",
+            "apps/flutter/test/catalogue_test.dart": "9a1f31f84f3b3ce0322d244badd715745f1d32d0052978e2488a7f8971047800",
             "apps/flutter/variants/animated.dart": "fa467cba6ff6df39c39bb2a2301a9a076775f320536e223d0801f0546d1344f6",
             "apps/flutter/variants/instant.dart": "1797d96dde55b8a2f0661239312bbf85a842653e4031bc321292beead5597be2",
             "apps/react-native/.eslintrc.js": "fed8548846eb442e1d15eca1cc1b399717dd23af0331a0db528f3373526c8ae7",
@@ -2656,7 +2678,7 @@
             "apps/react-native/variants/instant.ts": "5674ee3790376efa6617c8dc6683968336c279078566a588efe92810a5e100b0",
             "apps/swift/.swift-format": "098b1bf2412948155ad7560dadadbbd3949ae9444943ad904074a117568e1fe3",
             "apps/swift/Capture.swift": "1c98f42a5141ca929cde7310d51ff4e5c6ef43acbc08cfdc2b8ac764d63a9cfb",
-            "apps/swift/CatalogueApp.swift": "de291ccf61aa20b53f647efa1f8dd87b7d472ab3cd492ca791a2d8826fa385a4",
+            "apps/swift/CatalogueApp.swift": "80155834cb6c0d5454dbd5f5f6c8d6e7dda5ca351c25ec9a808a1250de1e7389",
             "apps/swift/Package.swift": "16d777ddb7de4118f3416987c1602c552527e898c327fd3341de25c1227a3421",
             "apps/swift/README.md": "68efd63ed4fec52751c467c3385b38739f0572059daa94ffaf6c0a5d992ada83",
             "apps/swift/Sources/CatalogCore/Product.swift": "afec6473f940778d990259f6cc20d5ff2c190736a17da0cdb535f8dceae3903a",
@@ -2665,9 +2687,9 @@
             "apps/swift/variants/instant.swift": "9631c4bff4cb289d77f30659ebb8a25adbc67fb1200ded7eb2f67c12c17faaf4",
             "scripts/assets.py": "24dc72692c16e4d77dc599b9a5f708b037a1a7954b70c276debea22809f749c6",
             "scripts/build_swift.py": "8164023d017546c3cc313fc2f660c4fea7ea64c4a2827cb61a2943c6ddcc6a19",
-            "scripts/lab.py": "bd2b9fbb6f6e2d93c6da08ca0f9fabd9cec2799f9ccfb60c61c0d612c95d2faa",
+            "scripts/lab.py": "3c159db552095a4f7c68b72ec029aff1bbcfe2b0b0889870ad79f0da5ce4c6b2",
             "scripts/prepare.py": "27ce5c89e6c99b94b4778ad6755e83981aaab344ecb70ef41535fcca68a51a6d",
-            "scripts/source_mode.py": "461ca4ec148afead98bce4b05100859fda6d3854a1a5bc3cf0cf6b243462ac1c",
+            "scripts/source_mode.py": "7717e26308f7a08c040627e16f2ebda6871bda3fea6f355dd0864efa65a933f0",
             "shared/images/gear-01.png": "76e1965d123dd5ffeff4a00ccb729d25fee1be120b31f11ca5e4ec53d76c33e2",
             "shared/images/gear-02.png": "bfdf45352201a3ba1cf22c30decd2be97fc4cf0e30df76ddabe01e67ae25b8a1",
             "shared/images/gear-03.png": "1ba839df7037e316de46b2e6d7fc94310c05122dd7ef7174c9343a7a270ec73c",
@@ -2693,7 +2715,9 @@
             "toolchain.json": "b8969240f26ecbf68a7c18651b85ef200170db6fb7071bffac2fcadc2777d071"
           }
         },
-        "artifactSHA256": "30a077d9a0068944898ec683c6c195f4fd3967dceda6c598d30f902d283b9e35",
+        "orchestratorPython": "3.12.9",
+        "nodeUsed": null,
+        "artifactSHA256": "3d1f3ab20c7bbe6cdd87133be2c6d706216c729811c2a888fae929c0cde9cd6a",
         "reproductionCommand": [
           "python3",
           "scripts/lab.py",
@@ -2707,7 +2731,7 @@
         ]
       },
       "embeddedFrameworkArchitectures": {},
-      "bytes": 510923,
+      "bytes": 509963,
       "architectures": [
         "arm64"
       ],

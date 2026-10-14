@@ -1,0 +1,34 @@
+{
+  "executedAtUTC": "2026-10-14T22:10:02.391850+00:00",
+  "stack": "react-native",
+  "platform": "android",
+  "variant": "A",
+  "flow": "demo",
+  "inspectionBuild": false,
+  "exitCode": 0,
+  "sourceRevision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+  "sourceDirty": false,
+  "flowRevision": "66b2c97e8d49414bca6ac94344ad448350e9ea0b",
+  "flowSourceSHA256": "b26b68303a5227a8e5798c3404c37b0d70175da7136c2b957e12c898208321da",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "36421247f8a02df1c632f2a690b8b19d4889be6bdaf8c9e448544943ad0ce562",
+  "logSHA256": "20079f6a74bcb6162efa6fcad5c1b2e6466c21eeafdca24b9164b45d80ee27cd",
+  "appId": "com.pilotrn",
+  "maestro": "2.11.0",
+  "report": "results/verification/react-native-android-A-demo.xml",
+  "visuals": [
+    {
+      "path": "results/visuals/android/react-native/detail.png",
+      "sha256": "08ec29f5fabeaaab272faf3e1d401292ff5231cacb23996fa3a52e4dd02db9bb"
+    },
+    {
+      "path": "results/visuals/android/react-native/catalogue.png",
+      "sha256": "304c812497cbab51d3cd2e0118e05375b5edee596309d49c3e6d5ee036ed1896"
+    },
+    {
+      "path": "results/visuals/android/react-native/demo.mp4",
+      "sha256": "fdcef231fe2a8581b6631552a2082c026c83355f0de4695013a6e2648faf95d8"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites>
+  <testsuite name="Test Suite" tests="1" failures="0" time="9.243" timestamp="2026-10-15T00:15:02">
+    <testcase id="Reduced motion uses the instant branch (inspection state probe)" name="Reduced motion uses the instant branch (inspection state probe)" classname="Reduced motion uses the instant branch (inspection state probe)" file="verification/reduced-motion.yaml" time="9.233" timestamp="2026-10-15T00:15:02" status="SUCCESS" />
+  </testsuite>
+</testsuites>

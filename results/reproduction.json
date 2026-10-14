@@ -1,8 +1,8 @@
 {
-  "executedAtUTC": "2026-10-14T20:30:14.038449+00:00",
-  "sourceRevision": "01341d9a4d6d649b69b9b07ee5603bbb843ce86e",
-  "source": "Fresh depth-1 clone from public GitHub origin, no pre-existing app files",
-  "environment": "Reference host; existing pinned Flutter SDK and language/SDK toolchains reused, dependency caches permitted; Python 3.12.9 venv installed from requirements.lock",
+  "executedAtUTC": "2026-10-14T21:39:12.153888+00:00",
+  "sourceRevision": "2c008acb0ecef9667ce81732d0fceac620157e39",
+  "source": "Fresh public depth-1 clone subsequently fetched and detached at the final Flutter correction; dependency caches and installed SDKs reused",
+  "environment": "Reference host; existing Flutter 3.47.7 SDK/SDK toolchains and caches reused; Python 3.12.9, Node 24.13.0, Ruby 3.3.6, JDK 17.0.11 actually selected",
   "checksPassed": [
     "setup_tools.py hashes",
     "check_assets.py",

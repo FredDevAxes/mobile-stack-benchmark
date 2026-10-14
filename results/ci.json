@@ -1,0 +1,221 @@
+{
+  "scope": "Hosted lint, unit suites, secret scan and compilation for all retained clean application source cohorts; local virtual-device flows and diagnostics are recorded separately.",
+  "runs": [
+    {
+      "conclusion": "success",
+      "databaseId": 38636742262,
+      "headSha": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+      "jobs": [
+        {
+          "completedAt": "2026-10-14T21:04:34Z",
+          "conclusion": "success",
+          "databaseId": 116101724679,
+          "name": "compose",
+          "startedAt": "2026-10-14T20:59:59Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38636742262/job/116101724679"
+        },
+        {
+          "completedAt": "2026-10-14T21:00:16Z",
+          "conclusion": "success",
+          "databaseId": 116101724869,
+          "name": "tooling",
+          "startedAt": "2026-10-14T20:59:58Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38636742262/job/116101724869"
+        },
+        {
+          "completedAt": "2026-10-14T21:01:52Z",
+          "conclusion": "success",
+          "databaseId": 116101724984,
+          "name": "swift",
+          "startedAt": "2026-10-14T21:00:03Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38636742262/job/116101724984"
+        },
+        {
+          "completedAt": "2026-10-14T21:07:30Z",
+          "conclusion": "success",
+          "databaseId": 116101725002,
+          "name": "react-native (macos-26, ios)",
+          "startedAt": "2026-10-14T21:00:05Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38636742262/job/116101725002"
+        },
+        {
+          "completedAt": "2026-10-14T21:05:37Z",
+          "conclusion": "success",
+          "databaseId": 116101725010,
+          "name": "flutter (macos-26, ios)",
+          "startedAt": "2026-10-14T21:00:03Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38636742262/job/116101725010"
+        },
+        {
+          "completedAt": "2026-10-14T21:07:07Z",
+          "conclusion": "success",
+          "databaseId": 116101725040,
+          "name": "flutter (ubuntu-24.04, android)",
+          "startedAt": "2026-10-14T20:59:58Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38636742262/job/116101725040"
+        },
+        {
+          "completedAt": "2026-10-14T21:06:12Z",
+          "conclusion": "success",
+          "databaseId": 116101725094,
+          "name": "react-native (ubuntu-24.04, android)",
+          "startedAt": "2026-10-14T20:59:58Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38636742262/job/116101725094"
+        }
+      ],
+      "status": "completed",
+      "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38636742262"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 38641083732,
+      "headSha": "2c008acb0ecef9667ce81732d0fceac620157e39",
+      "jobs": [
+        {
+          "completedAt": "2026-10-14T21:40:43Z",
+          "conclusion": "success",
+          "databaseId": 116116444419,
+          "name": "react-native (macos-26, ios)",
+          "startedAt": "2026-10-14T21:32:52Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38641083732/job/116116444419"
+        },
+        {
+          "completedAt": "2026-10-14T21:33:11Z",
+          "conclusion": "success",
+          "databaseId": 116116444712,
+          "name": "tooling",
+          "startedAt": "2026-10-14T21:32:47Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38641083732/job/116116444712"
+        },
+        {
+          "completedAt": "2026-10-14T21:38:35Z",
+          "conclusion": "success",
+          "databaseId": 116116444826,
+          "name": "flutter (ubuntu-24.04, android)",
+          "startedAt": "2026-10-14T21:32:47Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38641083732/job/116116444826"
+        },
+        {
+          "completedAt": "2026-10-14T21:39:20Z",
+          "conclusion": "success",
+          "databaseId": 116116444919,
+          "name": "flutter (macos-26, ios)",
+          "startedAt": "2026-10-14T21:32:52Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38641083732/job/116116444919"
+        },
+        {
+          "completedAt": "2026-10-14T21:38:41Z",
+          "conclusion": "success",
+          "databaseId": 116116444939,
+          "name": "react-native (ubuntu-24.04, android)",
+          "startedAt": "2026-10-14T21:32:47Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38641083732/job/116116444939"
+        },
+        {
+          "completedAt": "2026-10-14T21:38:29Z",
+          "conclusion": "success",
+          "databaseId": 116116444980,
+          "name": "compose",
+          "startedAt": "2026-10-14T21:32:47Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38641083732/job/116116444980"
+        },
+        {
+          "completedAt": "2026-10-14T21:34:55Z",
+          "conclusion": "success",
+          "databaseId": 116116445109,
+          "name": "swift",
+          "startedAt": "2026-10-14T21:32:52Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38641083732/job/116116445109"
+        }
+      ],
+      "status": "completed",
+      "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38641083732"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 38651026365,
+      "headSha": "3012da84b550f5e7e45308c57873925e84c6d781",
+      "jobs": [
+        {
+          "completedAt": "2026-10-14T23:02:56Z",
+          "conclusion": "success",
+          "databaseId": 116149557485,
+          "name": "flutter (ubuntu-24.04, android)",
+          "startedAt": "2026-10-14T22:57:09Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38651026365/job/116149557485"
+        },
+        {
+          "completedAt": "2026-10-14T23:02:59Z",
+          "conclusion": "success",
+          "databaseId": 116149557741,
+          "name": "compose",
+          "startedAt": "2026-10-14T22:57:09Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38651026365/job/116149557741"
+        },
+        {
+          "completedAt": "2026-10-14T23:03:47Z",
+          "conclusion": "success",
+          "databaseId": 116149557758,
+          "name": "flutter (macos-26, ios)",
+          "startedAt": "2026-10-14T22:57:16Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38651026365/job/116149557758"
+        },
+        {
+          "completedAt": "2026-10-14T22:57:33Z",
+          "conclusion": "success",
+          "databaseId": 116149557807,
+          "name": "tooling",
+          "startedAt": "2026-10-14T22:57:09Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38651026365/job/116149557807"
+        },
+        {
+          "completedAt": "2026-10-14T23:02:09Z",
+          "conclusion": "success",
+          "databaseId": 116149557950,
+          "name": "react-native (ubuntu-24.04, android)",
+          "startedAt": "2026-10-14T22:57:09Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38651026365/job/116149557950"
+        },
+        {
+          "completedAt": "2026-10-14T22:58:44Z",
+          "conclusion": "success",
+          "databaseId": 116149557983,
+          "name": "swift",
+          "startedAt": "2026-10-14T22:57:15Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38651026365/job/116149557983"
+        },
+        {
+          "completedAt": "2026-10-14T23:03:17Z",
+          "conclusion": "success",
+          "databaseId": 116149558035,
+          "name": "react-native (macos-26, ios)",
+          "startedAt": "2026-10-14T22:57:13Z",
+          "status": "completed",
+          "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38651026365/job/116149558035"
+        }
+      ],
+      "status": "completed",
+      "url": "https://github.com/FredDevAxes/mobile-stack-benchmark/actions/runs/38651026365"
+    }
+  ]
+}

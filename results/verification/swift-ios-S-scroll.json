@@ -1,0 +1,30 @@
+{
+  "executedAtUTC": "2026-10-14T23:04:10.361725+00:00",
+  "stack": "swift",
+  "platform": "ios",
+  "variant": "S",
+  "flow": "scroll",
+  "inspectionBuild": false,
+  "exitCode": 0,
+  "sourceRevision": "3012da84b550f5e7e45308c57873925e84c6d781",
+  "sourceDirty": false,
+  "flowRevision": "3012da84b550f5e7e45308c57873925e84c6d781",
+  "flowSourceSHA256": "070ee9f3293ba0388e9fd19a20b1ac81ddb7c281243a016cb7c773d3f5ac1d5d",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "7a400c3fb41af260bed4e17eb1598ac42f2c95e8f33af94ab726492ea33b9d0a",
+  "logSHA256": "311f713be9a0aa33d2ea1f78857a0da0f67d244310fe4bf362c621928f6dd84c",
+  "appId": "dev.devaxes.catalogue.swift",
+  "maestro": "2.11.0",
+  "report": "results/verification/swift-ios-S-scroll.xml",
+  "visuals": [
+    {
+      "path": "results/visuals/ios/swift/S/scroll-after.png",
+      "sha256": "86e02bd4792d3618d827a1b7c9d1a36dfd3f1e160ed2135f6c801ac6f8320739"
+    },
+    {
+      "path": "results/visuals/ios/swift/S/scroll-before.png",
+      "sha256": "86e02bd4792d3618d827a1b7c9d1a36dfd3f1e160ed2135f6c801ac6f8320739"
+    }
+  ]
+}

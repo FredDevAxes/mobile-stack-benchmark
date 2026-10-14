@@ -1,0 +1,20 @@
+{
+  "executedAtUTC": "2026-10-14T21:54:09.770131+00:00",
+  "stack": "flutter",
+  "platform": "android",
+  "variant": "A",
+  "flow": "android-back",
+  "inspectionBuild": false,
+  "exitCode": 0,
+  "sourceRevision": "2c008acb0ecef9667ce81732d0fceac620157e39",
+  "sourceDirty": false,
+  "flowRevision": "856eb9ba794cacc6b17c0eec79666047452f34ce",
+  "flowSourceSHA256": "7791cf599dcc7a10d27a6bd153a4dcbdf70977b2247460b29d712c028169383a",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "77aaf9142ec7378e99c73a10f982b4686fd082cf304f50e927aea785d9cab5aa",
+  "logSHA256": "23870d6c76742b585b8a04743b1c4a47c442f23dd39ea00fa3c88a6d2975a8f7",
+  "appId": "dev.devaxes.flutter_pilot",
+  "maestro": "2.11.0",
+  "report": "results/verification/flutter-android-A-android-back.xml"
+}

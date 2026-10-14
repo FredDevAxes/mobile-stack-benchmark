@@ -1,0 +1,16 @@
+{
+  "attempt": "2026-10-14_235952",
+  "flow": "react-native-android-S-catalogue",
+  "artifactSHA256": "ddfcdf654e4b84d349f1a99b3ede1214e74bb29e5a66e05842a67ec7759c16d7",
+  "observedSelector": "Favorite p001",
+  "chosenNodeBoundsPx": [
+    937,
+    994,
+    1038,
+    1115
+  ],
+  "chosenNodeImportantForAccessibility": false,
+  "observation": "The driver selected the background catalogue star despite the visible detail description. The subsequent filtered-empty assertion failed.",
+  "correction": "Anchor the detail favorite below its unique description; keep the same F2 actions and assertions.",
+  "source": "Retained local Maestro log and commands; attempt summary in results/trials.json"
+}

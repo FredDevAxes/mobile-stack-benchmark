@@ -1,0 +1,20 @@
+{
+  "executedAtUTC": "2026-10-14T21:58:28.126286+00:00",
+  "stack": "flutter",
+  "platform": "ios",
+  "variant": "A",
+  "flow": "reduced-motion",
+  "inspectionBuild": true,
+  "exitCode": 0,
+  "sourceRevision": "2c008acb0ecef9667ce81732d0fceac620157e39",
+  "sourceDirty": false,
+  "flowRevision": "856eb9ba794cacc6b17c0eec79666047452f34ce",
+  "flowSourceSHA256": "eda74088faa5b23c372398fae3f577bbf506070ab9265655b2dc11d99fd0a0e0",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "54a077976c48a45c13860e3e76ff74b1d0ffb16e0340057d1bf43cb61889ee26",
+  "logSHA256": "f7f405ed0064afacd1f393a20de879608be214d3d59a3581ba9145b621dec5f8",
+  "appId": "dev.devaxes.flutterPilot",
+  "maestro": "2.11.0",
+  "report": "results/verification/flutter-ios-A-reduced-motion.xml"
+}

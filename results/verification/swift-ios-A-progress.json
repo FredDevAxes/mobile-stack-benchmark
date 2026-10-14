@@ -1,0 +1,42 @@
+{
+  "executedAtUTC": "2026-10-14T23:07:20.675840+00:00",
+  "stack": "swift",
+  "platform": "ios",
+  "variant": "A",
+  "flow": "progress",
+  "inspectionBuild": true,
+  "exitCode": 0,
+  "sourceRevision": "3012da84b550f5e7e45308c57873925e84c6d781",
+  "sourceDirty": false,
+  "flowRevision": "3012da84b550f5e7e45308c57873925e84c6d781",
+  "flowSourceSHA256": "b98378824abac0c9670ec5dda81fcdadb6785204a8b1b36932b8a20a11e5b9d0",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "235a9a1f6ae875a81784bfa34632857e8b53ed9509a5beb7bbe8a9a9876d9d02",
+  "logSHA256": "b22380e1cc59429c9459fc6601c17bfb11e86bff11088396209c662b4b6696b1",
+  "appId": "dev.devaxes.catalogue.swift",
+  "maestro": "2.11.0",
+  "report": "results/verification/swift-ios-A-progress.xml",
+  "visuals": [
+    {
+      "path": "results/visuals/ios/swift/time-025.png",
+      "sha256": "8c2eb4f792b5843db2a1894a4dde9fa9aed1c495c8cf0dcb94838483ffc3bf0d"
+    },
+    {
+      "path": "results/visuals/ios/swift/time-050.png",
+      "sha256": "86d6f26c489818dcbf1d258657e002912bb3375ec8b4733cb110de55ed48870d"
+    },
+    {
+      "path": "results/visuals/ios/swift/time-075.png",
+      "sha256": "36a235d56264ac0f27121e765f4d20cc6c212e78b53ba6764daa79a1c558ceb7"
+    },
+    {
+      "path": "results/visuals/ios/swift/time-100.png",
+      "sha256": "8bbc76d6b4c6c964ba1eab02007adec8b5fe3c492d48df60c8fc5ec81746da64"
+    },
+    {
+      "path": "results/visuals/ios/swift/time-000.png",
+      "sha256": "261e4c7f539dc19cf2f0f10950cccb0a82a3ecee5cb69561868629009a5c83e3"
+    }
+  ]
+}

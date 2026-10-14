@@ -1,0 +1,20 @@
+{
+  "executedAtUTC": "2026-10-14T22:14:52.402547+00:00",
+  "stack": "flutter",
+  "platform": "android",
+  "variant": "A",
+  "flow": "reduced-motion",
+  "inspectionBuild": true,
+  "exitCode": 0,
+  "sourceRevision": "2c008acb0ecef9667ce81732d0fceac620157e39",
+  "sourceDirty": false,
+  "flowRevision": "66b2c97e8d49414bca6ac94344ad448350e9ea0b",
+  "flowSourceSHA256": "eda74088faa5b23c372398fae3f577bbf506070ab9265655b2dc11d99fd0a0e0",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "26a1818ffdd99e74f5db82994ba453e965ebbaee02985922a582dc772943d9a6",
+  "logSHA256": "0d57d1aeed59292fa52ff55866e45692cf9fbdf7163f2ffbaf56ac34e0f716a6",
+  "appId": "dev.devaxes.flutter_pilot",
+  "maestro": "2.11.0",
+  "report": "results/verification/flutter-android-A-reduced-motion.xml"
+}

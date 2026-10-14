@@ -1,0 +1,34 @@
+{
+  "executedAtUTC": "2026-10-14T21:54:36.642042+00:00",
+  "stack": "flutter",
+  "platform": "android",
+  "variant": "A",
+  "flow": "demo",
+  "inspectionBuild": false,
+  "exitCode": 0,
+  "sourceRevision": "2c008acb0ecef9667ce81732d0fceac620157e39",
+  "sourceDirty": false,
+  "flowRevision": "856eb9ba794cacc6b17c0eec79666047452f34ce",
+  "flowSourceSHA256": "b26b68303a5227a8e5798c3404c37b0d70175da7136c2b957e12c898208321da",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "77aaf9142ec7378e99c73a10f982b4686fd082cf304f50e927aea785d9cab5aa",
+  "logSHA256": "18b9c56ce4a32c0d98a14175d67204fdc86bb9134f087b4c5bdd2c11c4d685ca",
+  "appId": "dev.devaxes.flutter_pilot",
+  "maestro": "2.11.0",
+  "report": "results/verification/flutter-android-A-demo.xml",
+  "visuals": [
+    {
+      "path": "results/visuals/android/flutter/detail.png",
+      "sha256": "8ea30c615bb674b8128c9c1d5ad4ef5c6214756a11dfb2f7e7fa0f24d795ea87"
+    },
+    {
+      "path": "results/visuals/android/flutter/catalogue.png",
+      "sha256": "af752ae82cc546a4b05d904cf4fa5c14a551170f45a36e022eb3b9a2547ecac8"
+    },
+    {
+      "path": "results/visuals/android/flutter/demo.mp4",
+      "sha256": "89f559e1b41172b6b1d6742d8a8f600c8de1c965960dfaaeb91aa654abfc43ee"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Preserve padded native diagnostic output verbatim.
+results/diagnostics/android/*.txt whitespace=-blank-at-eol,-blank-at-eof

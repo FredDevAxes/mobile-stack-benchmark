@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites>
+  <testsuite name="Test Suite" tests="1" failures="0" time="9.496" timestamp="2026-10-15T01:06:42">
+    <testcase id="Stable catalogue and detail visual evidence" name="Stable catalogue and detail visual evidence" classname="Stable catalogue and detail visual evidence" file="verification/demo.yaml" time="9.469" timestamp="2026-10-15T01:06:42" status="SUCCESS" />
+  </testsuite>
+</testsuites>

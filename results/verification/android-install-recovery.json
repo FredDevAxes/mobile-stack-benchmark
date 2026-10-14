@@ -1,0 +1,7 @@
+{
+  "atUTC": "2026-10-14T21:59:47.646534+00:00",
+  "package": "com.pilotrn",
+  "observedFailure": "INSTALL_FAILED_UPDATE_INCOMPATIBLE: existing pilot signature differs from locally generated final development signing key",
+  "recovery": "Uninstalled only the old fictional pilot app on the dedicated AVD before installing final S/A artifacts",
+  "uninstallResult": "Success"
+}

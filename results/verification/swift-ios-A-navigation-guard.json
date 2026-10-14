@@ -1,0 +1,20 @@
+{
+  "executedAtUTC": "2026-10-14T23:06:34.364858+00:00",
+  "stack": "swift",
+  "platform": "ios",
+  "variant": "A",
+  "flow": "navigation-guard",
+  "inspectionBuild": false,
+  "exitCode": 0,
+  "sourceRevision": "3012da84b550f5e7e45308c57873925e84c6d781",
+  "sourceDirty": false,
+  "flowRevision": "3012da84b550f5e7e45308c57873925e84c6d781",
+  "flowSourceSHA256": "1f040ef9bb6fc55202a0d992316a24f0006c9cdd3d0ce66db3fd78e9b7483869",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "76dd6d471bbd5c4941c6c38257f79a0da90c3cec233922c586d1191993ee757a",
+  "logSHA256": "b5bf608caa3c5f2da5f222276bee13c24bc1a1cdadc6d03d7fcd58587d034784",
+  "appId": "dev.devaxes.catalogue.swift",
+  "maestro": "2.11.0",
+  "report": "results/verification/swift-ios-A-navigation-guard.xml"
+}

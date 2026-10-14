@@ -1,0 +1,42 @@
+{
+  "executedAtUTC": "2026-10-14T22:14:35.708439+00:00",
+  "stack": "compose",
+  "platform": "android",
+  "variant": "A",
+  "flow": "progress",
+  "inspectionBuild": true,
+  "exitCode": 0,
+  "sourceRevision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+  "sourceDirty": false,
+  "flowRevision": "66b2c97e8d49414bca6ac94344ad448350e9ea0b",
+  "flowSourceSHA256": "b98378824abac0c9670ec5dda81fcdadb6785204a8b1b36932b8a20a11e5b9d0",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "550242b3e702fb9400dd26a916b8285a391439e9373cb7fb756af5caa5c2d139",
+  "logSHA256": "cc073c2be79bb05ea6e3ddc39af9086d392d44311f852981cfcd932e44bdda87",
+  "appId": "dev.devaxes.catalogue",
+  "maestro": "2.11.0",
+  "report": "results/verification/compose-android-A-progress.xml",
+  "visuals": [
+    {
+      "path": "results/visuals/android/compose/time-025.png",
+      "sha256": "e087f643ffdaea9642b6cc25479d7de9cac27990051bd47221d86a7290c90a1b"
+    },
+    {
+      "path": "results/visuals/android/compose/time-050.png",
+      "sha256": "1c1e5f3d46c845925b5975f7df07e0360f757045409c77a407e1b30ca44817cc"
+    },
+    {
+      "path": "results/visuals/android/compose/time-075.png",
+      "sha256": "256e894c7ef89a3e1dbeddbecc9ce5da8c17104288c9e5de1596c2cb738e7f16"
+    },
+    {
+      "path": "results/visuals/android/compose/time-100.png",
+      "sha256": "077fb49b03d5001012637f7a4be74fe7fa6f3328561934092f1459547e0576f9"
+    },
+    {
+      "path": "results/visuals/android/compose/time-000.png",
+      "sha256": "dc5649bc08a7511ad889479aceed99a83156ad175d317d151981aee1ab2f8abd"
+    }
+  ]
+}

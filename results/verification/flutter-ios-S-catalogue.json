@@ -1,0 +1,20 @@
+{
+  "executedAtUTC": "2026-10-14T21:38:09.368682+00:00",
+  "stack": "flutter",
+  "platform": "ios",
+  "variant": "S",
+  "flow": "catalogue",
+  "inspectionBuild": false,
+  "exitCode": 0,
+  "sourceRevision": "2c008acb0ecef9667ce81732d0fceac620157e39",
+  "sourceDirty": false,
+  "flowRevision": "2c008acb0ecef9667ce81732d0fceac620157e39",
+  "flowSourceSHA256": "c5151b2c84a29fb2e0cd69577eaca06b65110fa40e75f816f46ca35668250a88",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "38c1f2c16397d69549b8a8b154408466a5c67504b9269ec15c9e12a34ab4c1a5",
+  "logSHA256": "e51ba89d271d99f52faaed084e4a639bc227e7c1291d7a7f346ffe8f614327c6",
+  "appId": "dev.devaxes.flutterPilot",
+  "maestro": "2.11.0",
+  "report": "results/verification/flutter-ios-S-catalogue.xml"
+}

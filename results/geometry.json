@@ -1,0 +1,1500 @@
+{
+  "method": "Exact source-palette color segmentation of opaque foreground image, restricted above second card. Safe-area origin inferred from stable detail image. Independent B\u00e9zier solver; corner samples at 25/50% of expected radius; an original amber rectangle checks centered cover crop and uniform scaling. Does not test text antialiasing or real-time speed.",
+  "toleranceLogicalUnits": 2,
+  "records": [
+    {
+      "stack": "flutter",
+      "platform": "android",
+      "timePercent": 0,
+      "easedProgress": 5.916456789157587e-31,
+      "measuredBoundsLogical": [
+        16.0,
+        184.76190476190476,
+        379.42857142857144,
+        180.1904761904762
+      ],
+      "expectedBoundsLogical": [
+        16.0,
+        184.95238095238096,
+        379.42857142857144,
+        180.0
+      ],
+      "boundsErrorLogical": [
+        0.0,
+        -0.190476190476204,
+        0.0,
+        0.190476190476204
+      ],
+      "cornerErrorLogical": [
+        -0.4646138033606846,
+        -0.23883163468707735
+      ],
+      "measuredLandmarkLogical": [
+        188.95238095238096,
+        228.1904761904762,
+        34.285714285714285,
+        19.428571428571427
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        188.52142857142857,
+        228.11666666666667,
+        34.97857142857143,
+        20.15714285714286
+      ],
+      "landmarkErrorLogical": [
+        0.43095238095239097,
+        0.07380952380952976,
+        -0.6928571428571431,
+        -0.7285714285714313
+      ],
+      "maxAbsoluteErrorLogical": 0.7285714285714313,
+      "withinTolerance": true,
+      "capture": "results/visuals/android/flutter/time-000.png",
+      "scale": 2.625,
+      "contentOriginY": 48.95238095238095
+    },
+    {
+      "stack": "flutter",
+      "platform": "android",
+      "timePercent": 25,
+      "easedProgress": 0.236587360467781,
+      "measuredBoundsLogical": [
+        12.19047619047619,
+        164.95238095238096,
+        387.04761904761904,
+        203.42857142857142
+      ],
+      "expectedBoundsLogical": [
+        12.214602232515503,
+        165.07904267308737,
+        386.9993669635404,
+        203.6587360467781
+      ],
+      "boundsErrorLogical": [
+        -0.024126042039313234,
+        -0.1266617207064087,
+        0.04825208407862647,
+        -0.2301646182066861
+      ],
+      "cornerErrorLogical": [
+        -0.3500044973284133,
+        -0.1367629202647489
+      ],
+      "measuredLandmarkLogical": [
+        188.57142857142858,
+        219.04761904761904,
+        35.04761904761905,
+        20.19047619047619
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        188.1783768987503,
+        219.1381763369144,
+        35.67650414195138,
+        20.559341369938085
+      ],
+      "landmarkErrorLogical": [
+        0.3930516726782969,
+        -0.09055728929536144,
+        -0.6288850943323325,
+        -0.36886517946189556
+      ],
+      "maxAbsoluteErrorLogical": 0.6288850943323325,
+      "withinTolerance": true,
+      "capture": "results/visuals/android/flutter/time-025.png",
+      "scale": 2.625,
+      "contentOriginY": 48.95238095238095
+    },
+    {
+      "stack": "flutter",
+      "platform": "android",
+      "timePercent": 50,
+      "easedProgress": 0.7755613111161975,
+      "measuredBoundsLogical": [
+        3.4285714285714284,
+        119.61904761904762,
+        404.57142857142856,
+        257.5238095238095
+      ],
+      "expectedBoundsLogical": [
+        3.5910190221408396,
+        119.80523081862037,
+        404.24653338428976,
+        257.5561311116197
+      ],
+      "boundsErrorLogical": [
+        -0.16244759356941119,
+        -0.18618319957275276,
+        0.32489518713879306,
+        -0.03232158781020189
+      ],
+      "cornerErrorLogical": [
+        -0.23537365138135513,
+        -0.26260053611074863
+      ],
+      "measuredLandmarkLogical": [
+        187.42857142857142,
+        197.71428571428572,
+        37.333333333333336,
+        21.333333333333332
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        187.0414662086933,
+        197.71596047988533,
+        37.98952933896391,
+        21.892271144487676
+      ],
+      "landmarkErrorLogical": [
+        0.38710521987812285,
+        -0.0016747655996027788,
+        -0.6561960056305765,
+        -0.5589378111543439
+      ],
+      "maxAbsoluteErrorLogical": 0.6561960056305765,
+      "withinTolerance": true,
+      "capture": "results/visuals/android/flutter/time-050.png",
+      "scale": 2.625,
+      "contentOriginY": 48.95238095238095
+    },
+    {
+      "stack": "flutter",
+      "platform": "android",
+      "timePercent": 75,
+      "easedProgress": 0.9593677367393758,
+      "measuredBoundsLogical": [
+        0.7619047619047619,
+        104.0,
+        409.9047619047619,
+        276.1904761904762
+      ],
+      "expectedBoundsLogical": [
+        0.650116212169987,
+        104.36549106627339,
+        410.12833900423146,
+        275.9367736739376
+      ],
+      "boundsErrorLogical": [
+        0.11178854973477481,
+        -0.36549106627339256,
+        -0.2235770994695372,
+        0.25370251653862397
+      ],
+      "cornerErrorLogical": [],
+      "measuredLandmarkLogical": [
+        185.9047619047619,
+        187.8095238095238,
+        40.0,
+        22.857142857142858
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        185.70886962292525,
+        187.83636510263952,
+        40.700674116905795,
+        23.454625762284696
+      ],
+      "landmarkErrorLogical": [
+        0.19589228183664886,
+        -0.02684129311572292,
+        -0.7006741169057946,
+        -0.5974829051418382
+      ],
+      "maxAbsoluteErrorLogical": 0.7006741169057946,
+      "withinTolerance": true,
+      "capture": "results/visuals/android/flutter/time-075.png",
+      "scale": 2.625,
+      "contentOriginY": 48.95238095238095
+    },
+    {
+      "stack": "flutter",
+      "platform": "android",
+      "timePercent": 100,
+      "easedProgress": 1.0,
+      "measuredBoundsLogical": [
+        0.0,
+        100.95238095238095,
+        411.42857142857144,
+        280.0
+      ],
+      "expectedBoundsLogical": [
+        0.0,
+        100.95238095238096,
+        411.42857142857144,
+        280.0
+      ],
+      "boundsErrorLogical": [
+        0.0,
+        -1.4210854715202004e-14,
+        0.0,
+        0.0
+      ],
+      "cornerErrorLogical": [],
+      "measuredLandmarkLogical": [
+        185.9047619047619,
+        185.9047619047619,
+        40.38095238095238,
+        22.857142857142858
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        185.4142857142857,
+        185.65238095238095,
+        41.3,
+        23.799999999999997
+      ],
+      "landmarkErrorLogical": [
+        0.49047619047618696,
+        0.25238095238094616,
+        -0.9190476190476176,
+        -0.9428571428571395
+      ],
+      "maxAbsoluteErrorLogical": 0.9428571428571395,
+      "withinTolerance": true,
+      "capture": "results/visuals/android/flutter/time-100.png",
+      "scale": 2.625,
+      "contentOriginY": 48.95238095238095
+    },
+    {
+      "stack": "react-native",
+      "platform": "android",
+      "timePercent": 0,
+      "easedProgress": 5.916456789157587e-31,
+      "measuredBoundsLogical": [
+        16.0,
+        184.76190476190476,
+        379.42857142857144,
+        180.1904761904762
+      ],
+      "expectedBoundsLogical": [
+        16.0,
+        184.95238095238096,
+        379.42857142857144,
+        180.0
+      ],
+      "boundsErrorLogical": [
+        0.0,
+        -0.190476190476204,
+        0.0,
+        0.190476190476204
+      ],
+      "cornerErrorLogical": [
+        -0.08366142240830499,
+        0.14212074626530224
+      ],
+      "measuredLandmarkLogical": [
+        188.95238095238096,
+        228.57142857142858,
+        34.285714285714285,
+        19.428571428571427
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        188.52142857142857,
+        228.11666666666667,
+        34.97857142857143,
+        20.15714285714286
+      ],
+      "landmarkErrorLogical": [
+        0.43095238095239097,
+        0.45476190476190936,
+        -0.6928571428571431,
+        -0.7285714285714313
+      ],
+      "maxAbsoluteErrorLogical": 0.7285714285714313,
+      "withinTolerance": true,
+      "capture": "results/visuals/android/react-native/time-000.png",
+      "scale": 2.625,
+      "contentOriginY": 48.95238095238095
+    },
+    {
+      "stack": "react-native",
+      "platform": "android",
+      "timePercent": 25,
+      "easedProgress": 0.236587360467781,
+      "measuredBoundsLogical": [
+        12.19047619047619,
+        164.95238095238096,
+        387.04761904761904,
+        203.8095238095238
+      ],
+      "expectedBoundsLogical": [
+        12.214602232515503,
+        165.07904267308737,
+        386.9993669635404,
+        203.6587360467781
+      ],
+      "boundsErrorLogical": [
+        -0.024126042039313234,
+        -0.1266617207064087,
+        0.04825208407862647,
+        0.1507877627456935
+      ],
+      "cornerErrorLogical": [
+        0.030947883623966277,
+        0.24418946068763248
+      ],
+      "measuredLandmarkLogical": [
+        188.57142857142858,
+        219.8095238095238,
+        35.04761904761905,
+        19.80952380952381
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        188.1783768987503,
+        219.1381763369144,
+        35.67650414195138,
+        20.559341369938085
+      ],
+      "landmarkErrorLogical": [
+        0.3930516726782969,
+        0.6713474726093978,
+        -0.6288850943323325,
+        -0.7498175604142752
+      ],
+      "maxAbsoluteErrorLogical": 0.7498175604142752,
+      "withinTolerance": true,
+      "capture": "results/visuals/android/react-native/time-025.png",
+      "scale": 2.625,
+      "contentOriginY": 48.95238095238095
+    },
+    {
+      "stack": "react-native",
+      "platform": "android",
+      "timePercent": 50,
+      "easedProgress": 0.7755613111161975,
+      "measuredBoundsLogical": [
+        3.4285714285714284,
+        119.61904761904762,
+        404.57142857142856,
+        257.5238095238095
+      ],
+      "expectedBoundsLogical": [
+        3.5910190221408396,
+        119.80523081862037,
+        404.24653338428976,
+        257.5561311116197
+      ],
+      "boundsErrorLogical": [
+        -0.16244759356941119,
+        -0.18618319957275276,
+        0.32489518713879306,
+        -0.03232158781020189
+      ],
+      "cornerErrorLogical": [
+        -0.23537365138135513,
+        -0.26260053611074863
+      ],
+      "measuredLandmarkLogical": [
+        187.8095238095238,
+        197.71428571428572,
+        37.333333333333336,
+        21.333333333333332
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        187.0414662086933,
+        197.71596047988533,
+        37.98952933896391,
+        21.892271144487676
+      ],
+      "landmarkErrorLogical": [
+        0.7680576008305025,
+        -0.0016747655996027788,
+        -0.6561960056305765,
+        -0.5589378111543439
+      ],
+      "maxAbsoluteErrorLogical": 0.7680576008305025,
+      "withinTolerance": true,
+      "capture": "results/visuals/android/react-native/time-050.png",
+      "scale": 2.625,
+      "contentOriginY": 48.95238095238095
+    },
+    {
+      "stack": "react-native",
+      "platform": "android",
+      "timePercent": 75,
+      "easedProgress": 0.9593677367393758,
+      "measuredBoundsLogical": [
+        0.7619047619047619,
+        104.0,
+        409.9047619047619,
+        276.1904761904762
+      ],
+      "expectedBoundsLogical": [
+        0.650116212169987,
+        104.36549106627339,
+        410.12833900423146,
+        275.9367736739376
+      ],
+      "boundsErrorLogical": [
+        0.11178854973477481,
+        -0.36549106627339256,
+        -0.2235770994695372,
+        0.25370251653862397
+      ],
+      "cornerErrorLogical": [],
+      "measuredLandmarkLogical": [
+        186.28571428571428,
+        187.8095238095238,
+        40.0,
+        22.857142857142858
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        185.70886962292525,
+        187.83636510263952,
+        40.700674116905795,
+        23.454625762284696
+      ],
+      "landmarkErrorLogical": [
+        0.5768446627890285,
+        -0.02684129311572292,
+        -0.7006741169057946,
+        -0.5974829051418382
+      ],
+      "maxAbsoluteErrorLogical": 0.7006741169057946,
+      "withinTolerance": true,
+      "capture": "results/visuals/android/react-native/time-075.png",
+      "scale": 2.625,
+      "contentOriginY": 48.95238095238095
+    },
+    {
+      "stack": "react-native",
+      "platform": "android",
+      "timePercent": 100,
+      "easedProgress": 1.0,
+      "measuredBoundsLogical": [
+        0.0,
+        100.95238095238095,
+        411.42857142857144,
+        280.0
+      ],
+      "expectedBoundsLogical": [
+        0.0,
+        100.95238095238096,
+        411.42857142857144,
+        280.0
+      ],
+      "boundsErrorLogical": [
+        0.0,
+        -1.4210854715202004e-14,
+        0.0,
+        0.0
+      ],
+      "cornerErrorLogical": [],
+      "measuredLandmarkLogical": [
+        186.28571428571428,
+        185.9047619047619,
+        40.38095238095238,
+        23.238095238095237
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        185.4142857142857,
+        185.65238095238095,
+        41.3,
+        23.799999999999997
+      ],
+      "landmarkErrorLogical": [
+        0.8714285714285666,
+        0.25238095238094616,
+        -0.9190476190476176,
+        -0.5619047619047599
+      ],
+      "maxAbsoluteErrorLogical": 0.9190476190476176,
+      "withinTolerance": true,
+      "capture": "results/visuals/android/react-native/time-100.png",
+      "scale": 2.625,
+      "contentOriginY": 48.95238095238095
+    },
+    {
+      "stack": "compose",
+      "platform": "android",
+      "timePercent": 0,
+      "easedProgress": 5.916456789157587e-31,
+      "measuredBoundsLogical": [
+        16.0,
+        185.14285714285714,
+        379.42857142857144,
+        180.1904761904762
+      ],
+      "expectedBoundsLogical": [
+        16.0,
+        184.95238095238096,
+        379.42857142857144,
+        180.0
+      ],
+      "boundsErrorLogical": [
+        0.0,
+        0.1904761904761756,
+        0.0,
+        0.190476190476204
+      ],
+      "cornerErrorLogical": [
+        0.29729095854407817,
+        0.14212074626530224
+      ],
+      "measuredLandmarkLogical": [
+        188.95238095238096,
+        228.57142857142858,
+        34.285714285714285,
+        19.80952380952381
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        188.52142857142857,
+        228.11666666666667,
+        34.97857142857143,
+        20.15714285714286
+      ],
+      "landmarkErrorLogical": [
+        0.43095238095239097,
+        0.45476190476190936,
+        -0.6928571428571431,
+        -0.34761904761904816
+      ],
+      "maxAbsoluteErrorLogical": 0.6928571428571431,
+      "withinTolerance": true,
+      "capture": "results/visuals/android/compose/time-000.png",
+      "scale": 2.625,
+      "contentOriginY": 48.95238095238095
+    },
+    {
+      "stack": "compose",
+      "platform": "android",
+      "timePercent": 25,
+      "easedProgress": 0.236587360467781,
+      "measuredBoundsLogical": [
+        12.19047619047619,
+        165.33333333333334,
+        387.04761904761904,
+        203.8095238095238
+      ],
+      "expectedBoundsLogical": [
+        12.214602232515503,
+        165.07904267308737,
+        386.9993669635404,
+        203.6587360467781
+      ],
+      "boundsErrorLogical": [
+        -0.024126042039313234,
+        0.2542906602459709,
+        0.04825208407862647,
+        0.1507877627456935
+      ],
+      "cornerErrorLogical": [
+        0.41190026457634943,
+        0.24418946068763248
+      ],
+      "measuredLandmarkLogical": [
+        188.57142857142858,
+        219.8095238095238,
+        35.04761904761905,
+        19.80952380952381
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        188.1783768987503,
+        219.1381763369144,
+        35.67650414195138,
+        20.559341369938085
+      ],
+      "landmarkErrorLogical": [
+        0.3930516726782969,
+        0.6713474726093978,
+        -0.6288850943323325,
+        -0.7498175604142752
+      ],
+      "maxAbsoluteErrorLogical": 0.7498175604142752,
+      "withinTolerance": true,
+      "capture": "results/visuals/android/compose/time-025.png",
+      "scale": 2.625,
+      "contentOriginY": 48.95238095238095
+    },
+    {
+      "stack": "compose",
+      "platform": "android",
+      "timePercent": 50,
+      "easedProgress": 0.7755613111161975,
+      "measuredBoundsLogical": [
+        3.4285714285714284,
+        119.61904761904762,
+        404.1904761904762,
+        257.5238095238095
+      ],
+      "expectedBoundsLogical": [
+        3.5910190221408396,
+        119.80523081862037,
+        404.24653338428976,
+        257.5561311116197
+      ],
+      "boundsErrorLogical": [
+        -0.16244759356941119,
+        -0.18618319957275276,
+        -0.056057193813558115,
+        -0.03232158781020189
+      ],
+      "cornerErrorLogical": [
+        -0.23537365138135513,
+        -0.26260053611074863
+      ],
+      "measuredLandmarkLogical": [
+        187.42857142857142,
+        197.71428571428572,
+        37.333333333333336,
+        21.333333333333332
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        187.0414662086933,
+        197.71596047988533,
+        37.98952933896391,
+        21.892271144487676
+      ],
+      "landmarkErrorLogical": [
+        0.38710521987812285,
+        -0.0016747655996027788,
+        -0.6561960056305765,
+        -0.5589378111543439
+      ],
+      "maxAbsoluteErrorLogical": 0.6561960056305765,
+      "withinTolerance": true,
+      "capture": "results/visuals/android/compose/time-050.png",
+      "scale": 2.625,
+      "contentOriginY": 48.95238095238095
+    },
+    {
+      "stack": "compose",
+      "platform": "android",
+      "timePercent": 75,
+      "easedProgress": 0.9593677367393758,
+      "measuredBoundsLogical": [
+        0.7619047619047619,
+        104.38095238095238,
+        410.2857142857143,
+        275.8095238095238
+      ],
+      "expectedBoundsLogical": [
+        0.650116212169987,
+        104.36549106627339,
+        410.12833900423146,
+        275.9367736739376
+      ],
+      "boundsErrorLogical": [
+        0.11178854973477481,
+        0.015461314678987037,
+        0.157375281482814,
+        -0.12724986441378405
+      ],
+      "cornerErrorLogical": [],
+      "measuredLandmarkLogical": [
+        186.28571428571428,
+        188.1904761904762,
+        40.0,
+        22.857142857142858
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        185.70886962292525,
+        187.83636510263952,
+        40.700674116905795,
+        23.454625762284696
+      ],
+      "landmarkErrorLogical": [
+        0.5768446627890285,
+        0.3541110878366851,
+        -0.7006741169057946,
+        -0.5974829051418382
+      ],
+      "maxAbsoluteErrorLogical": 0.7006741169057946,
+      "withinTolerance": true,
+      "capture": "results/visuals/android/compose/time-075.png",
+      "scale": 2.625,
+      "contentOriginY": 48.95238095238095
+    },
+    {
+      "stack": "compose",
+      "platform": "android",
+      "timePercent": 100,
+      "easedProgress": 1.0,
+      "measuredBoundsLogical": [
+        0.0,
+        100.95238095238095,
+        411.42857142857144,
+        280.0
+      ],
+      "expectedBoundsLogical": [
+        0.0,
+        100.95238095238096,
+        411.42857142857144,
+        280.0
+      ],
+      "boundsErrorLogical": [
+        0.0,
+        -1.4210854715202004e-14,
+        0.0,
+        0.0
+      ],
+      "cornerErrorLogical": [],
+      "measuredLandmarkLogical": [
+        185.9047619047619,
+        185.9047619047619,
+        40.38095238095238,
+        23.238095238095237
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        185.4142857142857,
+        185.65238095238095,
+        41.3,
+        23.799999999999997
+      ],
+      "landmarkErrorLogical": [
+        0.49047619047618696,
+        0.25238095238094616,
+        -0.9190476190476176,
+        -0.5619047619047599
+      ],
+      "maxAbsoluteErrorLogical": 0.9190476190476176,
+      "withinTolerance": true,
+      "capture": "results/visuals/android/compose/time-100.png",
+      "scale": 2.625,
+      "contentOriginY": 48.95238095238095
+    },
+    {
+      "stack": "flutter",
+      "platform": "ios",
+      "timePercent": 0,
+      "easedProgress": 5.916456789157587e-31,
+      "measuredBoundsLogical": [
+        16.0,
+        198.0,
+        370.0,
+        180.0
+      ],
+      "expectedBoundsLogical": [
+        16.0,
+        198.0,
+        370.0,
+        180.0
+      ],
+      "boundsErrorLogical": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cornerErrorLogical": [
+        -0.08366142240830499,
+        0.1897397938843497
+      ],
+      "measuredLandmarkLogical": [
+        184.66666666666666,
+        242.66666666666666,
+        33.333333333333336,
+        19.0
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        184.234375,
+        242.328125,
+        34.109375,
+        19.65625
+      ],
+      "landmarkErrorLogical": [
+        0.4322916666666572,
+        0.3385416666666572,
+        -0.7760416666666643,
+        -0.65625
+      ],
+      "maxAbsoluteErrorLogical": 0.7760416666666643,
+      "withinTolerance": true,
+      "capture": "results/visuals/ios/flutter/time-000.png",
+      "scale": 3,
+      "contentOriginY": 62.0
+    },
+    {
+      "stack": "flutter",
+      "platform": "ios",
+      "timePercent": 25,
+      "easedProgress": 0.236587360467781,
+      "measuredBoundsLogical": [
+        12.333333333333334,
+        178.0,
+        377.3333333333333,
+        203.66666666666666
+      ],
+      "expectedBoundsLogical": [
+        12.214602232515503,
+        178.1266617207064,
+        377.57079553496897,
+        203.6587360467781
+      ],
+      "boundsErrorLogical": [
+        0.11873110081783089,
+        -0.1266617207064087,
+        -0.23746220163565113,
+        0.007930619888554702
+      ],
+      "cornerErrorLogical": [
+        -0.3500044973284133,
+        -0.18438196788379635
+      ],
+      "measuredLandmarkLogical": [
+        184.33333333333334,
+        233.66666666666666,
+        34.0,
+        19.333333333333332
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        183.8913233273217,
+        233.34963467024772,
+        34.80730771337995,
+        20.058448512795223
+      ],
+      "landmarkErrorLogical": [
+        0.44201000601165674,
+        0.3170319964189332,
+        -0.8073077133799487,
+        -0.7251151794618913
+      ],
+      "maxAbsoluteErrorLogical": 0.8073077133799487,
+      "withinTolerance": true,
+      "capture": "results/visuals/ios/flutter/time-025.png",
+      "scale": 3,
+      "contentOriginY": 62.0
+    },
+    {
+      "stack": "flutter",
+      "platform": "ios",
+      "timePercent": 50,
+      "easedProgress": 0.7755613111161975,
+      "measuredBoundsLogical": [
+        3.6666666666666665,
+        133.0,
+        394.6666666666667,
+        257.3333333333333
+      ],
+      "expectedBoundsLogical": [
+        3.5910190221408396,
+        132.8528498662394,
+        394.8179619557183,
+        257.5561311116197
+      ],
+      "boundsErrorLogical": [
+        0.07564764452582695,
+        0.14715013376059005,
+        -0.1512952890516317,
+        -0.2227977782864059
+      ],
+      "cornerErrorLogical": [
+        0.1931977771900737,
+        -0.07212434563455794
+      ],
+      "measuredLandmarkLogical": [
+        182.66666666666666,
+        211.0,
+        37.333333333333336,
+        21.333333333333332
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        182.32718049440757,
+        210.76357952750436,
+        37.98952933896391,
+        21.892271144487676
+      ],
+      "landmarkErrorLogical": [
+        0.33948617225908606,
+        0.23642047249563802,
+        -0.6561960056305765,
+        -0.5589378111543439
+      ],
+      "maxAbsoluteErrorLogical": 0.6561960056305765,
+      "withinTolerance": true,
+      "capture": "results/visuals/ios/flutter/time-050.png",
+      "scale": 3,
+      "contentOriginY": 62.0
+    },
+    {
+      "stack": "flutter",
+      "platform": "ios",
+      "timePercent": 75,
+      "easedProgress": 0.9593677367393758,
+      "measuredBoundsLogical": [
+        0.6666666666666666,
+        117.66666666666667,
+        400.6666666666667,
+        275.6666666666667
+      ],
+      "expectedBoundsLogical": [
+        0.650116212169987,
+        117.41311011389243,
+        400.69976757566,
+        275.9367736739376
+      ],
+      "boundsErrorLogical": [
+        0.01655045449667958,
+        0.25355655277424205,
+        -0.03310090899333318,
+        -0.27010700727089443
+      ],
+      "cornerErrorLogical": [],
+      "measuredLandmarkLogical": [
+        181.33333333333334,
+        201.33333333333334,
+        40.0,
+        22.666666666666668
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        180.99458390863953,
+        200.88398415025856,
+        40.700674116905795,
+        23.454625762284696
+      ],
+      "landmarkErrorLogical": [
+        0.3387494246938161,
+        0.4493491830747871,
+        -0.7006741169057946,
+        -0.787959095618028
+      ],
+      "maxAbsoluteErrorLogical": 0.787959095618028,
+      "withinTolerance": true,
+      "capture": "results/visuals/ios/flutter/time-075.png",
+      "scale": 3,
+      "contentOriginY": 62.0
+    },
+    {
+      "stack": "flutter",
+      "platform": "ios",
+      "timePercent": 100,
+      "easedProgress": 1.0,
+      "measuredBoundsLogical": [
+        0.0,
+        114.0,
+        402.0,
+        280.0
+      ],
+      "expectedBoundsLogical": [
+        0.0,
+        114.0,
+        402.0,
+        280.0
+      ],
+      "boundsErrorLogical": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cornerErrorLogical": [],
+      "measuredLandmarkLogical": [
+        181.0,
+        199.0,
+        40.666666666666664,
+        23.0
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        180.7,
+        198.7,
+        41.3,
+        23.799999999999997
+      ],
+      "landmarkErrorLogical": [
+        0.30000000000001137,
+        0.30000000000001137,
+        -0.6333333333333329,
+        -0.7999999999999972
+      ],
+      "maxAbsoluteErrorLogical": 0.7999999999999972,
+      "withinTolerance": true,
+      "capture": "results/visuals/ios/flutter/time-100.png",
+      "scale": 3,
+      "contentOriginY": 62.0
+    },
+    {
+      "stack": "react-native",
+      "platform": "ios",
+      "timePercent": 0,
+      "easedProgress": 5.916456789157587e-31,
+      "measuredBoundsLogical": [
+        16.0,
+        198.0,
+        370.0,
+        180.0
+      ],
+      "expectedBoundsLogical": [
+        16.0,
+        198.0,
+        370.0,
+        180.0
+      ],
+      "boundsErrorLogical": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cornerErrorLogical": [
+        0.24967191092503072,
+        0.1897397938843497
+      ],
+      "measuredLandmarkLogical": [
+        184.66666666666666,
+        242.66666666666666,
+        33.333333333333336,
+        19.0
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        184.234375,
+        242.328125,
+        34.109375,
+        19.65625
+      ],
+      "landmarkErrorLogical": [
+        0.4322916666666572,
+        0.3385416666666572,
+        -0.7760416666666643,
+        -0.65625
+      ],
+      "maxAbsoluteErrorLogical": 0.7760416666666643,
+      "withinTolerance": true,
+      "capture": "results/visuals/ios/react-native/time-000.png",
+      "scale": 3,
+      "contentOriginY": 62.0
+    },
+    {
+      "stack": "react-native",
+      "platform": "ios",
+      "timePercent": 25,
+      "easedProgress": 0.236587360467781,
+      "measuredBoundsLogical": [
+        12.333333333333334,
+        178.0,
+        377.3333333333333,
+        203.66666666666666
+      ],
+      "expectedBoundsLogical": [
+        12.214602232515503,
+        178.1266617207064,
+        377.57079553496897,
+        203.6587360467781
+      ],
+      "boundsErrorLogical": [
+        0.11873110081783089,
+        -0.1266617207064087,
+        -0.23746220163565113,
+        0.007930619888554702
+      ],
+      "cornerErrorLogical": [
+        -0.016671163995081173,
+        0.14895136544953758
+      ],
+      "measuredLandmarkLogical": [
+        184.33333333333334,
+        233.66666666666666,
+        34.0,
+        19.333333333333332
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        183.8913233273217,
+        233.34963467024772,
+        34.80730771337995,
+        20.058448512795223
+      ],
+      "landmarkErrorLogical": [
+        0.44201000601165674,
+        0.3170319964189332,
+        -0.8073077133799487,
+        -0.7251151794618913
+      ],
+      "maxAbsoluteErrorLogical": 0.8073077133799487,
+      "withinTolerance": true,
+      "capture": "results/visuals/ios/react-native/time-025.png",
+      "scale": 3,
+      "contentOriginY": 62.0
+    },
+    {
+      "stack": "react-native",
+      "platform": "ios",
+      "timePercent": 50,
+      "easedProgress": 0.7755613111161975,
+      "measuredBoundsLogical": [
+        3.6666666666666665,
+        133.0,
+        394.6666666666667,
+        257.3333333333333
+      ],
+      "expectedBoundsLogical": [
+        3.5910190221408396,
+        132.8528498662394,
+        394.8179619557183,
+        257.5561311116197
+      ],
+      "boundsErrorLogical": [
+        0.07564764452582695,
+        0.14715013376059005,
+        -0.1512952890516317,
+        -0.2227977782864059
+      ],
+      "cornerErrorLogical": [
+        0.5265311105234067,
+        0.2612089876987751
+      ],
+      "measuredLandmarkLogical": [
+        182.66666666666666,
+        211.0,
+        37.333333333333336,
+        21.333333333333332
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        182.32718049440757,
+        210.76357952750436,
+        37.98952933896391,
+        21.892271144487676
+      ],
+      "landmarkErrorLogical": [
+        0.33948617225908606,
+        0.23642047249563802,
+        -0.6561960056305765,
+        -0.5589378111543439
+      ],
+      "maxAbsoluteErrorLogical": 0.6561960056305765,
+      "withinTolerance": true,
+      "capture": "results/visuals/ios/react-native/time-050.png",
+      "scale": 3,
+      "contentOriginY": 62.0
+    },
+    {
+      "stack": "react-native",
+      "platform": "ios",
+      "timePercent": 75,
+      "easedProgress": 0.9593677367393758,
+      "measuredBoundsLogical": [
+        0.6666666666666666,
+        117.33333333333333,
+        400.6666666666667,
+        276.0
+      ],
+      "expectedBoundsLogical": [
+        0.650116212169987,
+        117.41311011389243,
+        400.69976757566,
+        275.9367736739376
+      ],
+      "boundsErrorLogical": [
+        0.01655045449667958,
+        -0.07977678055910076,
+        -0.03310090899333318,
+        0.06322632606241996
+      ],
+      "cornerErrorLogical": [],
+      "measuredLandmarkLogical": [
+        181.33333333333334,
+        201.33333333333334,
+        40.0,
+        22.666666666666668
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        180.99458390863953,
+        200.88398415025856,
+        40.700674116905795,
+        23.454625762284696
+      ],
+      "landmarkErrorLogical": [
+        0.3387494246938161,
+        0.4493491830747871,
+        -0.7006741169057946,
+        -0.787959095618028
+      ],
+      "maxAbsoluteErrorLogical": 0.787959095618028,
+      "withinTolerance": true,
+      "capture": "results/visuals/ios/react-native/time-075.png",
+      "scale": 3,
+      "contentOriginY": 62.0
+    },
+    {
+      "stack": "react-native",
+      "platform": "ios",
+      "timePercent": 100,
+      "easedProgress": 1.0,
+      "measuredBoundsLogical": [
+        0.0,
+        114.0,
+        402.0,
+        280.0
+      ],
+      "expectedBoundsLogical": [
+        0.0,
+        114.0,
+        402.0,
+        280.0
+      ],
+      "boundsErrorLogical": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cornerErrorLogical": [],
+      "measuredLandmarkLogical": [
+        181.0,
+        199.0,
+        40.666666666666664,
+        23.0
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        180.7,
+        198.7,
+        41.3,
+        23.799999999999997
+      ],
+      "landmarkErrorLogical": [
+        0.30000000000001137,
+        0.30000000000001137,
+        -0.6333333333333329,
+        -0.7999999999999972
+      ],
+      "maxAbsoluteErrorLogical": 0.7999999999999972,
+      "withinTolerance": true,
+      "capture": "results/visuals/ios/react-native/time-100.png",
+      "scale": 3,
+      "contentOriginY": 62.0
+    },
+    {
+      "stack": "swift",
+      "platform": "ios",
+      "timePercent": 0,
+      "easedProgress": 5.916456789157587e-31,
+      "measuredBoundsLogical": [
+        16.0,
+        198.0,
+        370.0,
+        180.0
+      ],
+      "expectedBoundsLogical": [
+        16.0,
+        198.0,
+        370.0,
+        180.0
+      ],
+      "boundsErrorLogical": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cornerErrorLogical": [
+        0.24967191092503072,
+        0.1897397938843497
+      ],
+      "measuredLandmarkLogical": [
+        184.66666666666666,
+        242.66666666666666,
+        33.333333333333336,
+        19.0
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        184.234375,
+        242.328125,
+        34.109375,
+        19.65625
+      ],
+      "landmarkErrorLogical": [
+        0.4322916666666572,
+        0.3385416666666572,
+        -0.7760416666666643,
+        -0.65625
+      ],
+      "maxAbsoluteErrorLogical": 0.7760416666666643,
+      "withinTolerance": true,
+      "capture": "results/visuals/ios/swift/time-000.png",
+      "scale": 3,
+      "contentOriginY": 62.0
+    },
+    {
+      "stack": "swift",
+      "platform": "ios",
+      "timePercent": 25,
+      "easedProgress": 0.236587360467781,
+      "measuredBoundsLogical": [
+        12.333333333333334,
+        178.0,
+        377.3333333333333,
+        203.66666666666666
+      ],
+      "expectedBoundsLogical": [
+        12.214602232515503,
+        178.1266617207064,
+        377.57079553496897,
+        203.6587360467781
+      ],
+      "boundsErrorLogical": [
+        0.11873110081783089,
+        -0.1266617207064087,
+        -0.23746220163565113,
+        0.007930619888554702
+      ],
+      "cornerErrorLogical": [
+        -0.016671163995081173,
+        0.14895136544953758
+      ],
+      "measuredLandmarkLogical": [
+        184.33333333333334,
+        233.66666666666666,
+        34.0,
+        19.333333333333332
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        183.8913233273217,
+        233.34963467024772,
+        34.80730771337995,
+        20.058448512795223
+      ],
+      "landmarkErrorLogical": [
+        0.44201000601165674,
+        0.3170319964189332,
+        -0.8073077133799487,
+        -0.7251151794618913
+      ],
+      "maxAbsoluteErrorLogical": 0.8073077133799487,
+      "withinTolerance": true,
+      "capture": "results/visuals/ios/swift/time-025.png",
+      "scale": 3,
+      "contentOriginY": 62.0
+    },
+    {
+      "stack": "swift",
+      "platform": "ios",
+      "timePercent": 50,
+      "easedProgress": 0.7755613111161975,
+      "measuredBoundsLogical": [
+        3.6666666666666665,
+        133.0,
+        394.6666666666667,
+        257.3333333333333
+      ],
+      "expectedBoundsLogical": [
+        3.5910190221408396,
+        132.8528498662394,
+        394.8179619557183,
+        257.5561311116197
+      ],
+      "boundsErrorLogical": [
+        0.07564764452582695,
+        0.14715013376059005,
+        -0.1512952890516317,
+        -0.2227977782864059
+      ],
+      "cornerErrorLogical": [
+        0.5265311105234067,
+        0.2612089876987751
+      ],
+      "measuredLandmarkLogical": [
+        182.66666666666666,
+        211.0,
+        37.333333333333336,
+        21.333333333333332
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        182.32718049440757,
+        210.76357952750436,
+        37.98952933896391,
+        21.892271144487676
+      ],
+      "landmarkErrorLogical": [
+        0.33948617225908606,
+        0.23642047249563802,
+        -0.6561960056305765,
+        -0.5589378111543439
+      ],
+      "maxAbsoluteErrorLogical": 0.6561960056305765,
+      "withinTolerance": true,
+      "capture": "results/visuals/ios/swift/time-050.png",
+      "scale": 3,
+      "contentOriginY": 62.0
+    },
+    {
+      "stack": "swift",
+      "platform": "ios",
+      "timePercent": 75,
+      "easedProgress": 0.9593677367393758,
+      "measuredBoundsLogical": [
+        0.6666666666666666,
+        117.33333333333333,
+        400.6666666666667,
+        276.0
+      ],
+      "expectedBoundsLogical": [
+        0.650116212169987,
+        117.41311011389243,
+        400.69976757566,
+        275.9367736739376
+      ],
+      "boundsErrorLogical": [
+        0.01655045449667958,
+        -0.07977678055910076,
+        -0.03310090899333318,
+        0.06322632606241996
+      ],
+      "cornerErrorLogical": [],
+      "measuredLandmarkLogical": [
+        181.33333333333334,
+        201.33333333333334,
+        40.0,
+        22.666666666666668
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        180.99458390863953,
+        200.88398415025856,
+        40.700674116905795,
+        23.454625762284696
+      ],
+      "landmarkErrorLogical": [
+        0.3387494246938161,
+        0.4493491830747871,
+        -0.7006741169057946,
+        -0.787959095618028
+      ],
+      "maxAbsoluteErrorLogical": 0.787959095618028,
+      "withinTolerance": true,
+      "capture": "results/visuals/ios/swift/time-075.png",
+      "scale": 3,
+      "contentOriginY": 62.0
+    },
+    {
+      "stack": "swift",
+      "platform": "ios",
+      "timePercent": 100,
+      "easedProgress": 1.0,
+      "measuredBoundsLogical": [
+        0.0,
+        114.0,
+        402.0,
+        280.0
+      ],
+      "expectedBoundsLogical": [
+        0.0,
+        114.0,
+        402.0,
+        280.0
+      ],
+      "boundsErrorLogical": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cornerErrorLogical": [],
+      "measuredLandmarkLogical": [
+        181.0,
+        199.0,
+        40.666666666666664,
+        23.0
+      ],
+      "expectedCenteredCoverLandmarkLogical": [
+        180.7,
+        198.7,
+        41.3,
+        23.799999999999997
+      ],
+      "landmarkErrorLogical": [
+        0.30000000000001137,
+        0.30000000000001137,
+        -0.6333333333333329,
+        -0.7999999999999972
+      ],
+      "maxAbsoluteErrorLogical": 0.7999999999999972,
+      "withinTolerance": true,
+      "capture": "results/visuals/ios/swift/time-100.png",
+      "scale": 3,
+      "contentOriginY": 62.0
+    }
+  ]
+}

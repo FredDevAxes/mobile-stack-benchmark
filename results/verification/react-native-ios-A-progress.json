@@ -1,0 +1,42 @@
+{
+  "executedAtUTC": "2026-10-14T21:16:20.136621+00:00",
+  "stack": "react-native",
+  "platform": "ios",
+  "variant": "A",
+  "flow": "progress",
+  "inspectionBuild": true,
+  "exitCode": 0,
+  "sourceRevision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+  "sourceDirty": false,
+  "flowRevision": "5c89dd2f9f0d4e5a689c942ee3a379c9a5002401",
+  "flowSourceSHA256": "b98378824abac0c9670ec5dda81fcdadb6785204a8b1b36932b8a20a11e5b9d0",
+  "runnerSourceSHA256": "a1706c481a075c72782623beec2deed5e4de564e6be8f110dc271cdf511e2eb7",
+  "flowDirty": false,
+  "artifactSHA256": "ba15af6af95a123db1a17da7eba06562d60c3eb42f6ea358e52b5b936de552ab",
+  "logSHA256": "2604f09d0009d0ada5bce2a41e404db415ee209ef9840c13d702dc91e4381abc",
+  "appId": "org.reactjs.native.example.PilotRN",
+  "maestro": "2.11.0",
+  "report": "results/verification/react-native-ios-A-progress.xml",
+  "visuals": [
+    {
+      "path": "results/visuals/ios/react-native/time-025.png",
+      "sha256": "342b882fd87ea978aa266e702706ac9d2a1287d90b9f0391eeeccc97194f52f7"
+    },
+    {
+      "path": "results/visuals/ios/react-native/time-050.png",
+      "sha256": "5110d4d93031cd4d57841cfe8b5676067611374af3c0f722d0584262d032ab23"
+    },
+    {
+      "path": "results/visuals/ios/react-native/time-075.png",
+      "sha256": "46687b4deeace84a597102e527917e28c682fa056c1255956018ab52c18ef8d1"
+    },
+    {
+      "path": "results/visuals/ios/react-native/time-100.png",
+      "sha256": "1e0c4a2402f15fd7169da6c28052c526678acd5b54925f3306ee043ce941a2b2"
+    },
+    {
+      "path": "results/visuals/ios/react-native/time-000.png",
+      "sha256": "21a0b86ed69f1b8c8a003acd2bf7c2a7298763babf580371b2c48aa7cb4a57b7"
+    }
+  ]
+}

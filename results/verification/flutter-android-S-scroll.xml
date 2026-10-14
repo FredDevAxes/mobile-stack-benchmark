@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites>
+  <testsuite name="Test Suite" tests="1" failures="0" time="19.458" timestamp="2026-10-14T23:50:41">
+    <testcase id="Scroll state survives a detail visit" name="Scroll state survives a detail visit" classname="Scroll state survives a detail visit" file="verification/scroll.yaml" time="19.445" timestamp="2026-10-14T23:50:41" status="SUCCESS" />
+  </testsuite>
+</testsuites>

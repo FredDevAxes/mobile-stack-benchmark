@@ -1,0 +1,14 @@
+{
+  "scope": "SwiftUI color correction verified with JDK 17 for the UI driver. Earlier valid Flutter/RN probes retained. Normal preference restored and simulator shut down.",
+  "changes": [
+    {
+      "atUTC": "2026-10-14T23:07:32.199497+00:00",
+      "reducedMotion": true
+    },
+    {
+      "atUTC": "2026-10-14T23:09:14.347995+00:00",
+      "reducedMotion": false,
+      "simulatorShutDown": true
+    }
+  ]
+}

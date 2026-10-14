@@ -1,0 +1,57 @@
+Applications Memory Usage (in Kilobytes):
+Uptime: 1766362 Realtime: 1766362
+
+** MEMINFO in pid 14020 [com.pilotrn] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    40125    40044       52       91    40968    54424    47937     2525
+  Dalvik Heap    10539    10424       76      246    11156    10630     5315     5315
+ Dalvik Other     6040     5704       12      186     6452                           
+        Stack      728      728        0        0      732                           
+       Ashmem       18        0        0        0      588                           
+    Other dev       29       12       16        0      252                           
+     .so mmap     5289      156     1848       18    34984                           
+    .jar mmap     2864        0      480        0    36668                           
+    .apk mmap    11547    11116      244        0    12640                           
+    .ttf mmap     1170        0      816        0     1524                           
+    .dex mmap     2291        4     2268        0     3112                           
+    .oat mmap      974        0      256        0    12336                           
+    .art mmap     1755      668      360      366    17116                           
+   Other mmap      460        4      308        0     1360                           
+      Unknown    14357    14280       68        2    14816                           
+        TOTAL    99095    83140     6804      909   194704    65054    53252     7840
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    11452                          28272
+         Native Heap:    40044                          40968
+                Code:    17200                         101920
+               Stack:      728                            732
+            Graphics:        0                              0
+       Private Other:    20520
+              System:     9151
+             Unknown:                                   22812
+ 
+           TOTAL PSS:    99095            TOTAL RSS:   194704       TOTAL SWAP PSS:      909
+ 
+ Objects
+               Views:      253         ViewRootImpl:        1
+         AppContexts:        7           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       21        Proxy Binders:       60
+       Parcel memory:        5         Parcel count:       24
+    Death Recipients:        0             WebViews:        0
+ 
+ SQL
+         MEMORY_USED:       88
+  PAGECACHE_OVERFLOW:       29          MALLOC_SIZE:       46
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b) cache hits cache misses cache size  Dbname
+PER CONNECTION STATS
+         4       20             34     1    31     4  /data/user/0/com.pilotrn/databases/RKStorage
+POOL STATS
+     cache hits  cache misses    cache size  Dbname
+              1            32            33  /data/user/0/com.pilotrn/databases/RKStorage
