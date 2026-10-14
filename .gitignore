@@ -18,3 +18,10 @@ pilot/
 **/*.jks
 **/xcuserdata/
 **/.DS_Store
+apps/*/assets/
+apps/compose/app/src/main/assets/
+apps/react-native/src/images.ts
+apps/react-native/src/transition.ts
+apps/flutter/lib/transition.dart
+**/.swiftpm/
+**/.build/
