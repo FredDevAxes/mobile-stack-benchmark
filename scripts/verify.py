@@ -70,6 +70,11 @@ def main(args):
         result = subprocess.run(command, cwd=ROOT, env=env, stdout=output, stderr=subprocess.STDOUT)
     evidence = ROOT / "results/verification"
     evidence.mkdir(parents=True, exist_ok=True)
+    build_metadata = json.loads(
+        (base / ("android.json" if args.platform == "android" else "simulator.json")).read_text()
+    )
+    if fingerprint(artifact) != build_metadata["artifactSHA256"]:
+        raise ValueError("Artifact differs from build provenance")
     record = {
         "executedAtUTC": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "stack": args.stack,
@@ -78,14 +83,11 @@ def main(args):
         "flow": args.flow,
         "inspectionBuild": inspection,
         "exitCode": result.returncode,
-        "sourceRevision": subprocess.check_output(
+        "sourceRevision": build_metadata["source"]["revision"],
+        "sourceDirty": build_metadata["source"]["dirty"],
+        "flowRevision": subprocess.check_output(
             ["git", "rev-parse", "HEAD"], cwd=ROOT, text=True
         ).strip(),
-        "sourceDirty": bool(
-            subprocess.check_output(
-                ["git", "diff", "--", "apps", "scripts", "verification"], cwd=ROOT
-            )
-        ),
         "artifactSHA256": fingerprint(artifact),
         "logSHA256": fingerprint(local / "run.log"),
         "appId": app_id,
