@@ -23,3 +23,18 @@ Official references examined on 2026-10-14:
 Generated platform scaffolds are adapted from the local official Flutter and
 React Native templates. Frameworks and dependencies retain their original
 licenses; see THIRD_PARTY.md. No client assets or code are used.
+
+## Dependency reproduction checks
+
+Writing Gradle locks was insufficient on the reference toolchain: consuming the
+new lock failed on the metadata-only `kotlin-stdlib-common` module. Compose now
+omits that module from lock validation and forces its version to 2.2.10; all other
+resolved modules remain locked. The build is verified without `--write-locks`.
+See [Gradle's documented exclusion mechanism](https://docs.gradle.org/current/userguide/dependency_locking.html#sec:ignoring_dependencies).
+The custom transition uses Compose animation-core, already required by the
+foundation widgets; no animation-only full animation library is added to S.
+
+The iOS deployment target is 18.0 in all three implementations. The AsyncStorage
+resource pod's older target was rejected by Xcode 27, so the RN post-install hook
+sets every pod target to 18.0. This does not claim backward compatibility with
+older OS versions or physical-device execution.

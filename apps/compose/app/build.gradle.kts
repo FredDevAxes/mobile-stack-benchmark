@@ -44,7 +44,12 @@ dependencies {
     implementation("androidx.activity:activity-compose:1.10.1")
     implementation("androidx.compose.ui:ui:1.9.0")
     implementation("androidx.compose.foundation:foundation:1.9.0")
-    implementation("androidx.compose.animation:animation:1.9.0")
+    add("animatedImplementation", "androidx.compose.animation:animation-core:1.9.0")
     testImplementation("junit:junit:4.13.2")
 }
-dependencyLocking { lockAllConfigurations() }
+dependencyLocking {
+    lockAllConfigurations()
+    ignoredDependencies.add("org.jetbrains.kotlin:kotlin-stdlib-common")
+}
+
+configurations.configureEach { resolutionStrategy.force("org.jetbrains.kotlin:kotlin-stdlib-common:2.2.10") }
