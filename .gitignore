@@ -25,3 +25,5 @@ apps/react-native/src/transition.ts
 apps/flutter/lib/transition.dart
 **/.swiftpm/
 **/.build/
+**/__pycache__/
+**/*.pyc

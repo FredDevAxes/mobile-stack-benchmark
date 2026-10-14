@@ -1,0 +1,17 @@
+{
+  "flutter": "3.47.7",
+  "flutterRevision": "abaf9c523780a608bd46686fd5e53740a07077f8",
+  "dart": "3.13.5",
+  "reactNative": "0.86.3",
+  "node": "24.13.0",
+  "jdk": "17.0.11",
+  "xcode": "27.0",
+  "swift": "6.4",
+  "cloc": "2.10",
+  "gitleaks": "8.30.1",
+  "cocoapods": "1.16.2",
+  "ruby": "3.3.6",
+  "androidCompileSdk": 36,
+  "androidTargetSdk": 36,
+  "androidMinSdk": 24
+}
