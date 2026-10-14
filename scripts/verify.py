@@ -66,8 +66,11 @@ def main(args):
         "MAESTRO_CLI_NO_ANALYTICS": "1",
         "MAESTRO_CLI_ANALYSIS_NOTIFICATION_DISABLED": "true",
     }
+    previous = set((local / "run").glob("*/*/commands.json"))
     with (local / "run.log").open("w") as output:
         result = subprocess.run(command, cwd=ROOT, env=env, stdout=output, stderr=subprocess.STDOUT)
+    created = set((local / "run").glob("*/*/commands.json")) - previous
+    execution = next(iter(created)).parent if len(created) == 1 else None
     evidence = ROOT / "results/verification"
     evidence.mkdir(parents=True, exist_ok=True)
     build_metadata = json.loads(
@@ -88,6 +91,14 @@ def main(args):
         "flowRevision": subprocess.check_output(
             ["git", "rev-parse", "HEAD"], cwd=ROOT, text=True
         ).strip(),
+        "flowSourceSHA256": fingerprint(ROOT / f"verification/{args.flow}.yaml"),
+        "runnerSourceSHA256": fingerprint(ROOT / "scripts/verify.py"),
+        "flowDirty": bool(
+            subprocess.check_output(
+                ["git", "diff", "--", "scripts/verify.py", f"verification/{args.flow}.yaml"],
+                cwd=ROOT,
+            )
+        ),
         "artifactSHA256": fingerprint(artifact),
         "logSHA256": fingerprint(local / "run.log"),
         "appId": app_id,
@@ -104,14 +115,23 @@ def main(args):
                 element.text = element.text.replace(str(ROOT) + "/", "")
         report.write(evidence / f"{key}.xml", encoding="utf-8", xml_declaration=True)
         record["report"] = f"results/verification/{key}.xml"
-    if result.returncode == 0 and args.flow in ["demo", "progress"]:
+    if result.returncode == 0 and execution and args.flow in ["demo", "progress", "scroll"]:
         destination = ROOT / f"results/visuals/{args.platform}/{args.stack}"
+        if args.flow == "scroll":
+            destination = destination / args.variant
         destination.mkdir(parents=True, exist_ok=True)
-        for file in (local / "run").rglob("*"):
+        record["visuals"] = []
+        for file in execution.rglob("*"):
             if file.suffix in [".png", ".mp4", ".webm"] and (
                 "takeScreenshot" in file.parts or "startRecording" in file.parts
             ):
                 shutil.copy2(file, destination / file.name)
+                record["visuals"].append(
+                    {
+                        "path": str((destination / file.name).relative_to(ROOT)),
+                        "sha256": fingerprint(file),
+                    }
+                )
     (evidence / f"{key}.json").write_text(json.dumps(record, indent=2) + "\n")
     print(f"{key}: {'PASS' if result.returncode == 0 else 'FAIL'}")
     raise SystemExit(result.returncode)
@@ -127,7 +147,15 @@ if __name__ == "__main__":
     parser.add_argument("--device", required=True)
     parser.add_argument(
         "--flow",
-        choices=["catalogue", "demo", "progress", "reduced-motion", "android-back", "scroll"],
+        choices=[
+            "catalogue",
+            "demo",
+            "progress",
+            "reduced-motion",
+            "android-back",
+            "navigation-guard",
+            "scroll",
+        ],
         default="catalogue",
     )
     main(parser.parse_args())

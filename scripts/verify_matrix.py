@@ -63,7 +63,7 @@ def main(platform, device):
                 for flow in [
                     "catalogue",
                     "scroll",
-                    *(["android-back"] if platform == "android" else []),
+                    *(["android-back"] if platform == "android" else ["navigation-guard"]),
                 ]:
                     print(f"CHECK {stack} {platform} {variant} {flow}", flush=True)
                     subprocess.run(

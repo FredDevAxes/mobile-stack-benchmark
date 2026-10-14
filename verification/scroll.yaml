@@ -9,11 +9,14 @@ name: Scroll state survives a detail visit
     direction: DOWN
     timeout: 60000
     centerElement: true
+- waitForAnimationToEnd:
+    timeout: 10000
 - takeScreenshot: ${OUTPUT}/scroll-before
 - tapOn:
     text: "Open p010"
     point: "50%,90%"
-- assertVisible: "(?s)Trail compass 01.*"
+    retryTapIfNoChange: true
+- assertVisible: "A fictional trail compass for a day outdoors. Sample product for the mobile stack benchmark."
 - tapOn: "Back"
 - assertVisible: "Open p010"
 - takeScreenshot: ${OUTPUT}/scroll-after

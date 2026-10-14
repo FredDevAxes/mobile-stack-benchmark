@@ -1,0 +1,18 @@
+appId: ${APP_ID}
+name: Repeated card input and button back
+---
+- launchApp:
+    clearState: true
+- tapOn:
+    text: "Open p001"
+    repeat: 3
+    delay: 40
+    waitToSettleTimeoutMs: 0
+- tapOn:
+    text: "Back"
+    waitToSettleTimeoutMs: 0
+- assertVisible: "Trail catalogue"
+- tapOn: "Open p001"
+- assertVisible: "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark."
+- tapOn: "Back"
+- assertVisible: "Trail catalogue"
