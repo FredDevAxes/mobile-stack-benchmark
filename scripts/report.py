@@ -27,15 +27,16 @@ def main():
     builds, code = load("builds.json"), load("code.json")
     out = ROOT / "results/figures"
     out.mkdir(parents=True, exist_ok=True)
-    revision = builds["records"][0]["build"]["source"]["revision"]
+    revisions = {row["stack"]: row["build"]["source"]["revision"] for row in builds["records"]}
     assert all(
-        r["build"]["source"]["revision"] == revision and not r["build"]["source"]["dirty"]
-        for r in builds["records"]
-    ), "Mixed or dirty artifact sources"
+        row["build"]["source"]["revision"] == revisions[row["stack"]]
+        and not row["build"]["source"]["dirty"]
+        for row in builds["records"]
+    ), "Mixed within-stack revisions or dirty artifact sources"
     text = [
         "# Results — virtual-device milestone",
         "",
-        f"Application source: `{revision}`. Milestone: `v0.1.0-virtual-devices`.",
+        "Milestone: `v0.1.0-virtual-devices`. Clean application source revisions are retained per stack in [builds.json](builds.json); each stack uses the same revision for all S/A artifacts and checks.",
         "",
         "This is one offline catalogue with 200 fictional products and 20 shared original illustrations. It measures these implementations and build settings. It does not identify a universally best mobile stack.",
         "",
@@ -125,11 +126,34 @@ def main():
         "",
         "## Functional and visual verification",
         "",
-        "The installed S/A variants run the same catalogue search, empty-state, favorites/persistence and return-to-list flow. Separate scroll flows exercise a lower item and retain the list position. Android additionally exercises system back and repeated card input. Inspection builds expose the five fixed timeline stages and the actual reduced-motion flag; those controls are excluded from size artifacts and diagnostics.",
+        "The installed S/A variants run the same catalogue search, empty-state, favorites/persistence and return-to-list flow. Separate scroll flows exercise a lower item and retain the list position. Repeated card input and button back are exercised on iOS; Android additionally exercises system back. Inspection builds expose the five fixed timeline stages and the actual reduced-motion flag; those controls are excluded from size artifacts and diagnostics.",
         "",
         "See [per-target verification records](verification/), [all retained driver attempts, including failures](trials.json), [geometry checks](geometry.json), [environment](environment.json) and [protocol](../docs/protocol.md). Driver execution time is not application latency. The repeated-input driver cannot prove the exact timestamp of an input within a 400 ms transition; the input guards and queued-back implementation remain available for review.",
         "",
         "Historical failed attempts include incorrect inaccessible title selectors, clipped tap targets and an unexplained Flutter scroll/capture failure that passed on retry. They are retained rather than treated as zero or silently discarded. Latest milestone pass reports are separate from earlier dirty-source exploratory attempts.",
+        "",
+    ]
+    accepted = load("acceptance.json")
+    text += [
+        "| Target | S functional | A functional | Five timeline stages | Reduced motion | Runtime mode |",
+        "| --- | --- | --- | --- | --- | --- |",
+    ]
+    for platform, stacks in [
+        ("android", ["flutter", "react-native", "compose"]),
+        ("ios", ["flutter", "react-native", "swift"]),
+    ]:
+        for stack in stacks:
+            mode = "Debug" if platform == "ios" and stack == "flutter" else "Release/optimized"
+            text += [
+                f"| {NAMES[stack]} · {platform.upper()} | PASS | PASS | PASS | PASS | {mode} |"
+            ]
+    text += [
+        "",
+        f"[Acceptance gate](acceptance.json): {accepted['functionalAndVisualFlowsPassed']} successful flows and 30 deterministic stages. Maximum geometry/corner/landmark error: {accepted['geometryMaximumErrorLogical']:.3f} logical units against the 2-unit tolerance. An original amber landmark verifies centered uniform cover crop. Text antialiasing and actual animation speed are outside this pixel check.",
+        "",
+        "List before/after screenshot pairs and cropped pixel differences are retained in [scroll.json](scroll.json). These are same-device comparisons, not cross-platform text matching.",
+        "",
+        "[Fresh public-clone reproduction](reproduction.json) executed locked dependency installation, all project linters/tests and a SwiftUI S build. The complete 18-output build matrix was executed on the reference working tree; hosted [CI](ci.json) independently compiles all supported targets. Those scopes are kept separate.",
         "",
     ]
     for platform in ["android", "ios"]:
@@ -163,6 +187,17 @@ def main():
                 ]
         text += [
             "",
+            "Per-series snapshots:",
+            "",
+            "| Stack | Variant | Series | Before KiB | After KiB | After − before KiB |",
+            "| --- | --- | ---: | ---: | ---: | ---: |",
+        ]
+        for row in memory["records"]:
+            text += [
+                f"| {NAMES[row['stack']]} | {row['variant']} | {row['series']} | {row['pssBeforeKiB']:,} | {row['pssAfterKiB']:,} | {row['pssAfterKiB'] - row['pssBeforeKiB']:+,} |"
+            ]
+        text += [
+            "",
             "[Samples and raw meminfo/gfxinfo traces](diagnostics/android/). Three snapshots per variant do not establish significance or a memory leak. Android gfxinfo has different render coverage across stacks, so no common frame-time/jank ranking is published.",
             "",
         ]
@@ -182,7 +217,9 @@ def main():
         "",
         "Pinned versions and locks are in [toolchain.json](../toolchain.json), pubspec.lock, package-lock.json, Podfile.lock, Gemfile.lock, Gradle locks/wrapper hashes and requirements.lock. Flutter native dependency declarations come from its pinned SDK/plugins; the Gradle engine plugin is not independently reimplemented. Hosted runner OS images can change. Reproduction means the documented checks/builds work with declared inputs, not guaranteed byte-for-byte signing, compiler or archive timestamps.",
         "",
-        "The current RN npm audit reports 53 inherited tooling advisories (5 moderate, 48 high), from the locked dependency tree, principally braces/sprintf-js chains. Compatible updates were applied; the suggested framework downgrade was not accepted. This lab is not a production security certification. Preserve upstream licenses and review advisories before reuse. No credentials or private signing material are tracked.",
+        "The retained [RN npm audit](dependency-audit.json) reports 53 inherited tooling advisories (5 moderate, 48 high), from the locked dependency tree, principally braces/sprintf-js chains. Compatible updates were applied; the suggested framework downgrade was not accepted. This lab is not a production security certification. Preserve upstream licenses and review advisories before reuse. No credentials or private signing material are tracked.",
+        "",
+        "[Exploratory Node 25.6 size records](history/node25-exploratory-builds.json) are retained separately. A generated Xcode path overrode the declared Node version; the final cohort was rebuilt with Node 24.13 selected and recorded. The final Flutter cohort additionally fixes the distinct iOS Reduce Motion flag discovered by the OS probe. The other six app projections are unchanged. The final table uses only clean sources and the declared Node runtime.",
         "",
         "The narrower conclusion is that this catalogue can be inspected across four implementations with source-isolated animation variants. Use the actual within-platform size deltas and maintained-source counts; do not turn them into a global score or a claim about every project.",
         "",
