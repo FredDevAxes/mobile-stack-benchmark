@@ -1,0 +1,43 @@
+appId: ${APP_ID}
+name: Catalogue F1 F2 and stable F3
+---
+- launchApp:
+    clearState: true
+- assertVisible: "Trail catalogue"
+- assertVisible: "(?s)Trail pack 01.*"
+- tapOn:
+    id: "search-products"
+- inputText: "TRAIL PACK"
+- tapOn: "Search"
+- assertVisible: "(?s)Trail pack 01.*"
+- assertNotVisible: "(?s)Dome tent 01.*"
+- tapOn:
+    id: "search-products"
+- eraseText
+- inputText: "no-such-product"
+- tapOn: "Search"
+- assertVisible: "No products found"
+- tapOn: "Clear filters"
+- assertVisible: "(?s)Trail pack 01.*"
+- tapOn: "Favorite p001"
+- assertVisible: "Trail catalogue"
+- tapOn: ".*Favorites only"
+- assertVisible: "(?s)Trail pack 01.*"
+- assertNotVisible: "(?s)Dome tent 01.*"
+- launchApp
+- tapOn: ".*Favorites only"
+- assertVisible: "(?s)Trail pack 01.*"
+- tapOn: "Open p001"
+- assertVisible: "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark."
+- tapOn: "Favorite p001"
+- assertVisible: "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark."
+- tapOn: "Back"
+- assertVisible: "No products found"
+- launchApp
+- tapOn: ".*Favorites only"
+- assertVisible: "No products found"
+- tapOn: "Clear filters"
+- tapOn: "Open p001"
+- assertVisible: "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark."
+- tapOn: "Back"
+- assertVisible: "Trail catalogue"

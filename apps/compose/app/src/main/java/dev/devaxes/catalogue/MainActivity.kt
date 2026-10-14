@@ -30,6 +30,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.layout.boundsInRoot
 import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.*
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -54,6 +55,9 @@ class MainActivity : ComponentActivity() {
             }
         val preferences = getSharedPreferences("catalogue", MODE_PRIVATE)
         setContent {
+            // CAPTURE_BEGIN
+            var captureTime by remember { mutableFloatStateOf(-1f) }
+            // CAPTURE_END
             var favorites by remember { mutableStateOf(preferences.getStringSet("favorites", emptySet())!!.toSet()) }
             var draft by remember { mutableStateOf("") }
             var query by remember { mutableStateOf("") }
@@ -70,7 +74,7 @@ class MainActivity : ComponentActivity() {
             val listState = rememberLazyListState()
             val density = LocalDensity.current
             val reduced = Settings.Global.getFloat(contentResolver, Settings.Global.ANIMATOR_DURATION_SCALE, 1f) == 0f
-            val (progress, time) =
+            var (progress, time) =
                 navProgress(target, reduced) { value ->
                     busy = false
                     if (value == 0f && closing) {
@@ -84,6 +88,15 @@ class MainActivity : ComponentActivity() {
                         target = 0f
                     }
                 }
+            // CAPTURE_BEGIN
+            if (captureTime >= 0f) {
+                progress =
+                    androidx.compose.animation.core
+                        .CubicBezierEasing(0.4f, 0f, 0.2f, 1f)
+                        .transform(captureTime)
+                time = captureTime
+            }
+            // CAPTURE_END
             val close: () -> Unit = {
                 if (busy) {
                     if (!closing) queued = true
@@ -101,7 +114,12 @@ class MainActivity : ComponentActivity() {
                 }
             }
             val data = filtered(products, query, only, favorites)
-            Box(Modifier.fillMaxSize().background(Color.White).windowInsetsPadding(WindowInsets.safeDrawing)) {
+            Box(
+                Modifier.fillMaxSize().background(Color.White).windowInsetsPadding(WindowInsets.safeDrawing).semantics {
+                    testTagsAsResourceId =
+                        true
+                },
+            ) {
                 BoxWithConstraints(Modifier.fillMaxSize().onGloballyPositioned { origin = it.boundsInRoot().topLeft }) {
                     val width = maxWidth
                     Column(Modifier.fillMaxSize().semantics { if (selected != null) hideFromAccessibility() }) {
@@ -118,6 +136,7 @@ class MainActivity : ComponentActivity() {
                                     ).fillMaxHeight()
                                     .border(1.dp, Color.Gray, RoundedCornerShape(8.dp))
                                     .padding(10.dp)
+                                    .testTag("search-products")
                                     .semantics {
                                         contentDescription =
                                             "Search products"
@@ -241,6 +260,23 @@ class MainActivity : ComponentActivity() {
                             }
                         }
                     }
+                    // CAPTURE_BEGIN
+                    Row(
+                        Modifier
+                            .align(Alignment.BottomCenter)
+                            .fillMaxWidth()
+                            .height(40.dp)
+                            .background(Color.White),
+                        horizontalArrangement = Arrangement.SpaceAround,
+                    ) {
+                        listOf(0f, 0.25f, 0.5f, 0.75f, 1f).forEach { t ->
+                            Action("${(t * 100).toInt()}%", "Capture ${(t * 100).toInt()}") {
+                                captureTime =
+                                    t
+                            }
+                        }
+                    }
+                    // CAPTURE_END
                 }
             }
         }

@@ -1,0 +1,17 @@
+appId: ${APP_ID}
+name: Deterministic visual timeline (inspection build only)
+---
+- launchApp:
+    clearState: true
+- assertVisible: "Trail catalogue"
+- tapOn: "Open p001"
+- tapOn: "Capture 0"
+- takeScreenshot: ${OUTPUT}/time-000
+- tapOn: "Capture 25"
+- takeScreenshot: ${OUTPUT}/time-025
+- tapOn: "Capture 50"
+- takeScreenshot: ${OUTPUT}/time-050
+- tapOn: "Capture 75"
+- takeScreenshot: ${OUTPUT}/time-075
+- tapOn: "Capture 100"
+- takeScreenshot: ${OUTPUT}/time-100

@@ -38,3 +38,16 @@ The iOS deployment target is 18.0 in all three implementations. The AsyncStorage
 resource pod's older target was rejected by Xcode 27, so the RN post-install hook
 sets every pod target to 18.0. This does not claim backward compatibility with
 older OS versions or physical-device execution.
+
+## S/A source separation
+
+Shared screens are maintained as canonical A source. The root build orchestration
+projects S by removing source-rectangle measurement and image interpolation,
+replacing the detail with fixed geometry, and selecting the instant navigation
+module. Inspection controls are removed from production builds. These are source
+projections, not runtime switches. The exact generated UI can be inspected with
+`python3 scripts/export_sources.py S`; `scripts/source_mode.py` defines every
+transformation and rejects missing source markers. Flutter S also excludes its
+ticker mixin. Swift uses a separate prepared file; other native tools read a
+serialized temporary projection, which is restored even when a build fails.
+Always use root commands when reproducing the comparison.

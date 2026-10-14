@@ -1,0 +1,17 @@
+appId: ${APP_ID}
+name: Scroll state survives a detail visit
+---
+- launchApp:
+    clearState: true
+- scrollUntilVisible:
+    element:
+      text: "Open p010"
+    direction: DOWN
+    timeout: 60000
+    centerElement: true
+- takeScreenshot: ${OUTPUT}/scroll-before
+- tapOn: "Open p010"
+- assertVisible: "(?s)Trail compass 01.*"
+- tapOn: "Back"
+- assertVisible: "Open p010"
+- takeScreenshot: ${OUTPUT}/scroll-after

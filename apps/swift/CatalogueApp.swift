@@ -110,7 +110,7 @@ struct Catalogue: View {
                             ).frame(height: 44).overlay(
                                 RoundedRectangle(cornerRadius: 8).stroke(.gray)
                             )
-                            .accessibilityIdentifier("Search products")
+                            .accessibilityIdentifier("search-products")
                         action("Search") {
                             query = draft
                             searchFocused = false

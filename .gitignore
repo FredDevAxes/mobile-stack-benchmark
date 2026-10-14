@@ -27,3 +27,6 @@ apps/flutter/lib/transition.dart
 **/.build/
 **/__pycache__/
 **/*.pyc
+**/vendor/bundle/
+**/.bundle/
+**/.idea/

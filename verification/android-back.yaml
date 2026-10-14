@@ -1,0 +1,15 @@
+appId: ${APP_ID}
+---
+- launchApp:
+    clearState: true
+- tapOn:
+    text: "Open p001"
+    repeat: 3
+    delay: 40
+    waitToSettleTimeoutMs: 0
+- back
+- assertVisible: "Trail catalogue"
+- tapOn: "Open p001"
+- assertVisible: "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark."
+- back
+- assertVisible: "Trail catalogue"

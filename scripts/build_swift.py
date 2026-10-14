@@ -7,6 +7,8 @@ import plistlib
 import shutil
 import subprocess
 
+from source_mode import projected
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -16,9 +18,14 @@ def main(variant, device, capture=False):
     app = ROOT / f".work/swift/{variant}/{sdk}/Catalogue.app"
     app.mkdir(parents=True, exist_ok=True)
     sdkpath = subprocess.check_output(["xcrun", "--sdk", sdk, "--show-sdk-path"], text=True).strip()
+    prepared = ROOT / f".work/swift/source/{variant}/CatalogueApp.swift"
+    prepared.parent.mkdir(parents=True, exist_ok=True)
+    prepared.write_text(
+        projected((ROOT / "apps/swift/CatalogueApp.swift").read_text(), "swift", variant, capture)
+    )
     sources = [
         ROOT / "apps/swift/Sources/CatalogCore/Product.swift",
-        ROOT / "apps/swift/CatalogueApp.swift",
+        prepared,
         ROOT / f"apps/swift/variants/{mode}.swift",
     ]
     if capture:

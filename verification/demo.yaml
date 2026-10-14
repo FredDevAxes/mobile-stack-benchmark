@@ -1,0 +1,14 @@
+appId: ${APP_ID}
+name: Stable catalogue and detail visual evidence
+---
+- launchApp:
+    clearState: true
+- assertVisible: "Trail catalogue"
+- takeScreenshot: ${OUTPUT}/catalogue
+- startRecording: ${OUTPUT}/demo
+- tapOn: "Open p001"
+- assertVisible: "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark."
+- takeScreenshot: ${OUTPUT}/detail
+- tapOn: "Back"
+- assertVisible: "Trail catalogue"
+- stopRecording
