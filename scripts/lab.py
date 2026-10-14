@@ -113,11 +113,19 @@ def build(stack, platform, variant, capture=False):
     elif stack == "flutter":
         if platform == "android":
             run(
-                ["flutter", "build", "apk", "--release", "--target-platform", "android-arm64"],
+                [
+                    "flutter",
+                    "build",
+                    "apk",
+                    "--release",
+                    "--target-platform",
+                    "android-arm64",
+                    "--split-per-abi",
+                ],
                 ROOT / "apps/flutter",
             )
             shutil.copy2(
-                ROOT / "apps/flutter/build/app/outputs/flutter-apk/app-release.apk",
+                ROOT / "apps/flutter/build/app/outputs/flutter-apk/app-arm64-v8a-release.apk",
                 destination / "android.apk",
             )
         else:
