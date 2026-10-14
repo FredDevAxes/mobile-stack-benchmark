@@ -1,0 +1,11 @@
+appId: ${APP_ID}
+name: Reduced motion uses the instant branch (inspection state probe)
+---
+- launchApp:
+    clearState: true
+- assertVisible: "Motion: reduced"
+- tapOn: "Open p001"
+- assertVisible: "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark."
+- tapOn: "Back"
+- assertVisible: "Trail catalogue"
+- assertVisible: "Motion: reduced"

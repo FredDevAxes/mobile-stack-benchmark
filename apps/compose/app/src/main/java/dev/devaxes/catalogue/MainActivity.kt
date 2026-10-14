@@ -261,6 +261,10 @@ class MainActivity : ComponentActivity() {
                         }
                     }
                     // CAPTURE_BEGIN
+                    BasicText(
+                        "Motion: ${if (reduced) "reduced" else "animated"}",
+                        Modifier.align(Alignment.BottomStart).padding(start = 16.dp, bottom = 44.dp),
+                    )
                     Row(
                         Modifier
                             .align(Alignment.BottomCenter)

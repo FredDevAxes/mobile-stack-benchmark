@@ -201,12 +201,17 @@ struct Catalogue: View {
         }
         #if CAPTURE
             .overlay(alignment: .bottom) {
-                HStack {
-                    ForEach([0.0, 0.25, 0.5, 0.75, 1.0], id: \.self) { t in
-                        action("\(Int(t*100))%", id: "Capture \(Int(t*100))") { captureTime = t }
-                        if t != 1 { Spacer() }
-                    }
-                }.padding(.horizontal, 16).frame(height: 40).background(.white)
+                VStack(alignment: .leading) {
+                    Text("Motion: \(reduced ? "reduced" : "animated")")
+                    HStack {
+                        ForEach([0.0, 0.25, 0.5, 0.75, 1.0], id: \.self) { t in
+                            action("\(Int(t*100))%", id: "Capture \(Int(t*100))") {
+                                captureTime = t
+                            }
+                            if t != 1 { Spacer() }
+                        }
+                    }.frame(height: 40)
+                }.padding(.horizontal, 16).background(.white)
             }
         #endif
         .buttonStyle(.plain).preferredColorScheme(.light)

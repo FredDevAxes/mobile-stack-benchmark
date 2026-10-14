@@ -312,6 +312,9 @@ function Catalogue() {
           </View>
         )}
         {/* CAPTURE_BEGIN */}
+        <Text
+          style={{ position: 'absolute', bottom: 44, left: 16 }}
+        >{`Motion: ${reduced ? 'reduced' : 'animated'}`}</Text>
         <View
           style={{
             position: 'absolute',

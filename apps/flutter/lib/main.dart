@@ -471,6 +471,13 @@ class _CatalogueState extends State<Catalogue>
                   ],
                   // CAPTURE_BEGIN
                   Positioned(
+                    bottom: 44,
+                    left: 16,
+                    child: Text(
+                      'Motion: ${MediaQuery.disableAnimationsOf(context) ? 'reduced' : 'animated'}',
+                    ),
+                  ),
+                  Positioned(
                     bottom: 0,
                     left: 0,
                     right: 0,

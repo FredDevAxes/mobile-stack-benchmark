@@ -214,7 +214,11 @@ def main():
         root = ROOT / "apps" / stack
         main_file = root / groups["ui"][0]
         source = main_file.read_text()
-        blocks = re.findall(r"// CAPTURE_BEGIN\n(.*?)// CAPTURE_END", source, re.S)
+        blocks = re.findall(
+            r"(?:\{/\* CAPTURE_BEGIN \*/\}|// CAPTURE_BEGIN)\n(.*?)(?:\{/\* CAPTURE_END \*/\}|// CAPTURE_END)",
+            source,
+            re.S,
+        )
         if stack == "swift":
             blocks = re.findall(r"#if CAPTURE\n(.*?)#endif", source, re.S)
         suffix = main_file.suffix

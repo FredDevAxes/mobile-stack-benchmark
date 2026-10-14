@@ -31,7 +31,7 @@ def fingerprint(path):
 
 
 def main(args):
-    inspection = args.flow == "progress"
+    inspection = args.flow in ["progress", "reduced-motion"]
     base = ROOT / f".work/{'inspection' if inspection else 'artifacts'}/{args.stack}/{args.variant}"
     if args.platform == "android":
         artifact = base / "android.apk"
@@ -127,7 +127,7 @@ if __name__ == "__main__":
     parser.add_argument("--device", required=True)
     parser.add_argument(
         "--flow",
-        choices=["catalogue", "demo", "progress", "android-back", "scroll"],
+        choices=["catalogue", "demo", "progress", "reduced-motion", "android-back", "scroll"],
         default="catalogue",
     )
     main(parser.parse_args())
