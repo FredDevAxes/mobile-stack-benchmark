@@ -73,7 +73,22 @@ def main():
                     ).strip()
                     if architecture != "arm64":
                         raise ValueError(architecture)
+                    embedded = {}
+                    for framework in artifact.glob("Frameworks/*.framework"):
+                        info = plistlib.loads((framework / "Info.plist").read_bytes())
+                        executable = framework / info["CFBundleExecutable"]
+                        architectures = (
+                            subprocess.check_output(["lipo", "-archs", str(executable)], text=True)
+                            .strip()
+                            .split()
+                        )
+                        if architectures != ["arm64"]:
+                            raise ValueError(
+                                f"Foreign framework architecture: {framework.name} {architectures}"
+                            )
+                        embedded[framework.name] = architectures
                     record.update(
+                        embeddedFrameworkArchitectures=embedded,
                         bytes=sum(path.stat().st_size for path in regular),
                         architectures=[architecture],
                         logicalRegularFiles=len(regular),

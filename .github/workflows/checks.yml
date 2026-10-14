@@ -31,7 +31,7 @@ jobs:
       - run: python3 scripts/check_assets.py
       - run: |
           mkdir -p .work
-          curl -fsSL https://repo.maven.apache.org/maven2/com/pinterest/ktlint/ktlint-cli/1.7.1/ktlint-cli-1.7.1-all.jar -o .work/ktlint.jar
+          curl -fsSL --retry 3 --retry-all-errors --retry-delay 2 https://repo.maven.apache.org/maven2/com/pinterest/ktlint/ktlint-cli/1.7.1/ktlint-cli-1.7.1-all.jar -o .work/ktlint.jar
           echo '5f3de4ee4014137b05c72ed68eb46fe686aeb11fbdef27faf77f55d51c1b2536  .work/ktlint.jar' | sha256sum -c
           java -jar .work/ktlint.jar 'apps/compose/**/*.kt' 'apps/compose/**/*.kts' '!**/build/**'
       - run: python3 scripts/lab.py lint --stack compose
