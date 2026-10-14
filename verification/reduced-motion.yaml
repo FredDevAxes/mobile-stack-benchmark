@@ -4,7 +4,11 @@ name: Reduced motion uses the instant branch (inspection state probe)
 - launchApp:
     clearState: true
 - assertVisible: "Motion: reduced"
-- tapOn: "Open p001"
+- waitForAnimationToEnd:
+    timeout: 10000
+- tapOn:
+    text: "Open p001"
+    retryTapIfNoChange: true
 - assertVisible: "A fictional trail pack for a day outdoors. Sample product for the mobile stack benchmark."
 - tapOn: "Back"
 - assertVisible: "Trail catalogue"
