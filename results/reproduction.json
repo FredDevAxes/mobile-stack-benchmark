@@ -1,0 +1,24 @@
+{
+  "executedAtUTC": "2026-10-14T20:30:14.038449+00:00",
+  "sourceRevision": "01341d9a4d6d649b69b9b07ee5603bbb843ce86e",
+  "source": "Fresh depth-1 clone from public GitHub origin, no pre-existing app files",
+  "environment": "Reference host; existing pinned Flutter SDK and language/SDK toolchains reused, dependency caches permitted; Python 3.12.9 venv installed from requirements.lock",
+  "checksPassed": [
+    "setup_tools.py hashes",
+    "check_assets.py",
+    "prepare.py A",
+    "Flutter pub get --enforce-lockfile",
+    "npm ci",
+    "Bundler 2.6.2 install with Ruby 3.3.6",
+    "pod install --deployment from iOS directory",
+    "Ruff check and format",
+    "all four project linters",
+    "all four project unit suites",
+    "SwiftUI S simulator build"
+  ],
+  "cleanAfterCommands": true,
+  "limits": [
+    "Local clean clone did not rebuild all 18 native artifacts; the reference working tree and hosted CI cover the target build matrix",
+    "No physical device or store-distribution test"
+  ]
+}

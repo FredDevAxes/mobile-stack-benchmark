@@ -1,0 +1,1062 @@
+{
+  "tool": "cloc 2.10",
+  "sourceRevision": "01341d9a4d6d649b69b9b07ee5603bbb843ce86e",
+  "entries": [
+    {
+      "stack": "flutter",
+      "variant": "S",
+      "categories": {
+        "ui": 384,
+        "logic": 63,
+        "platform": 17,
+        "tests": 22,
+        "navigation": 10
+      },
+      "applicationTotal": 474,
+      "files": [
+        {
+          "path": "apps/flutter/lib/main.dart",
+          "category": "ui",
+          "language": "Dart",
+          "code": 423,
+          "comment": 0,
+          "blank": 11,
+          "formattedProjectionSHA256": "573717ddf66a58c592bd32c1e51b46a0a4ec77de81db1b02441c13ca76183058",
+          "split": {
+            "uiAndNavigation": 384,
+            "loadingPersistenceAndLifecycle": 39,
+            "ranges": [
+              [
+                "  Future<void> load()",
+                "  Future<void> open("
+              ]
+            ]
+          }
+        },
+        {
+          "path": "apps/flutter/lib/catalogue.dart",
+          "category": "logic",
+          "language": "Dart",
+          "code": 24,
+          "comment": 0,
+          "blank": 1,
+          "formattedProjectionSHA256": "f80f30f69478ff9225482d0989c1f31001dcacc4cc201d9d7a2cf934900b8671"
+        },
+        {
+          "path": "apps/flutter/android/app/src/main/kotlin/dev/devaxes/flutter_pilot/MainActivity.kt",
+          "category": "platform",
+          "language": "Kotlin",
+          "code": 3,
+          "comment": 0,
+          "blank": 2,
+          "formattedProjectionSHA256": "91298a74d3cac553525fee19d50d95fef7069cf8b419132b075a4f240ecef7e0"
+        },
+        {
+          "path": "apps/flutter/ios/Runner/AppDelegate.swift",
+          "category": "platform",
+          "language": "Swift",
+          "code": 14,
+          "comment": 0,
+          "blank": 2,
+          "formattedProjectionSHA256": "f02158a33c09c8f0162910174a9e047801e82b67ba9f9dff6c96dea2608adb53"
+        },
+        {
+          "path": "apps/flutter/test/catalogue_test.dart",
+          "category": "tests",
+          "language": "Dart",
+          "code": 22,
+          "comment": 0,
+          "blank": 2,
+          "formattedProjectionSHA256": "557c49fa9437cc4ee5908b3e26609414afd75263b1f6a0a3d54b7470f3b338c8"
+        },
+        {
+          "path": "apps/flutter/variants/instant.dart",
+          "category": "navigation",
+          "language": "Dart",
+          "code": 10,
+          "comment": 0,
+          "blank": 1,
+          "formattedProjectionSHA256": "1797d96dde55b8a2f0661239312bbf85a842653e4031bc321292beead5597be2"
+        }
+      ]
+    },
+    {
+      "stack": "react-native",
+      "variant": "S",
+      "categories": {
+        "ui": 288,
+        "logic": 53,
+        "platform": 71,
+        "tests": 16,
+        "navigation": 11
+      },
+      "applicationTotal": 423,
+      "files": [
+        {
+          "path": "apps/react-native/App.tsx",
+          "category": "ui",
+          "language": "TypeScript",
+          "code": 323,
+          "comment": 0,
+          "blank": 0,
+          "formattedProjectionSHA256": "d69d94a2766a5e9809c37c188f46ff8adab1e8d10a9a59293e6a92f5da9a43c1",
+          "split": {
+            "uiAndNavigation": 288,
+            "loadingPersistenceAndLifecycle": 35,
+            "ranges": [
+              [
+                "  const write =",
+                "  const complete ="
+              ],
+              [
+                "  const toggle =",
+                "  const open ="
+              ]
+            ]
+          }
+        },
+        {
+          "path": "apps/react-native/src/catalogue.ts",
+          "category": "logic",
+          "language": "TypeScript",
+          "code": 18,
+          "comment": 0,
+          "blank": 0,
+          "formattedProjectionSHA256": "1f43751c77e77baf4434cff578cfae2bbd10fefac73c58ecc6b7e999b58473b4"
+        },
+        {
+          "path": "apps/react-native/android/app/src/main/java/com/pilotrn/MainActivity.kt",
+          "category": "platform",
+          "language": "Kotlin",
+          "code": 9,
+          "comment": 8,
+          "blank": 3,
+          "formattedProjectionSHA256": "72d03f043c93649b1195e38d69112a9923f267a4c00e8ef1c3116f26d3bfe8c6"
+        },
+        {
+          "path": "apps/react-native/android/app/src/main/java/com/pilotrn/MainApplication.kt",
+          "category": "platform",
+          "language": "Kotlin",
+          "code": 23,
+          "comment": 2,
+          "blank": 3,
+          "formattedProjectionSHA256": "214a3def2c983ddcbbac4f0d477219047e188c918b1b1c664acc46c6cd5550a2"
+        },
+        {
+          "path": "apps/react-native/ios/PilotRN/AppDelegate.swift",
+          "category": "platform",
+          "language": "Swift",
+          "code": 39,
+          "comment": 0,
+          "blank": 9,
+          "formattedProjectionSHA256": "2bd54daf3f6e36419b6cc7dbdc8b9f9859555b98e87f8599a413a99557a575cd"
+        },
+        {
+          "path": "apps/react-native/__tests__/catalogue.test.ts",
+          "category": "tests",
+          "language": "TypeScript",
+          "code": 16,
+          "comment": 0,
+          "blank": 0,
+          "formattedProjectionSHA256": "10843ebce9381fa3f2f0577351779b91887db72e0f021758dd79c7129b4d254a"
+        },
+        {
+          "path": "apps/react-native/variants/instant.ts",
+          "category": "navigation",
+          "language": "TypeScript",
+          "code": 11,
+          "comment": 0,
+          "blank": 0,
+          "formattedProjectionSHA256": "5674ee3790376efa6617c8dc6683968336c279078566a588efe92810a5e100b0"
+        }
+      ]
+    },
+    {
+      "stack": "compose",
+      "variant": "S",
+      "categories": {
+        "ui": 230,
+        "logic": 37,
+        "platform": 0,
+        "tests": 16,
+        "navigation": 12
+      },
+      "applicationTotal": 279,
+      "files": [
+        {
+          "path": "apps/compose/app/src/main/java/dev/devaxes/catalogue/MainActivity.kt",
+          "category": "ui",
+          "language": "Kotlin",
+          "code": 250,
+          "comment": 0,
+          "blank": 5,
+          "formattedProjectionSHA256": "1304a9a344b8b77fe837ac4f72fd59c86da5a6af2e81573b467e9b9ac7fae4e1",
+          "split": {
+            "uiAndNavigation": 230,
+            "loadingPersistenceAndLifecycle": 20,
+            "ranges": [
+              [
+                "        val products =",
+                "        setContent {"
+              ],
+              [
+                "            var favorites by",
+                "            var draft by"
+              ],
+              [
+                "            val toggle:",
+                "            val data ="
+              ]
+            ]
+          }
+        },
+        {
+          "path": "apps/compose/app/src/main/java/dev/devaxes/catalogue/Product.kt",
+          "category": "logic",
+          "language": "Kotlin",
+          "code": 17,
+          "comment": 0,
+          "blank": 2,
+          "formattedProjectionSHA256": "a55933dd246084ba114df87ab7f12a9eb442121ba15ccce8bd718989a59361f0"
+        },
+        {
+          "path": "apps/compose/app/src/test/java/dev/devaxes/catalogue/CatalogueTest.kt",
+          "category": "tests",
+          "language": "Kotlin",
+          "code": 16,
+          "comment": 0,
+          "blank": 2,
+          "formattedProjectionSHA256": "d10f11a3fcb233e629a6ddc8c06c4ff5cd3a644d07e8ece4f926befda1500ca6"
+        },
+        {
+          "path": "apps/compose/app/src/instant/java/dev/devaxes/catalogue/Transition.kt",
+          "category": "navigation",
+          "language": "Kotlin",
+          "code": 12,
+          "comment": 0,
+          "blank": 1,
+          "formattedProjectionSHA256": "97ec1a15839cf2853d53add69c8bf52efd33c92991d4ebbfdaf32bc4c45103be"
+        }
+      ]
+    },
+    {
+      "stack": "swift",
+      "variant": "S",
+      "categories": {
+        "ui": 152,
+        "logic": 33,
+        "platform": 0,
+        "tests": 18,
+        "navigation": 9
+      },
+      "applicationTotal": 194,
+      "files": [
+        {
+          "path": "apps/swift/CatalogueApp.swift",
+          "category": "ui",
+          "language": "Swift",
+          "code": 167,
+          "comment": 0,
+          "blank": 5,
+          "formattedProjectionSHA256": "9d440737d94d28f1349542bf681bdaca6b7dbc17871490a69ae5ca6a23a279fb",
+          "split": {
+            "uiAndNavigation": 152,
+            "loadingPersistenceAndLifecycle": 15,
+            "ranges": [
+              [
+                "    init()",
+                "    private func open("
+              ]
+            ]
+          }
+        },
+        {
+          "path": "apps/swift/Sources/CatalogCore/Product.swift",
+          "category": "logic",
+          "language": "Swift",
+          "code": 18,
+          "comment": 0,
+          "blank": 1,
+          "formattedProjectionSHA256": "afec6473f940778d990259f6cc20d5ff2c190736a17da0cdb535f8dceae3903a"
+        },
+        {
+          "path": "apps/swift/Tests/CatalogCoreTests/ProductTests.swift",
+          "category": "tests",
+          "language": "Swift",
+          "code": 18,
+          "comment": 0,
+          "blank": 2,
+          "formattedProjectionSHA256": "3b139d5defed3b052016be39c436ac2e5299493d81d6e566cf37bf2a6cc968de"
+        },
+        {
+          "path": "apps/swift/variants/instant.swift",
+          "category": "navigation",
+          "language": "Swift",
+          "code": 9,
+          "comment": 0,
+          "blank": 1,
+          "formattedProjectionSHA256": "9631c4bff4cb289d77f30659ebb8a25adbc67fb1200ded7eb2f67c12c17faaf4"
+        }
+      ]
+    },
+    {
+      "stack": "flutter",
+      "variant": "A",
+      "categories": {
+        "ui": 420,
+        "logic": 63,
+        "platform": 17,
+        "tests": 22,
+        "navigation": 28
+      },
+      "applicationTotal": 528,
+      "files": [
+        {
+          "path": "apps/flutter/lib/main.dart",
+          "category": "ui",
+          "language": "Dart",
+          "code": 459,
+          "comment": 0,
+          "blank": 12,
+          "formattedProjectionSHA256": "7e1e9a7af557fbbe4a49152dee52fe83f45ec374c9eba1e16895948b1cee0df0",
+          "split": {
+            "uiAndNavigation": 420,
+            "loadingPersistenceAndLifecycle": 39,
+            "ranges": [
+              [
+                "  Future<void> load()",
+                "  Future<void> open("
+              ]
+            ]
+          }
+        },
+        {
+          "path": "apps/flutter/lib/catalogue.dart",
+          "category": "logic",
+          "language": "Dart",
+          "code": 24,
+          "comment": 0,
+          "blank": 1,
+          "formattedProjectionSHA256": "f80f30f69478ff9225482d0989c1f31001dcacc4cc201d9d7a2cf934900b8671"
+        },
+        {
+          "path": "apps/flutter/android/app/src/main/kotlin/dev/devaxes/flutter_pilot/MainActivity.kt",
+          "category": "platform",
+          "language": "Kotlin",
+          "code": 3,
+          "comment": 0,
+          "blank": 2,
+          "formattedProjectionSHA256": "91298a74d3cac553525fee19d50d95fef7069cf8b419132b075a4f240ecef7e0"
+        },
+        {
+          "path": "apps/flutter/ios/Runner/AppDelegate.swift",
+          "category": "platform",
+          "language": "Swift",
+          "code": 14,
+          "comment": 0,
+          "blank": 2,
+          "formattedProjectionSHA256": "f02158a33c09c8f0162910174a9e047801e82b67ba9f9dff6c96dea2608adb53"
+        },
+        {
+          "path": "apps/flutter/test/catalogue_test.dart",
+          "category": "tests",
+          "language": "Dart",
+          "code": 22,
+          "comment": 0,
+          "blank": 2,
+          "formattedProjectionSHA256": "557c49fa9437cc4ee5908b3e26609414afd75263b1f6a0a3d54b7470f3b338c8"
+        },
+        {
+          "path": "apps/flutter/variants/animated.dart",
+          "category": "navigation",
+          "language": "Dart",
+          "code": 28,
+          "comment": 0,
+          "blank": 2,
+          "formattedProjectionSHA256": "fa467cba6ff6df39c39bb2a2301a9a076775f320536e223d0801f0546d1344f6"
+        }
+      ]
+    },
+    {
+      "stack": "react-native",
+      "variant": "A",
+      "categories": {
+        "ui": 318,
+        "logic": 53,
+        "platform": 71,
+        "tests": 16,
+        "navigation": 29
+      },
+      "applicationTotal": 471,
+      "files": [
+        {
+          "path": "apps/react-native/App.tsx",
+          "category": "ui",
+          "language": "TypeScript",
+          "code": 353,
+          "comment": 0,
+          "blank": 0,
+          "formattedProjectionSHA256": "aa1449e992984cc02be043425e81ddef9043dac01b305ba24b04f89435de7cf4",
+          "split": {
+            "uiAndNavigation": 318,
+            "loadingPersistenceAndLifecycle": 35,
+            "ranges": [
+              [
+                "  const write =",
+                "  const complete ="
+              ],
+              [
+                "  const toggle =",
+                "  const open ="
+              ]
+            ]
+          }
+        },
+        {
+          "path": "apps/react-native/src/catalogue.ts",
+          "category": "logic",
+          "language": "TypeScript",
+          "code": 18,
+          "comment": 0,
+          "blank": 0,
+          "formattedProjectionSHA256": "1f43751c77e77baf4434cff578cfae2bbd10fefac73c58ecc6b7e999b58473b4"
+        },
+        {
+          "path": "apps/react-native/android/app/src/main/java/com/pilotrn/MainActivity.kt",
+          "category": "platform",
+          "language": "Kotlin",
+          "code": 9,
+          "comment": 8,
+          "blank": 3,
+          "formattedProjectionSHA256": "72d03f043c93649b1195e38d69112a9923f267a4c00e8ef1c3116f26d3bfe8c6"
+        },
+        {
+          "path": "apps/react-native/android/app/src/main/java/com/pilotrn/MainApplication.kt",
+          "category": "platform",
+          "language": "Kotlin",
+          "code": 23,
+          "comment": 2,
+          "blank": 3,
+          "formattedProjectionSHA256": "214a3def2c983ddcbbac4f0d477219047e188c918b1b1c664acc46c6cd5550a2"
+        },
+        {
+          "path": "apps/react-native/ios/PilotRN/AppDelegate.swift",
+          "category": "platform",
+          "language": "Swift",
+          "code": 39,
+          "comment": 0,
+          "blank": 9,
+          "formattedProjectionSHA256": "2bd54daf3f6e36419b6cc7dbdc8b9f9859555b98e87f8599a413a99557a575cd"
+        },
+        {
+          "path": "apps/react-native/__tests__/catalogue.test.ts",
+          "category": "tests",
+          "language": "TypeScript",
+          "code": 16,
+          "comment": 0,
+          "blank": 0,
+          "formattedProjectionSHA256": "10843ebce9381fa3f2f0577351779b91887db72e0f021758dd79c7129b4d254a"
+        },
+        {
+          "path": "apps/react-native/variants/animated.ts",
+          "category": "navigation",
+          "language": "TypeScript",
+          "code": 29,
+          "comment": 0,
+          "blank": 0,
+          "formattedProjectionSHA256": "35338878392a746a6ec65ca1995d4ac34d76b4a4710ae6a2188097d116d5c9b0"
+        }
+      ]
+    },
+    {
+      "stack": "compose",
+      "variant": "A",
+      "categories": {
+        "ui": 266,
+        "logic": 37,
+        "platform": 0,
+        "tests": 16,
+        "navigation": 21
+      },
+      "applicationTotal": 324,
+      "files": [
+        {
+          "path": "apps/compose/app/src/main/java/dev/devaxes/catalogue/MainActivity.kt",
+          "category": "ui",
+          "language": "Kotlin",
+          "code": 286,
+          "comment": 0,
+          "blank": 6,
+          "formattedProjectionSHA256": "9149423785b1e600ad1331aa811c88d2990711f9dc1145c10fb573df11608386",
+          "split": {
+            "uiAndNavigation": 266,
+            "loadingPersistenceAndLifecycle": 20,
+            "ranges": [
+              [
+                "        val products =",
+                "        setContent {"
+              ],
+              [
+                "            var favorites by",
+                "            var draft by"
+              ],
+              [
+                "            val toggle:",
+                "            val data ="
+              ]
+            ]
+          }
+        },
+        {
+          "path": "apps/compose/app/src/main/java/dev/devaxes/catalogue/Product.kt",
+          "category": "logic",
+          "language": "Kotlin",
+          "code": 17,
+          "comment": 0,
+          "blank": 2,
+          "formattedProjectionSHA256": "a55933dd246084ba114df87ab7f12a9eb442121ba15ccce8bd718989a59361f0"
+        },
+        {
+          "path": "apps/compose/app/src/test/java/dev/devaxes/catalogue/CatalogueTest.kt",
+          "category": "tests",
+          "language": "Kotlin",
+          "code": 16,
+          "comment": 0,
+          "blank": 2,
+          "formattedProjectionSHA256": "d10f11a3fcb233e629a6ddc8c06c4ff5cd3a644d07e8ece4f926befda1500ca6"
+        },
+        {
+          "path": "apps/compose/app/src/animated/java/dev/devaxes/catalogue/Transition.kt",
+          "category": "navigation",
+          "language": "Kotlin",
+          "code": 21,
+          "comment": 0,
+          "blank": 1,
+          "formattedProjectionSHA256": "61df5419225b57d26dcdf353ed82bf6c63e0936148d8fd057753ebe8f8f7632c"
+        }
+      ]
+    },
+    {
+      "stack": "swift",
+      "variant": "A",
+      "categories": {
+        "ui": 176,
+        "logic": 33,
+        "platform": 0,
+        "tests": 18,
+        "navigation": 45
+      },
+      "applicationTotal": 254,
+      "files": [
+        {
+          "path": "apps/swift/CatalogueApp.swift",
+          "category": "ui",
+          "language": "Swift",
+          "code": 191,
+          "comment": 0,
+          "blank": 4,
+          "formattedProjectionSHA256": "43ad785f0e30a990d80a75b85443415362494ae4f756802cf4145723a2c5fde8",
+          "split": {
+            "uiAndNavigation": 176,
+            "loadingPersistenceAndLifecycle": 15,
+            "ranges": [
+              [
+                "    init()",
+                "    private func open("
+              ]
+            ]
+          }
+        },
+        {
+          "path": "apps/swift/Sources/CatalogCore/Product.swift",
+          "category": "logic",
+          "language": "Swift",
+          "code": 18,
+          "comment": 0,
+          "blank": 1,
+          "formattedProjectionSHA256": "afec6473f940778d990259f6cc20d5ff2c190736a17da0cdb535f8dceae3903a"
+        },
+        {
+          "path": "apps/swift/Tests/CatalogCoreTests/ProductTests.swift",
+          "category": "tests",
+          "language": "Swift",
+          "code": 18,
+          "comment": 0,
+          "blank": 2,
+          "formattedProjectionSHA256": "3b139d5defed3b052016be39c436ac2e5299493d81d6e566cf37bf2a6cc968de"
+        },
+        {
+          "path": "apps/swift/variants/animated.swift",
+          "category": "navigation",
+          "language": "Swift",
+          "code": 45,
+          "comment": 0,
+          "blank": 1,
+          "formattedProjectionSHA256": "95b7ddbcff0d366bec4093418bd1c34da2e5df98e2396a76465d147ddd1d3fc6"
+        }
+      ]
+    }
+  ],
+  "ancillary": [
+    {
+      "stack": "flutter",
+      "category": "instrumentation",
+      "code": 35,
+      "files": [
+        {
+          "path": ".work/loc/instrumentation/flutter.dart",
+          "blank": 3,
+          "comment": 0,
+          "code": 35,
+          "language": "Dart"
+        }
+      ]
+    },
+    {
+      "stack": "flutter",
+      "category": "configuration",
+      "code": 280,
+      "files": [
+        {
+          "path": "apps/flutter/analysis_options.yaml",
+          "blank": 4,
+          "comment": 22,
+          "code": 8,
+          "language": "YAML"
+        },
+        {
+          "path": "apps/flutter/android/app/build.gradle.kts",
+          "blank": 6,
+          "comment": 10,
+          "code": 33,
+          "language": "Gradle"
+        },
+        {
+          "path": "apps/flutter/android/app/src/debug/AndroidManifest.xml",
+          "blank": 0,
+          "comment": 4,
+          "code": 3,
+          "language": "XML"
+        },
+        {
+          "path": "apps/flutter/android/app/src/main/AndroidManifest.xml",
+          "blank": 1,
+          "comment": 10,
+          "code": 35,
+          "language": "XML"
+        },
+        {
+          "path": "apps/flutter/android/app/src/main/res/drawable-v21/launch_background.xml",
+          "blank": 1,
+          "comment": 7,
+          "code": 4,
+          "language": "XML"
+        },
+        {
+          "path": "apps/flutter/android/app/src/main/res/drawable/launch_background.xml",
+          "blank": 1,
+          "comment": 7,
+          "code": 4,
+          "language": "XML"
+        },
+        {
+          "path": "apps/flutter/android/app/src/main/res/values-night/styles.xml",
+          "blank": 1,
+          "comment": 8,
+          "code": 9,
+          "language": "XML"
+        },
+        {
+          "path": "apps/flutter/android/app/src/main/res/values/styles.xml",
+          "blank": 1,
+          "comment": 8,
+          "code": 9,
+          "language": "XML"
+        },
+        {
+          "path": "apps/flutter/android/app/src/profile/AndroidManifest.xml",
+          "blank": 0,
+          "comment": 4,
+          "code": 3,
+          "language": "XML"
+        },
+        {
+          "path": "apps/flutter/android/build.gradle.kts",
+          "blank": 3,
+          "comment": 0,
+          "code": 21,
+          "language": "Gradle"
+        },
+        {
+          "path": "apps/flutter/android/settings.gradle.kts",
+          "blank": 4,
+          "comment": 0,
+          "code": 22,
+          "language": "Gradle"
+        },
+        {
+          "path": "apps/flutter/ios/Flutter/AppFrameworkInfo.plist",
+          "blank": 0,
+          "comment": 0,
+          "code": 24,
+          "language": "XML"
+        },
+        {
+          "path": "apps/flutter/ios/Flutter/Debug.xcconfig",
+          "code": 0,
+          "language": "unrecognized"
+        },
+        {
+          "path": "apps/flutter/ios/Flutter/Release.xcconfig",
+          "code": 0,
+          "language": "unrecognized"
+        },
+        {
+          "path": "apps/flutter/ios/Runner.xcodeproj/project.pbxproj",
+          "code": 0,
+          "language": "unrecognized"
+        },
+        {
+          "path": "apps/flutter/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+          "blank": 0,
+          "comment": 0,
+          "code": 8,
+          "language": "XML"
+        },
+        {
+          "path": "apps/flutter/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+          "blank": 0,
+          "comment": 0,
+          "code": 8,
+          "language": "XML"
+        },
+        {
+          "path": "apps/flutter/ios/Runner/Info.plist",
+          "blank": 0,
+          "comment": 0,
+          "code": 70,
+          "language": "XML"
+        },
+        {
+          "path": "apps/flutter/pubspec.yaml",
+          "blank": 0,
+          "comment": 0,
+          "code": 19,
+          "language": "YAML"
+        }
+      ]
+    },
+    {
+      "stack": "react-native",
+      "category": "instrumentation",
+      "code": 31,
+      "files": [
+        {
+          "path": ".work/loc/instrumentation/react-native.tsx",
+          "blank": 4,
+          "comment": 0,
+          "code": 31,
+          "language": "TypeScript"
+        }
+      ]
+    },
+    {
+      "stack": "react-native",
+      "category": "configuration",
+      "code": 246,
+      "files": [
+        {
+          "path": "apps/react-native/.eslintrc.js",
+          "blank": 0,
+          "comment": 0,
+          "code": 1,
+          "language": "JavaScript"
+        },
+        {
+          "path": "apps/react-native/.prettierrc.js",
+          "blank": 0,
+          "comment": 0,
+          "code": 5,
+          "language": "JavaScript"
+        },
+        {
+          "path": "apps/react-native/Gemfile",
+          "code": 0,
+          "language": "unrecognized"
+        },
+        {
+          "path": "apps/react-native/android/app/build.gradle",
+          "blank": 12,
+          "comment": 61,
+          "code": 41,
+          "language": "Gradle"
+        },
+        {
+          "path": "apps/react-native/android/app/src/main/AndroidManifest.xml",
+          "blank": 2,
+          "comment": 0,
+          "code": 25,
+          "language": "XML"
+        },
+        {
+          "path": "apps/react-native/android/app/src/main/res/drawable/rn_edit_text_material.xml",
+          "blank": 7,
+          "comment": 18,
+          "code": 12,
+          "language": "XML"
+        },
+        {
+          "path": "apps/react-native/android/app/src/main/res/values/strings.xml",
+          "blank": 0,
+          "comment": 0,
+          "code": 1,
+          "language": "XML"
+        },
+        {
+          "path": "apps/react-native/android/app/src/main/res/values/styles.xml",
+          "blank": 2,
+          "comment": 2,
+          "code": 5,
+          "language": "XML"
+        },
+        {
+          "path": "apps/react-native/android/build.gradle",
+          "blank": 1,
+          "comment": 0,
+          "code": 20,
+          "language": "Gradle"
+        },
+        {
+          "path": "apps/react-native/android/settings.gradle",
+          "blank": 0,
+          "comment": 0,
+          "code": 6,
+          "language": "Gradle"
+        },
+        {
+          "path": "apps/react-native/app.json",
+          "blank": 0,
+          "comment": 0,
+          "code": 4,
+          "language": "JSON"
+        },
+        {
+          "path": "apps/react-native/babel.config.js",
+          "blank": 0,
+          "comment": 0,
+          "code": 3,
+          "language": "JavaScript"
+        },
+        {
+          "path": "apps/react-native/index.js",
+          "blank": 2,
+          "comment": 3,
+          "code": 4,
+          "language": "JavaScript"
+        },
+        {
+          "path": "apps/react-native/ios/PilotRN.xcodeproj/project.pbxproj",
+          "code": 0,
+          "language": "unrecognized"
+        },
+        {
+          "path": "apps/react-native/ios/PilotRN/Info.plist",
+          "blank": 0,
+          "comment": 0,
+          "code": 60,
+          "language": "XML"
+        },
+        {
+          "path": "apps/react-native/ios/Podfile",
+          "code": 0,
+          "language": "unrecognized"
+        },
+        {
+          "path": "apps/react-native/jest.config.js",
+          "blank": 0,
+          "comment": 0,
+          "code": 3,
+          "language": "JavaScript"
+        },
+        {
+          "path": "apps/react-native/metro.config.js",
+          "blank": 2,
+          "comment": 6,
+          "code": 3,
+          "language": "JavaScript"
+        },
+        {
+          "path": "apps/react-native/package.json",
+          "blank": 0,
+          "comment": 0,
+          "code": 45,
+          "language": "JSON"
+        },
+        {
+          "path": "apps/react-native/tsconfig.json",
+          "blank": 0,
+          "comment": 0,
+          "code": 8,
+          "language": "JSON"
+        }
+      ]
+    },
+    {
+      "stack": "compose",
+      "category": "instrumentation",
+      "code": 27,
+      "files": [
+        {
+          "path": ".work/loc/instrumentation/compose.kt",
+          "blank": 3,
+          "comment": 0,
+          "code": 27,
+          "language": "Kotlin"
+        }
+      ]
+    },
+    {
+      "stack": "compose",
+      "category": "configuration",
+      "code": 91,
+      "files": [
+        {
+          "path": "apps/compose/app/build.gradle.kts",
+          "blank": 1,
+          "comment": 0,
+          "code": 54,
+          "language": "Gradle"
+        },
+        {
+          "path": "apps/compose/app/src/main/AndroidManifest.xml",
+          "blank": 0,
+          "comment": 0,
+          "code": 5,
+          "language": "XML"
+        },
+        {
+          "path": "apps/compose/app/src/main/res/drawable/icon.xml",
+          "blank": 0,
+          "comment": 0,
+          "code": 1,
+          "language": "XML"
+        },
+        {
+          "path": "apps/compose/app/src/main/res/xml/backup.xml",
+          "blank": 0,
+          "comment": 0,
+          "code": 1,
+          "language": "XML"
+        },
+        {
+          "path": "apps/compose/app/src/main/res/xml/extraction.xml",
+          "blank": 0,
+          "comment": 0,
+          "code": 1,
+          "language": "XML"
+        },
+        {
+          "path": "apps/compose/build.gradle.kts",
+          "blank": 0,
+          "comment": 0,
+          "code": 5,
+          "language": "Gradle"
+        },
+        {
+          "path": "apps/compose/lint.xml",
+          "blank": 0,
+          "comment": 3,
+          "code": 9,
+          "language": "XML"
+        },
+        {
+          "path": "apps/compose/settings.gradle.kts",
+          "blank": 0,
+          "comment": 0,
+          "code": 15,
+          "language": "Gradle"
+        }
+      ]
+    },
+    {
+      "stack": "swift",
+      "category": "instrumentation",
+      "code": 29,
+      "files": [
+        {
+          "path": ".work/loc/instrumentation/swift.swift",
+          "blank": 4,
+          "comment": 0,
+          "code": 16,
+          "language": "Swift"
+        },
+        {
+          "path": "apps/swift/Capture.swift",
+          "blank": 0,
+          "comment": 0,
+          "code": 13,
+          "language": "Swift"
+        }
+      ]
+    },
+    {
+      "stack": "swift",
+      "category": "configuration",
+      "code": 9,
+      "files": [
+        {
+          "path": "apps/swift/Package.swift",
+          "blank": 1,
+          "comment": 1,
+          "code": 9,
+          "language": "Swift"
+        }
+      ]
+    },
+    {
+      "stack": "shared",
+      "category": "orchestration/measurement/verification",
+      "code": 2315,
+      "files": [
+        ".github/workflows/checks.yml",
+        "scripts/assets.py",
+        "scripts/build_matrix.py",
+        "scripts/build_record.py",
+        "scripts/build_swift.py",
+        "scripts/check_assets.py",
+        "scripts/check_geometry.py",
+        "scripts/collect_builds.py",
+        "scripts/collect_code.py",
+        "scripts/collect_environment.py",
+        "scripts/collect_trials.py",
+        "scripts/compose_videos.py",
+        "scripts/diagnose_android.py",
+        "scripts/env.example.sh",
+        "scripts/export_sources.py",
+        "scripts/lab.py",
+        "scripts/prepare.py",
+        "scripts/report.py",
+        "scripts/setup_tools.py",
+        "scripts/source_mode.py",
+        "scripts/verify.py",
+        "scripts/verify_matrix.py",
+        "verification/android-back.yaml",
+        "verification/catalogue.yaml",
+        "verification/demo.yaml",
+        "verification/progress.yaml",
+        "verification/reduced-motion.yaml",
+        "verification/scroll.yaml"
+      ]
+    }
+  ],
+  "exclusions": [
+    "dependencies",
+    "build outputs",
+    "generated asset copies and registration",
+    "dataset/artwork",
+    "lockfiles",
+    "inspection controls",
+    "root measurement/orchestration scripts"
+  ],
+  "scope": "Production UI/navigation, model plus extracted data-loading/persistence/lifecycle handlers, and retained native bootstrap. File split ranges are explicit; UI event binding remains UI. Tests, instrumentation and configuration are separate."
+}
