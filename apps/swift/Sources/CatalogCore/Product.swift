@@ -13,6 +13,7 @@ public func filtered(_ products: [Product], query: String, only: Bool, favorites
     -> [Product]
 {
     products.filter {
-        $0.name.lowercased().contains(query.lowercased()) && (!only || favorites.contains($0.id))
+        (query.isEmpty || $0.name.lowercased().contains(query.lowercased()))
+            && (!only || favorites.contains($0.id))
     }
 }

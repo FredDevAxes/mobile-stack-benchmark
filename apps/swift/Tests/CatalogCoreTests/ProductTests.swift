@@ -14,6 +14,7 @@ final class ProductTests: XCTestCase {
         XCTAssertTrue(filtered(products, query: "unknown", only: false, favorites: []).isEmpty)
         XCTAssertEqual(
             filtered(products, query: "pack", only: true, favorites: ["p001"]), [products[0]])
+        XCTAssertEqual(filtered(products, query: "", only: false, favorites: []), products)
         XCTAssertEqual(products[0].price, "€15.00")
     }
 }

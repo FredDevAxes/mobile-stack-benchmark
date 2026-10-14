@@ -10,11 +10,15 @@ private struct ImagePositions: PreferenceKey {
     }
 }
 struct Catalogue: View {
+    #if CAPTURE
+        @State private var captureTime = -1.0
+    #endif
     let products: [Product]
     @State private var favorites: Set<String>
     @State private var draft = ""
     @State private var query = ""
     @State private var only = false
+    @FocusState private var searchFocused: Bool
     @State private var selected: Product?
     @State private var source = CGRect.zero
     @State private var positions: [String: CGRect] = [:]
@@ -73,11 +77,22 @@ struct Catalogue: View {
     }
     private func photo(_ p: Product, width: CGFloat, height: CGFloat, radius: CGFloat) -> some View
     {
-        let path = Bundle.main.url(
-            forResource: p.imageKey, withExtension: "png", subdirectory: "images")!.path
-        return Image(uiImage: UIImage(contentsOfFile: path)!).resizable().scaledToFill().frame(
+        let image = UIImage(named: "images/" + p.imageKey + ".png")!
+        return Image(uiImage: image).resizable().scaledToFill().frame(
             width: width, height: height
         ).clipped().clipShape(RoundedRectangle(cornerRadius: radius)).accessibilityHidden(true)
+    }
+    private var visualProgress: Double {
+        #if CAPTURE
+            if captureTime >= 0 { return captureCurve(captureTime) }
+        #endif
+        return progress.value
+    }
+    private var visualTime: Double {
+        #if CAPTURE
+            if captureTime >= 0 { return captureTime }
+        #endif
+        return progress.time
     }
     var body: some View {
         GeometryReader { geometry in
@@ -87,11 +102,19 @@ struct Catalogue: View {
                         maxWidth: .infinity, alignment: .leading
                     ).padding(.horizontal, 16).frame(height: 52)
                     HStack(spacing: 8) {
-                        TextField("Search products", text: $draft).font(.system(size: 16)).padding(
-                            .horizontal, 10
-                        ).frame(height: 44).overlay(RoundedRectangle(cornerRadius: 8).stroke(.gray))
+                        TextField("Search products", text: $draft).focused($searchFocused)
+                            .autocorrectionDisabled().textInputAutocapitalization(.never).font(
+                                .system(size: 16)
+                            ).padding(
+                                .horizontal, 10
+                            ).frame(height: 44).overlay(
+                                RoundedRectangle(cornerRadius: 8).stroke(.gray)
+                            )
                             .accessibilityIdentifier("Search products")
-                        action("Search") { query = draft }
+                        action("Search") {
+                            query = draft
+                            searchFocused = false
+                        }
                     }.padding(.horizontal, 16).frame(height: 44)
                     HStack {
                         action("\(only ? "☑" : "☐") Favorites only", id: "Favorites only") {
@@ -145,7 +168,7 @@ struct Catalogue: View {
                 }.disabled(selected != nil).accessibilityHidden(selected != nil)
                 if let p = selected {
                     let exists = visible.contains { $0.id == p.id }
-                    let t = progress.value
+                    let t = visualProgress
                     let x = exists ? source.minX * (1 - t) : 0
                     let y = exists ? source.minY + (52 - source.minY) * t : 52
                     let w =
@@ -153,7 +176,7 @@ struct Catalogue: View {
                         ? source.width + (geometry.size.width - source.width) * t
                         : geometry.size.width
                     let h = exists ? source.height + (280 - source.height) * t : 280
-                    Color.white.opacity(t)
+                    Color.white.opacity(t).ignoresSafeArea()
                     photo(p, width: w, height: h, radius: exists ? 16 * (1 - t) : 0).offset(
                         x: x, y: y
                     ).opacity(exists ? 1 : t)
@@ -171,11 +194,22 @@ struct Catalogue: View {
                                 id: "Favorite \(p.id)"
                             ) { toggle(p) }
                         }.padding(16)
-                    }.opacity(max(0, (progress.time - 0.35) / 0.65))
+                    }.opacity(max(0, (visualTime - 0.35) / 0.65))
                 }
             }.coordinateSpace(name: "catalogue").onPreferenceChange(ImagePositions.self) {
                 positions = $0
             }.background(.white)
-        }.preferredColorScheme(.light)
+        }
+        #if CAPTURE
+            .overlay(alignment: .bottom) {
+                HStack {
+                    ForEach([0.0, 0.25, 0.5, 0.75, 1.0], id: \.self) { t in
+                        action("\(Int(t*100))%", id: "Capture \(Int(t*100))") { captureTime = t }
+                        if t != 1 { Spacer() }
+                    }
+                }.padding(.horizontal, 16).frame(height: 40).background(.white)
+            }
+        #endif
+        .buttonStyle(.plain).preferredColorScheme(.light)
     }
 }
