@@ -166,7 +166,7 @@ struct Catalogue: View {
                             }
                         }.padding(.horizontal, 16).padding(.bottom, 16)
                     }
-                }.disabled(selected != nil).accessibilityHidden(selected != nil)
+                }.allowsHitTesting(selected == nil).accessibilityHidden(selected != nil)
                 if let p = selected {
                     let exists = visible.contains { $0.id == p.id }
                     let t = visualProgress
